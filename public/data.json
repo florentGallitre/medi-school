@@ -104,6 +104,19 @@
           "children": ["Causes of abdominal distension", "Crohn's disease", "Management of oesophageal varices",
           "Risk factors for Gallstones", "Symptoms of dyspepsia"]
         },
+        { 
+          "id": 8,
+          "name": "Gyn&Obs",
+          "author":"",
+          "subtitle": "",
+          "appId": 1,
+          "parentId": 1,
+          "type": "html",
+          "content": "<h1>The standard Lorem Ipsum</h1>",
+          "slug": "gyn-obs",
+          "submenu": false,
+          "children": [""]
+        },
       ]
     },
     {
@@ -124,7 +137,7 @@
           "author":"",
           "subtitle": "",
           "appId": 1,
-          "parentId": 2,
+          "parentId": 19,
           "type": "html",
           "content": "Contenu à afficher",
           "slug": "cardiology-vascular",
