@@ -1,10 +1,10 @@
 <template>
-  <div class="header m-0 p-0">
-    <div class="logo_location position-absolute">
+  <div class="header m-0 p-0 col-12">
+    <div class="position-absolute">
       <img class="logo position-absolute" src="../assets/logo.png" alt="medischool_logo">
       <img class="img-fluid persona" src="../assets/home/medischool_header.png" alt="">
     </div>
-      <img class="img-fluid" src="../assets/home/pills.png" alt="pills_img">
+    <img class="pills position-fixed" src="../assets/home/pills.png" alt="pills_img">
   </div>
 </template>
 
@@ -23,19 +23,24 @@ export default class HomePageHeader extends Vue {
   background-image: url("../assets/home/background.jpg");
   position: relative;
   background-size: cover;
-  height: 22vh;
+  height: 29vh;
 }
 
 .logo {
-  height: 6vh;
+  height: 8vh;
   width: auto;
-  margin-top: 20%;
-  margin-left: 5%;
+  margin-top: 17%;
+  margin-left: 7%;
 }
 .persona {
-  margin-top: -7%;
-  margin-left: -5%;
-  width: auto;
+  margin-top: -8%;
+  margin-left: -4%;
+  width: 90vh;
   height: auto;
   }
+
+.pills {
+  left: 5%;
+  width: 100vw;
+}
 </style>

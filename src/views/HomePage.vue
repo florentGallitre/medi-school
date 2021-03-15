@@ -1,5 +1,5 @@
 <template>
-  <div class="homePage">
+  <div class="homePage m-0 p-0 col-12">
     <HomePageHeader></HomePageHeader>
     <div class="home col-12 d-flex flex-column justify-content-center">
       <h2 class="title">Home</h2>
@@ -29,7 +29,7 @@
 import axios from "axios";
 import Vue from "vue";
 import Auth from "../service/Auth";
-import HomePageHeader from "@/components/PageHeader.vue";
+import HomePageHeader from "../components/HomePageHeader.vue";
 
 export default Vue.extend({
   name: "HomePage",
