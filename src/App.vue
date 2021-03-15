@@ -30,7 +30,7 @@ export default Vue.extend({
 </script>
 
 <style lang="scss">
-@import "./assets/css/global.scss";
+@import url("./assets/css/global.scss");
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
