@@ -106,7 +106,6 @@
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "endocrinology",
           "submenu": false,
-<<<<<<< HEAD
           "children": [
             "Causes of hypocalcaemia",
             "Management of DKA",
@@ -117,16 +116,6 @@
             "Thyroid status",
             "Types of multiple endocrine neoplasia"
           ]
-=======
-          "children": ["Causes of hypocalcaemia", 
-            "Management of DKA", 
-            "Management of thyroid storm",
-            "Precipitants of DKA", 
-            "Presentation of hypercalcaemia", 
-            "Presentation of hypocalcaemia", 
-            "Thyroid status", 
-            "Types of multiple endocrine neoplasia"]
->>>>>>> 0901b6905fe847e018694b71ce67f57a50fac743
         },
         {
           "id": 7,
@@ -139,7 +128,6 @@
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "gastroenterology",
           "submenu": false,
-<<<<<<< HEAD
           "children": [
             "Causes of abdominal distension",
             "Crohn's disease",
@@ -147,13 +135,6 @@
             "Risk factors for Gallstones",
             "Symptoms of dyspepsia"
           ]
-=======
-          "children": ["Causes of abdominal distension", 
-            "Crohn's disease", 
-            "Management of oesophageal varices",
-            "Risk factors for Gallstones", 
-            "Symptoms of dyspepsia"]
->>>>>>> 0901b6905fe847e018694b71ce67f57a50fac743
         },
         {
           "id": 8,
@@ -166,12 +147,9 @@
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "gyn-obs",
           "submenu": false,
-<<<<<<< HEAD
           "children": [
             ""
           ]
-=======
-          "children": ["Causes of postpartum haemorrhage"]
         },
         { 
           "id": 9,
@@ -340,7 +318,6 @@
             "Morphoeic BCC",
             "Phaeochromocytoma",
             "RA Vs OA X-ray findings"]
->>>>>>> 0901b6905fe847e018694b71ce67f57a50fac743
         },
       ]
     },
