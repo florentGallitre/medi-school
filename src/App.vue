@@ -1,39 +1,37 @@
 <template>
   <div id="app">
-        <Header></Header>
-        <router-view></router-view>
+    <Header></Header>
+    <router-view></router-view>
   </div>
 </template>
 
 <script lang="ts">
-import Vue from "vue"
-import Header from "@/components/Header.vue"
-import DataService from "@/service/DataService"
+import Vue from "vue";
+import Header from "@/components/Header.vue";
+import DataService from "@/service/DataService";
 
 export default Vue.extend({
-    components: { Header },
-    data() {
-        return {
-           
-        }
-    },
-    methods: {
-
-    },
-    mounted()
-    {
-        DataService.load()
-            .then(() => {
-                this.name = DataService.$data.appData.name
-                this.categories = DataService.$data.tree
-            }).catch(e => {
-                console.log(e)
-            })
-    },
-})
+  components: { Header },
+  data() {
+    return {};
+  },
+  methods: {},
+  mounted() {
+    DataService.load()
+      .then(() => {
+        this.name = DataService.$data.appData.name;
+        this.categories = DataService.$data.tree;
+      })
+      .catch((e) => {
+        console.log(e);
+      });
+  },
+});
 </script>
 
-<style>
+<style lang="scss">
+@import "./assets/css/global.scss";
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -41,9 +39,9 @@ export default Vue.extend({
   text-align: center;
   color: #2c3e50;
 
-position: fixed;
+  position: fixed;
   width: 100%;
-  height: 100%
+  height: 100%;
 }
 
 #nav {
