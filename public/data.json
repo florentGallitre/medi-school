@@ -19,7 +19,7 @@
         {
           "id": 2,
           "name": "cardiology",
-          author:"", 
+          "author":"", 
           "subtitle": "Sous-titre",
           "appId": 1,
           "parentId": 1,
