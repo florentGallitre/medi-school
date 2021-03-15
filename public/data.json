@@ -106,6 +106,7 @@
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "endocrinology",
           "submenu": false,
+<<<<<<< HEAD
           "children": [
             "Causes of hypocalcaemia",
             "Management of DKA",
@@ -116,6 +117,16 @@
             "Thyroid status",
             "Types of multiple endocrine neoplasia"
           ]
+=======
+          "children": ["Causes of hypocalcaemia", 
+            "Management of DKA", 
+            "Management of thyroid storm",
+            "Precipitants of DKA", 
+            "Presentation of hypercalcaemia", 
+            "Presentation of hypocalcaemia", 
+            "Thyroid status", 
+            "Types of multiple endocrine neoplasia"]
+>>>>>>> 0901b6905fe847e018694b71ce67f57a50fac743
         },
         {
           "id": 7,
@@ -128,6 +139,7 @@
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "gastroenterology",
           "submenu": false,
+<<<<<<< HEAD
           "children": [
             "Causes of abdominal distension",
             "Crohn's disease",
@@ -135,6 +147,13 @@
             "Risk factors for Gallstones",
             "Symptoms of dyspepsia"
           ]
+=======
+          "children": ["Causes of abdominal distension", 
+            "Crohn's disease", 
+            "Management of oesophageal varices",
+            "Risk factors for Gallstones", 
+            "Symptoms of dyspepsia"]
+>>>>>>> 0901b6905fe847e018694b71ce67f57a50fac743
         },
         {
           "id": 8,
@@ -147,9 +166,181 @@
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "gyn-obs",
           "submenu": false,
+<<<<<<< HEAD
           "children": [
             ""
           ]
+=======
+          "children": ["Causes of postpartum haemorrhage"]
+        },
+        { 
+          "id": 9,
+          "name": "Hepatology",
+          "author":"",
+          "subtitle": "",
+          "appId": 1,
+          "parentId": 1,
+          "type": "html",
+          "content": "<h1>The standard Lorem Ipsum</h1>",
+          "slug": "hepatology",
+          "submenu": false,
+          "children": ["Alcohol's effect on warfarin metabolism"]
+        },
+        { 
+          "id": 10,
+          "name": "Nephrology",
+          "author":"",
+          "subtitle": "",
+          "appId": 1,
+          "parentId": 1,
+          "type": "html",
+          "content": "<h1>The standard Lorem Ipsum</h1>",
+          "slug": "nephrology",
+          "submenu": false,
+          "children": ["eGFR variables for MDRD equation" ,
+            "GFR categories for CKD classification",
+            "Indications for acute dialysis",
+            "Opioid prescribing in renal impairement",
+            "Pre-renal causes of AKI",
+            "Renal Artery Stenosis"]
+        },
+        { 
+          "id": 11,
+          "name": "Neurology",
+          "author":"",
+          "subtitle": "",
+          "appId": 1,
+          "parentId": 1,
+          "type": "html",
+          "content": "<h1>The standard Lorem Ipsum</h1>",
+          "slug": "neurology",
+          "submenu": false,
+          "children": ["Core features of Parkinsonism",
+           "Causes of peripheral neuropathy",
+           "Mental state exam",
+          "Modified Glasgow criteria",
+          "Nerve damage",
+          "Presentation of complex partial seizures"]
+        },
+        { 
+          "id": 12,
+          "name": "Ophtalmology",
+          "author":"",
+          "subtitle": "",
+          "appId": 1,
+          "parentId": 1,
+          "type": "html",
+          "content": "<h1>The standard Lorem Ipsum</h1>",
+          "slug": "ophtalmology",
+          "submenu": false,
+          "children": ["Colles fracture"]
+        },
+        { 
+          "id": 13,
+          "name": "Orthopedy",
+          "author":"",
+          "subtitle": "",
+          "appId": 1,
+          "parentId": 1,
+          "type": "html",
+          "content": "<h1>The standard Lorem Ipsum</h1>",
+          "slug": "orthopedy",
+          "submenu": false,
+          "children": ["Examining the optic nerve",
+            "Features of reactive arthritis",
+            "Indications for bisphosphonates",
+            "Osteoporosis risk factors"]
+        },
+        { 
+          "id": 13,
+          "name": "Paediatrics",
+          "author":"",
+          "subtitle": "",
+          "appId": 1,
+          "parentId": 1,
+          "type": "html",
+          "content": "<h1>The standard Lorem Ipsum</h1>",
+          "slug": "paediatrics",
+          "submenu": false,
+          "children": ["Causes of meningitis in children",
+            "Causes of meningitis in neonates",
+            "Management of Kawasaki disease",
+            "Necrotizing enterocolitis",
+            "Omphalocele and Gastroschisis",
+            "Presentation of normal pressure hydrocephalus",
+            "Summary of pyloric stenosis"]
+        },
+        { 
+          "id": 14,
+          "name": "Palliative care",
+          "author":"",
+          "subtitle": "",
+          "appId": 1,
+          "parentId": 1,
+          "type": "html",
+          "content": "<h1>The standard Lorem Ipsum</h1>",
+          "slug": "palliative-care",
+          "submenu": false,
+          "children": ["Management of breathlessness in palliative care",
+            "Uses of corticosteroids in palliative care"]
+        },
+        { 
+          "id": 15,
+          "name": "Pulmonary",
+          "author":"",
+          "subtitle": "",
+          "appId": 1,
+          "parentId": 1,
+          "type": "html",
+          "content": "<h1>The standard Lorem Ipsum</h1>",
+          "slug": "pulmonary",
+          "submenu": false,
+          "children": ["Assessing severity of community acquired pneumonia",
+            "Causes of exudative pleural effusion",
+            "Causes of lower zone pulmonary fibrosis",
+            "Causes of transudative pleural effusion",
+            "Causes of upper zone pulmonary fibrosis",
+            "Non-therapeutic management of COPD"]
+        },
+        { 
+          "id": 16,
+          "name": "Syndromes",
+          "author":"",
+          "subtitle": "",
+          "appId": 1,
+          "parentId": 1,
+          "type": "html",
+          "content": "<h1>The standard Lorem Ipsum</h1>",
+          "slug": "syndromes",
+          "submenu": false,
+          "children": ["Antenatal screening for Down's syndrome",
+            "Management of Raynaud's phenomenon",
+            "Marfan syndrome",
+            "Symptoms of serotinin syndrome"]
+        },
+        { 
+          "id": 17,
+          "name": "Other",
+          "author":"",
+          "subtitle": "",
+          "appId": 1,
+          "parentId": 1,
+          "type": "html",
+          "content": "<h1>The standard Lorem Ipsum</h1>",
+          "slug": "other",
+          "submenu": false,
+          "children": ["Adjuvant therapy for colorectal cancer",
+            "Causes of clubbing",
+            "Extra parts of gynaecological history taking",
+            "Extra parts of psychiatric history taking",
+            "Life threatening thoracic trauma",
+            "Limited cutaneous systemic sclerosis",
+            "Management of stress incontinence",
+            "Manegement of nocturnal enuresis",
+            "Morphoeic BCC",
+            "Phaeochromocytoma",
+            "RA Vs OA X-ray findings"]
+>>>>>>> 0901b6905fe847e018694b71ce67f57a50fac743
         },
       ]
     },
