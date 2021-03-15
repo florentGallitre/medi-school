@@ -29,10 +29,10 @@
 import axios from "axios";
 import Vue from "vue";
 import Auth from "../service/Auth";
-import HomePageHeader from "@PageHeader.vue";
+import HomePageHeader from "@/components/PageHeader.vue";
 
 export default Vue.extend({
-  name: "Home",
+  name: "HomePage",
   components: { HomePageHeader },
   data() {
     return {
