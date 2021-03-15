@@ -1,80 +1,101 @@
 {
   "appData": {
     "id": 1,
-    "name": "Application d'exemple"
+    "name": "medi-school"
   },
   "tree": [
     {
       "id": 1,
-      "name": "Première section",
+      "name": "mnemonics",
       "subtitle": "Sous-titre facultatif",
+      "author": "",
       "appId": 1,
       "parentId": null,
       "type": "list",
       "content": "",
-      "slug": "premiere-section-1",
+      "slug": "mnemonics",
       "submenu": false,
       "children": [
         {
           "id": 2,
-          "name": "Titre",
+          "name": "cardiology",
+          author:"", 
           "subtitle": "Sous-titre",
           "appId": 1,
           "parentId": 1,
           "type": "html",
           "content": "Contenu à afficher",
-          "slug": "titre-2",
+          "slug": "Cardiology",
           "submenu": false,
-          "children": []
+          "children": ["Aortic stenosis triad", "Causes of cardiogenic shock", "Causes of high output heart failure",
+             "Complications of myocardial infarction", "CXR heart failure", 
+             "Cyanotic congenital heart defects", "Management of heart failure", 
+             "Management option for peripheral vascular disease", "p mitrale Vs p pulmonale", 
+            "Reversible causes of cardiac arrest"]
         },
         {
           "id": 3,
-          "name": "Titre",
+          "name": "Dermatology",
           "subtitle": "",
           "appId": 1,
           "parentId": 1,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
-          "slug": "titre-3",
+          "slug": "dermatology",
+          "submenu": false,
+          "children": ["Eczema management", "Henoch-Schonlein Purpura", "Management of psoriasis", 
+          "PemphigUS Vs PemphigOID"]
+        },
+        {
+          "id": 4,
+          "name": "Drugs and vaccines",
+          "subtitle": "",
+          "appId": 1,
+          "parentId": 1,
+          "type": "html",
+          "content": "<h1>The standard Lorem Ipsum</h1>",
+          "slug": "drugs-and-vaccines",
+          "submenu": false,
+          "children": ["Contraindications of ACE-I", "Drugs that cause agranulocytosis", "Drugs that induce and exacerbate AKI",
+          "LIVE attenuated vaccines (+Varicella zoster)", "Side effects of ACE-I",
+        "Side effects of Levodopa", "Side effects of Lithium", "Steroids adverse effects and cautions"]
+        },
+        { 
+          "id": 5,
+          "name": "Ear,Nose,Throat",
+          "subtitle": "",
+          "appId": 1,
+          "parentId": 1,
+          "type": "html",
+          "content": "<h1>The standard Lorem Ipsum</h1>",
+          "slug": "ear-nose-throat",
           "submenu": false,
           "children": []
         }
       ]
     },
     {
-      "id": 4,
-      "name": "Deuxième section",
+      "id": 19,
+      "name": "Study-notes",
       "subtitle": "",
       "appId": 1,
       "parentId": null,
       "type": "list",
       "content": "",
-      "slug": "deuxieme-section-4",
+      "slug": "study-notes",
       "submenu": false,
       "children": [
         {
-          "id": 5,
-          "name": "Titre",
+          "id": 20,
+          "name": "Cardiology-Vascular",
           "subtitle": "",
           "appId": 1,
-          "parentId": 4,
+          "parentId": 2,
           "type": "html",
           "content": "Contenu à afficher",
-          "slug": "titre-5",
+          "slug": "cardiology-vascular",
           "submenu": false,
-          "children": []
-        },
-        {
-          "id": 6,
-          "name": "Titre",
-          "subtitle": "",
-          "appId": 1,
-          "parentId": 4,
-          "type": "html",
-          "content": "<h1>The standard Lorem Ipsum</h1>",
-          "slug": "titre-6",
-          "submenu": false,
-          "children": []
+          "children": [ // A mettre tout les sub-category de Cardiology-Vascular]
         }
       ]
     }
