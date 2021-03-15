@@ -1,7 +1,7 @@
 <template>
   <div class="homePage">
     <HomePageHeader></HomePageHeader>
-    <div class="home col-12 d-flex flex-column justify-content-center">
+    <div class="home-component">
       <h2 class="title">Home</h2>
       <p class="introduction">
         The best place to study medicine, created just for you. You can access
@@ -29,7 +29,7 @@
 import axios from "axios";
 import Vue from "vue";
 import Auth from "../service/Auth";
-import HomePageHeader from "@/components/PageHeader.vue";
+import HomePageHeader from "@/components/HomePageHeader.vue";
 
 export default Vue.extend({
   name: "HomePage",
@@ -58,27 +58,4 @@ export default Vue.extend({
 });
 </script>
 
-<style scoped>
-.home {
-  margin-top: -20px;
-  border-radius: 30px;
-  background-color: white;
-  height: 100%;
-}
-.title {
-  margin-top: 25px;
-  width: 55px;
-  height: 24px;
-  font-size: 18px;
-  font-weight: bold;
-  font-family: sans-serif;
-}
-.introduction {
-  text-align: left;
-  width: 295px;
-  height: 51px;
-  font-size: 11px;
-  font-weight: normal;
-  font-family: sans-serif;
-}
-</style>
+<style></style>
