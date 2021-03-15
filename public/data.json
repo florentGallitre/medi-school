@@ -27,11 +27,18 @@
           "content": "Contenu à afficher",
           "slug": "cardiology",
           "submenu": false,
-          "children": ["Aortic stenosis triad", "Causes of cardiogenic shock", "Causes of high output heart failure",
-             "Complications of myocardial infarction", "CXR heart failure", 
-             "Cyanotic congenital heart defects", "Management of heart failure", 
-             "Management option for peripheral vascular disease", "p mitrale Vs p pulmonale", 
-            "Reversible causes of cardiac arrest"]
+          "children": [
+            "Aortic stenosis triad",
+            "Causes of cardiogenic shock",
+            "Causes of high output heart failure",
+            "Complications of myocardial infarction",
+            "CXR heart failure",
+            "Cyanotic congenital heart defects",
+            "Management of heart failure",
+            "Management option for peripheral vascular disease",
+            "p mitrale Vs p pulmonale",
+            "Reversible causes of cardiac arrest"
+          ]
         },
         {
           "id": 3,
@@ -44,8 +51,12 @@
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "dermatology",
           "submenu": false,
-          "children": ["Eczema management", "Henoch-Schonlein Purpura", "Management of psoriasis", 
-          "PemphigUS Vs PemphigOID"]
+          "children": [
+            "Eczema management",
+            "Henoch-Schonlein Purpura",
+            "Management of psoriasis",
+            "PemphigUS Vs PemphigOID"
+          ]
         },
         {
           "id": 4,
@@ -58,11 +69,18 @@
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "drugs-and-vaccines",
           "submenu": false,
-          "children": ["Contraindications of ACE-I", "Drugs that cause agranulocytosis", "Drugs that induce and exacerbate AKI",
-          "LIVE attenuated vaccines (+Varicella zoster)", "Side effects of ACE-I",
-        "Side effects of Levodopa", "Side effects of Lithium", "Steroids adverse effects and cautions"]
+          "children": [
+            "Contraindications of ACE-I",
+            "Drugs that cause agranulocytosis",
+            "Drugs that induce and exacerbate AKI",
+            "LIVE attenuated vaccines (+Varicella zoster)",
+            "Side effects of ACE-I",
+            "Side effects of Levodopa",
+            "Side effects of Lithium",
+            "Steroids adverse effects and cautions"
+          ]
         },
-        { 
+        {
           "id": 5,
           "name": "Ear,Nose,Throat",
           "author":"",
@@ -86,9 +104,14 @@
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "endocrinology",
           "submenu": false,
-          "children": ["Causes of hypocalcaemia", "Management of DKA", "Management of thyroid storm",
-          "Precipitants of DKA", "Presentation of hypercalcaemia", "Presentation of hypocalcaemia", 
-          "Thyroid status", "Types of multiple endocrine neoplasia"]
+          "children": ["Causes of hypocalcaemia", 
+          "Management of DKA", 
+          "Management of thyroid storm",
+          "Precipitants of DKA", 
+          "Presentation of hypercalcaemia", 
+          "Presentation of hypocalcaemia", 
+          "Thyroid status", 
+          "Types of multiple endocrine neoplasia"]
         },
         { 
           "id": 7,
@@ -101,8 +124,11 @@
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "gastroenterology",
           "submenu": false,
-          "children": ["Causes of abdominal distension", "Crohn's disease", "Management of oesophageal varices",
-          "Risk factors for Gallstones", "Symptoms of dyspepsia"]
+          "children": ["Causes of abdominal distension", 
+          "Crohn's disease", 
+          "Management of oesophageal varices",
+          "Risk factors for Gallstones", 
+          "Symptoms of dyspepsia"]
         },
         { 
           "id": 8,
@@ -142,7 +168,34 @@
           "content": "Contenu à afficher",
           "slug": "cardiology-vascular",
           "submenu": false,
-          "children": [ // A mettre tout les sub-category de Cardiology-Vascular]
+          "children": [
+            "Acute Pericarditis",
+            "Aortic dissection",
+            "Atrial fribrillation",
+            "Cardiac Myxoma",
+            "Cardiac tamponade",
+            "Dyspnoea",
+            "Heart block POEM",
+            "ECG changes",
+            "Hs & Ts for ACLS",
+            "Management of ACS",
+            "Management of Acute Coronary Syndrome",
+            "Ruptured Aortic Aneurysm",
+            "Temporal arteritis(ta)"
+          ]
+        },
+        { 
+          "id": 22,
+          "name": "Ear,Nose,Throat",
+          "author":"",
+          "subtitle": "",
+          "appId": 1,
+          "parentId": 1,
+          "type": "html",
+          "content": "<h1>The standard Lorem Ipsum</h1>",
+          "slug": "ear-nose-throat",
+          "submenu": false,
+          "children": [""]
         }
       ]
     }
