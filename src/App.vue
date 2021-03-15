@@ -1,17 +1,15 @@
 <template>
   <div id="app">
-    <Header></Header>
     <router-view></router-view>
   </div>
 </template>
 
 <script lang="ts">
 import Vue from "vue";
-import Header from "@/components/Header.vue";
 import DataService from "@/service/DataService";
 
 export default Vue.extend({
-  components: { Header },
+  components: {},
   data() {
     return {};
   },
@@ -29,9 +27,7 @@ export default Vue.extend({
 });
 </script>
 
-<style lang="scss">
-@import "./assets/css/global.scss";
-
+<style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
