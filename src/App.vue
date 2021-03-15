@@ -1,34 +1,17 @@
 <template>
   <div id="app">
-        <Header></Header>
-        <router-view></router-view>
+    <router-view/>
   </div>
 </template>
 
 <script lang="ts">
 import Vue from "vue"
-import Header from "@/components/Header.vue"
-import DataService from "@/service/DataService"
+import Auth from "./service/Auth"
 
 export default Vue.extend({
-    components: { Header },
-    data() {
-        return {
-           
-        }
-    },
-    methods: {
-
-    },
     mounted()
     {
-        DataService.load()
-            .then(() => {
-                this.name = DataService.$data.appData.name
-                this.categories = DataService.$data.tree
-            }).catch(e => {
-                console.log(e)
-            })
+        const apiKey = Auth.getApiKeyFromUrl()
     },
 })
 </script>
@@ -40,10 +23,6 @@ export default Vue.extend({
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-
-position: fixed;
-  width: 100%;
-  height: 100%
 }
 
 #nav {
