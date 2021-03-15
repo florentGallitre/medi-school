@@ -6,7 +6,7 @@
   "tree": [
     {
       "id": 1,
-      "name": "mnemonics",
+      "name": "Mnemonics",
       "subtitle": "Sous-titre facultatif",
       "author": "",
       "appId": 1,
@@ -18,14 +18,14 @@
       "children": [
         {
           "id": 2,
-          "name": "cardiology",
-          author:"", 
+          "name": "Cardiology",
+          "author":"", 
           "subtitle": "Sous-titre",
           "appId": 1,
           "parentId": 1,
           "type": "html",
           "content": "Contenu à afficher",
-          "slug": "Cardiology",
+          "slug": "cardiology",
           "submenu": false,
           "children": ["Aortic stenosis triad", "Causes of cardiogenic shock", "Causes of high output heart failure",
              "Complications of myocardial infarction", "CXR heart failure", 
@@ -36,6 +36,7 @@
         {
           "id": 3,
           "name": "Dermatology",
+          "author":"",
           "subtitle": "",
           "appId": 1,
           "parentId": 1,
@@ -49,6 +50,7 @@
         {
           "id": 4,
           "name": "Drugs and vaccines",
+          "author":"",
           "subtitle": "",
           "appId": 1,
           "parentId": 1,
@@ -63,6 +65,7 @@
         { 
           "id": 5,
           "name": "Ear,Nose,Throat",
+          "author":"",
           "subtitle": "",
           "appId": 1,
           "parentId": 1,
@@ -70,13 +73,43 @@
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "ear-nose-throat",
           "submenu": false,
-          "children": []
-        }
+          "children": ["Causative organisms of otitis externa"]
+        },
+        { 
+          "id": 6,
+          "name": "Endocrinology",
+          "author":"",
+          "subtitle": "",
+          "appId": 1,
+          "parentId": 1,
+          "type": "html",
+          "content": "<h1>The standard Lorem Ipsum</h1>",
+          "slug": "endocrinology",
+          "submenu": false,
+          "children": ["Causes of hypocalcaemia", "Management of DKA", "Management of thyroid storm",
+          "Precipitants of DKA", "Presentation of hypercalcaemia", "Presentation of hypocalcaemia", 
+          "Thyroid status", "Types of multiple endocrine neoplasia"]
+        },
+        { 
+          "id": 7,
+          "name": "Gastroenterology",
+          "author":"",
+          "subtitle": "",
+          "appId": 1,
+          "parentId": 1,
+          "type": "html",
+          "content": "<h1>The standard Lorem Ipsum</h1>",
+          "slug": "gastroenterology",
+          "submenu": false,
+          "children": ["Causes of abdominal distension", "Crohn's disease", "Management of oesophageal varices",
+          "Risk factors for Gallstones", "Symptoms of dyspepsia"]
+        },
       ]
     },
     {
       "id": 19,
       "name": "Study-notes",
+      "author":"",
       "subtitle": "",
       "appId": 1,
       "parentId": null,
@@ -88,6 +121,7 @@
         {
           "id": 20,
           "name": "Cardiology-Vascular",
+          "author":"",
           "subtitle": "",
           "appId": 1,
           "parentId": 2,
