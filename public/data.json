@@ -373,22 +373,22 @@
           ]
         },
         {
-          "id": 22,
-          "name": "Ear,Nose,Throat",
+          "id": 21,
+          "name": "Dermatology",
           "author": "",
           "subtitle": "",
           "appId": 1,
           "parentId": 19,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
-          "slug": "ear-nose-throat",
+          "slug": "dermatology",
           "submenu": false,
           "children": [
-            "Meniere's disease",
-            "Acoustic neuroma",
-            "Otitis externa",
-            "Acute epiglottitis",
-            "Bell's palsy"
+            "Acanthosis nigricans",
+            "Psoriasis",
+            "Erythema Multiform",
+            "Henoch - Schönlein Purpura",
+            "Molluscum contagiosum"
           ]
         },
         {
