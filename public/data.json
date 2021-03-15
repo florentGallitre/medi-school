@@ -19,7 +19,7 @@
         {
           "id": 2,
           "name": "Cardiology",
-          "author":"", 
+          "author": "",
           "subtitle": "Sous-titre",
           "appId": 1,
           "parentId": 1,
@@ -43,7 +43,7 @@
         {
           "id": 3,
           "name": "Dermatology",
-          "author":"",
+          "author": "",
           "subtitle": "",
           "appId": 1,
           "parentId": 1,
@@ -61,7 +61,7 @@
         {
           "id": 4,
           "name": "Drugs and vaccines",
-          "author":"",
+          "author": "",
           "subtitle": "",
           "appId": 1,
           "parentId": 1,
@@ -83,7 +83,7 @@
         {
           "id": 5,
           "name": "Ear,Nose,Throat",
-          "author":"",
+          "author": "",
           "subtitle": "",
           "appId": 1,
           "parentId": 1,
@@ -91,12 +91,14 @@
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "ear-nose-throat",
           "submenu": false,
-          "children": ["Causative organisms of otitis externa"]
+          "children": [
+            "Causative organisms of otitis externa"
+          ]
         },
-        { 
+        {
           "id": 6,
           "name": "Endocrinology",
-          "author":"",
+          "author": "",
           "subtitle": "",
           "appId": 1,
           "parentId": 1,
@@ -104,19 +106,21 @@
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "endocrinology",
           "submenu": false,
-          "children": ["Causes of hypocalcaemia", 
-          "Management of DKA", 
-          "Management of thyroid storm",
-          "Precipitants of DKA", 
-          "Presentation of hypercalcaemia", 
-          "Presentation of hypocalcaemia", 
-          "Thyroid status", 
-          "Types of multiple endocrine neoplasia"]
+          "children": [
+            "Causes of hypocalcaemia",
+            "Management of DKA",
+            "Management of thyroid storm",
+            "Precipitants of DKA",
+            "Presentation of hypercalcaemia",
+            "Presentation of hypocalcaemia",
+            "Thyroid status",
+            "Types of multiple endocrine neoplasia"
+          ]
         },
-        { 
+        {
           "id": 7,
           "name": "Gastroenterology",
-          "author":"",
+          "author": "",
           "subtitle": "",
           "appId": 1,
           "parentId": 1,
@@ -124,16 +128,18 @@
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "gastroenterology",
           "submenu": false,
-          "children": ["Causes of abdominal distension", 
-          "Crohn's disease", 
-          "Management of oesophageal varices",
-          "Risk factors for Gallstones", 
-          "Symptoms of dyspepsia"]
+          "children": [
+            "Causes of abdominal distension",
+            "Crohn's disease",
+            "Management of oesophageal varices",
+            "Risk factors for Gallstones",
+            "Symptoms of dyspepsia"
+          ]
         },
-        { 
+        {
           "id": 8,
           "name": "Gyn&Obs",
-          "author":"",
+          "author": "",
           "subtitle": "",
           "appId": 1,
           "parentId": 1,
@@ -141,14 +147,16 @@
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "gyn-obs",
           "submenu": false,
-          "children": [""]
+          "children": [
+            ""
+          ]
         },
       ]
     },
     {
       "id": 19,
       "name": "Study-notes",
-      "author":"",
+      "author": "",
       "subtitle": "",
       "appId": 1,
       "parentId": null,
@@ -160,7 +168,7 @@
         {
           "id": 20,
           "name": "Cardiology-Vascular",
-          "author":"",
+          "author": "",
           "subtitle": "",
           "appId": 1,
           "parentId": 19,
@@ -184,19 +192,170 @@
             "Temporal arteritis(ta)"
           ]
         },
-        { 
+        {
           "id": 22,
           "name": "Ear,Nose,Throat",
-          "author":"",
+          "author": "",
           "subtitle": "",
           "appId": 1,
-          "parentId": 1,
+          "parentId": 19,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "ear-nose-throat",
           "submenu": false,
-          "children": [""]
-        }
+          "children": [
+            "Meniere's disease",
+            "Acoustic neuroma",
+            "Otitis externa",
+            "Acute epiglottitis",
+            "Bell's palsy"
+          ]
+        },
+        {
+          "id": 22,
+          "name": "Ear,Nose,Throat",
+          "author": "",
+          "subtitle": "",
+          "appId": 1,
+          "parentId": 19,
+          "type": "html",
+          "content": "<h1>The standard Lorem Ipsum</h1>",
+          "slug": "ear-nose-throat",
+          "submenu": false,
+          "children": [
+            "Meniere's disease",
+            "Acoustic neuroma",
+            "Otitis externa",
+            "Acute epiglottitis",
+            "Bell's palsy"
+          ]
+        },
+        {
+          "id": 23,
+          "name": "Gastroenterology",
+          "author": "",
+          "subtitle": "",
+          "appId": 1,
+          "parentId": 19,
+          "type": "html",
+          "content": "<h1>The standard Lorem Ipsum</h1>",
+          "slug": "gastroenterology",
+          "submenu": false,
+          "children": [
+            "Acute Cholecystitis",
+            "Dyspepsia",
+            "Esophageal Spasm",
+            "Gallstones",
+            "IBS"
+          ]
+        },
+        {
+          "id": 24,
+          "name": "Nephrology",
+          "author": "",
+          "subtitle": "",
+          "appId": 1,
+          "parentId": 19,
+          "type": "html",
+          "content": "<h1>The standard Lorem Ipsum</h1>",
+          "slug": "nephrology",
+          "submenu": false,
+          "children": [
+            "Acute Kidney Injury",
+            "Nephrotoxic",
+            "Kidney vs Spleen",
+            "Renal vein thrombosis"
+          ]
+        },
+        {
+          "id": 25,
+          "name": "Oncology",
+          "author": "",
+          "subtitle": "",
+          "appId": 1,
+          "parentId": 19,
+          "type": "html",
+          "content": "<h1>The standard Lorem Ipsum</h1>",
+          "slug": "oncology",
+          "submenu": false,
+          "children": [
+            "Esophageal Cancer",
+            "Fibroadenoma",
+            "Melanoma signs",
+            "Ovarian cancer",
+            "Prostate Cancer",
+            "Tumor markers"
+          ]
+        },
+        {
+          "id": 26,
+          "name": "Orthopedy",
+          "author": "",
+          "subtitle": "",
+          "appId": 1,
+          "parentId": 19,
+          "type": "html",
+          "content": "<h1>The standard Lorem Ipsum</h1>",
+          "slug": "orthopedy",
+          "submenu": false,
+          "children": [
+            "Achilles tendon rupture",
+            "Deep tendon reflexes",
+            "Dupuytren's contracture",
+            "Osteogenesis Imperfecta",
+            "Osteomyelitis Risk factors",
+            "PAGET'S Disease",
+            "Slipped upper femoral epiphysis (SUFE)",
+            "ULNAR N. INJURY"
+          ]
+        },
+        {
+          "id": 27,
+          "name": "Psychiatry",
+          "author": "",
+          "subtitle": "",
+          "appId": 1,
+          "parentId": 19,
+          "type": "html",
+          "content": "<h1>The standard Lorem Ipsum</h1>",
+          "slug": "psychiatry",
+          "submenu": false,
+          "children": [
+            "ADHD",
+            "Bipolar disorder"
+          ]
+        },
+        {
+          "id": 28,
+          "name": "Surgery",
+          "author": "",
+          "subtitle": "",
+          "appId": 1,
+          "parentId": 19,
+          "type": "html",
+          "content": "<h1>The standard Lorem Ipsum</h1>",
+          "slug": "surgery",
+          "submenu": false,
+          "children": [
+            "Perianal abscess",
+            "Surgical incisions"
+          ]
+        },
+        {
+          "id": 29,
+          "name": "Urology",
+          "author": "",
+          "subtitle": "",
+          "appId": 1,
+          "parentId": 19,
+          "type": "html",
+          "content": "<h1>The standard Lorem Ipsum</h1>",
+          "slug": "urology",
+          "submenu": false,
+          "children": [
+            "BPH"
+          ]
+        },
       ]
     }
   ]
