@@ -91,9 +91,7 @@
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "ear-nose-throat",
           "submenu": false,
-          "children": [
-            "Causative organisms of otitis externa"
-          ]
+          "children": ["Causative organisms of otitis externa"]
         },
         {
           "id": 6,
@@ -147,14 +145,12 @@
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "gyn-obs",
           "submenu": false,
-          "children": [
-            ""
-          ]
+          "children": [""]
         },
-        { 
+        {
           "id": 9,
           "name": "Hepatology",
-          "author":"",
+          "author": "",
           "subtitle": "",
           "appId": 1,
           "parentId": 1,
@@ -164,10 +160,10 @@
           "submenu": false,
           "children": ["Alcohol's effect on warfarin metabolism"]
         },
-        { 
+        {
           "id": 10,
           "name": "Nephrology",
-          "author":"",
+          "author": "",
           "subtitle": "",
           "appId": 1,
           "parentId": 1,
@@ -175,17 +171,19 @@
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "nephrology",
           "submenu": false,
-          "children": ["eGFR variables for MDRD equation" ,
+          "children": [
+            "eGFR variables for MDRD equation",
             "GFR categories for CKD classification",
             "Indications for acute dialysis",
             "Opioid prescribing in renal impairement",
             "Pre-renal causes of AKI",
-            "Renal Artery Stenosis"]
+            "Renal Artery Stenosis"
+          ]
         },
-        { 
+        {
           "id": 11,
           "name": "Neurology",
-          "author":"",
+          "author": "",
           "subtitle": "",
           "appId": 1,
           "parentId": 1,
@@ -193,17 +191,19 @@
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "neurology",
           "submenu": false,
-          "children": ["Core features of Parkinsonism",
-           "Causes of peripheral neuropathy",
-           "Mental state exam",
-          "Modified Glasgow criteria",
-          "Nerve damage",
-          "Presentation of complex partial seizures"]
+          "children": [
+            "Core features of Parkinsonism",
+            "Causes of peripheral neuropathy",
+            "Mental state exam",
+            "Modified Glasgow criteria",
+            "Nerve damage",
+            "Presentation of complex partial seizures"
+          ]
         },
-        { 
+        {
           "id": 12,
           "name": "Ophtalmology",
-          "author":"",
+          "author": "",
           "subtitle": "",
           "appId": 1,
           "parentId": 1,
@@ -213,10 +213,10 @@
           "submenu": false,
           "children": ["Colles fracture"]
         },
-        { 
+        {
           "id": 13,
           "name": "Orthopedy",
-          "author":"",
+          "author": "",
           "subtitle": "",
           "appId": 1,
           "parentId": 1,
@@ -224,15 +224,17 @@
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "orthopedy",
           "submenu": false,
-          "children": ["Examining the optic nerve",
+          "children": [
+            "Examining the optic nerve",
             "Features of reactive arthritis",
             "Indications for bisphosphonates",
-            "Osteoporosis risk factors"]
+            "Osteoporosis risk factors"
+          ]
         },
-        { 
+        {
           "id": 13,
           "name": "Paediatrics",
-          "author":"",
+          "author": "",
           "subtitle": "",
           "appId": 1,
           "parentId": 1,
@@ -240,18 +242,20 @@
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "paediatrics",
           "submenu": false,
-          "children": ["Causes of meningitis in children",
+          "children": [
+            "Causes of meningitis in children",
             "Causes of meningitis in neonates",
             "Management of Kawasaki disease",
             "Necrotizing enterocolitis",
             "Omphalocele and Gastroschisis",
             "Presentation of normal pressure hydrocephalus",
-            "Summary of pyloric stenosis"]
+            "Summary of pyloric stenosis"
+          ]
         },
-        { 
+        {
           "id": 14,
           "name": "Palliative care",
-          "author":"",
+          "author": "",
           "subtitle": "",
           "appId": 1,
           "parentId": 1,
@@ -259,13 +263,15 @@
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "palliative-care",
           "submenu": false,
-          "children": ["Management of breathlessness in palliative care",
-            "Uses of corticosteroids in palliative care"]
+          "children": [
+            "Management of breathlessness in palliative care",
+            "Uses of corticosteroids in palliative care"
+          ]
         },
-        { 
+        {
           "id": 15,
           "name": "Pulmonary",
-          "author":"",
+          "author": "",
           "subtitle": "",
           "appId": 1,
           "parentId": 1,
@@ -273,17 +279,19 @@
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "pulmonary",
           "submenu": false,
-          "children": ["Assessing severity of community acquired pneumonia",
+          "children": [
+            "Assessing severity of community acquired pneumonia",
             "Causes of exudative pleural effusion",
             "Causes of lower zone pulmonary fibrosis",
             "Causes of transudative pleural effusion",
             "Causes of upper zone pulmonary fibrosis",
-            "Non-therapeutic management of COPD"]
+            "Non-therapeutic management of COPD"
+          ]
         },
-        { 
+        {
           "id": 16,
           "name": "Syndromes",
-          "author":"",
+          "author": "",
           "subtitle": "",
           "appId": 1,
           "parentId": 1,
@@ -291,15 +299,17 @@
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "syndromes",
           "submenu": false,
-          "children": ["Antenatal screening for Down's syndrome",
+          "children": [
+            "Antenatal screening for Down's syndrome",
             "Management of Raynaud's phenomenon",
             "Marfan syndrome",
-            "Symptoms of serotinin syndrome"]
+            "Symptoms of serotinin syndrome"
+          ]
         },
-        { 
+        {
           "id": 17,
           "name": "Other",
-          "author":"",
+          "author": "",
           "subtitle": "",
           "appId": 1,
           "parentId": 1,
@@ -307,7 +317,8 @@
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "other",
           "submenu": false,
-          "children": ["Adjuvant therapy for colorectal cancer",
+          "children": [
+            "Adjuvant therapy for colorectal cancer",
             "Causes of clubbing",
             "Extra parts of gynaecological history taking",
             "Extra parts of psychiatric history taking",
@@ -317,8 +328,9 @@
             "Manegement of nocturnal enuresis",
             "Morphoeic BCC",
             "Phaeochromocytoma",
-            "RA Vs OA X-ray findings"]
-        },
+            "RA Vs OA X-ray findings"
+          ]
+        }
       ]
     },
     {
@@ -400,6 +412,25 @@
         },
         {
           "id": 23,
+          "name": "Endocrinology",
+          "author": "",
+          "subtitle": "",
+          "appId": 1,
+          "parentId": 19,
+          "type": "html",
+          "content": "<h1>The standard Lorem Ipsum</h1>",
+          "slug": "endocrinology",
+          "submenu": false,
+          "children": [
+            "DKA",
+            "Hashimoto's Thyroiditis",
+            "Hypomagnesemia causes",
+            "Hypophosphatemia causes",
+            "Pheochromocytoma"
+          ]
+        },
+        {
+          "id": 24,
           "name": "Gastroenterology",
           "author": "",
           "subtitle": "",
@@ -418,7 +449,50 @@
           ]
         },
         {
-          "id": 24,
+          "id": 25,
+          "name": "Geriatrics",
+          "author": "",
+          "subtitle": "",
+          "appId": 1,
+          "parentId": 19,
+          "type": "html",
+          "content": "<h1>The standard Lorem Ipsum</h1>",
+          "slug": "geriatrics",
+          "submenu": false,
+          "children": ["4 As test Delirum"]
+        },
+        {
+          "id": 26,
+          "name": "Haematology",
+          "author": "",
+          "subtitle": "",
+          "appId": 1,
+          "parentId": 19,
+          "type": "html",
+          "content": "<h1>The standard Lorem Ipsum</h1>",
+          "slug": " ",
+          "submenu": false,
+          "children": [
+            "Haemoptysis",
+            "Macrocytic anaemia",
+            "Neutrophilia & Neutropenia"
+          ]
+        },
+        {
+          "id": 27,
+          "name": "Hepatology",
+          "author": "",
+          "subtitle": "",
+          "appId": 1,
+          "parentId": 19,
+          "type": "html",
+          "content": "<h1>The standard Lorem Ipsum</h1>",
+          "slug": "hepatology",
+          "submenu": false,
+          "children": ["Cirrhosis causes"]
+        },
+        {
+          "id": 28,
           "name": "Nephrology",
           "author": "",
           "subtitle": "",
@@ -436,7 +510,30 @@
           ]
         },
         {
-          "id": 25,
+          "id": 29,
+          "name": "Neurology",
+          "author": "",
+          "subtitle": "",
+          "appId": 1,
+          "parentId": 19,
+          "type": "html",
+          "content": "<h1>The standard Lorem Ipsum</h1>",
+          "slug": "neurology",
+          "submenu": false,
+          "children": [
+            "ALS",
+            "Cerebral hemorrhage on CT scan",
+            "Cranial nerves",
+            "Delirium",
+            "Lesions of upper and lower motor neurons",
+            "Migraine",
+            "Normal Pressure Hydrocephalus",
+            "Parkinson's disease",
+            "Subarachnoid haemorrage"
+          ]
+        },
+        {
+          "id": 30,
           "name": "Oncology",
           "author": "",
           "subtitle": "",
@@ -456,7 +553,24 @@
           ]
         },
         {
-          "id": 26,
+          "id": 31,
+          "name": "Ophtalmology",
+          "author": "",
+          "subtitle": "",
+          "appId": 1,
+          "parentId": 19,
+          "type": "html",
+          "content": "<h1>The standard Lorem Ipsum</h1>",
+          "slug": "ophtalmology",
+          "submenu": false,
+          "children": [
+            "Optic Neuritis",
+            "Retinal detachment",
+            "Transient vision loss"
+          ]
+        },
+        {
+          "id": 32,
           "name": "Orthopedy",
           "author": "",
           "subtitle": "",
@@ -478,7 +592,25 @@
           ]
         },
         {
-          "id": 27,
+          "id": 33,
+          "name": "Pharmacology",
+          "author": "",
+          "subtitle": "",
+          "appId": 1,
+          "parentId": 19,
+          "type": "html",
+          "content": "<h1>The standard Lorem Ipsum</h1>",
+          "slug": "pharmacology",
+          "submenu": false,
+          "children": [
+            "Benzodiazepines overdose",
+            "NSAIDS",
+            "Opiate side effects",
+            "Salbutamol"
+          ]
+        },
+        {
+          "id": 34,
           "name": "Psychiatry",
           "author": "",
           "subtitle": "",
@@ -488,13 +620,28 @@
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "psychiatry",
           "submenu": false,
+          "children": ["ADHD", "Bipolar disorder"]
+        },
+        {
+          "id": 35,
+          "name": "Pulmonary",
+          "author": "",
+          "subtitle": "",
+          "appId": 1,
+          "parentId": 19,
+          "type": "html",
+          "content": "<h1>The standard Lorem Ipsum</h1>",
+          "slug": "pulmonary",
+          "submenu": false,
           "children": [
-            "ADHD",
-            "Bipolar disorder"
+            "Cystic Fibrosis",
+            "Pneumothorax",
+            "Pulmonary embolism",
+            "Risk factors for ARDS"
           ]
         },
         {
-          "id": 28,
+          "id": 36,
           "name": "Surgery",
           "author": "",
           "subtitle": "",
@@ -504,13 +651,36 @@
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "surgery",
           "submenu": false,
+          "children": ["Perianal abscess", "Surgical incisions"]
+        },
+        {
+          "id": 37,
+          "name": "Syndromes",
+          "author": "",
+          "subtitle": "",
+          "appId": 1,
+          "parentId": 19,
+          "type": "html",
+          "content": "<h1>The standard Lorem Ipsum</h1>",
+          "slug": "syndromes",
+          "submenu": false,
           "children": [
-            "Perianal abscess",
-            "Surgical incisions"
+            "Carpal Tunnel Syndrome",
+            "CONN'S Syndrome",
+            "Down Syndrome",
+            "HELLP Syndrome",
+            "Klinefelter's Syndrome XXY",
+            "MEIGS' Syndrome",
+            "Neuroleptic Malignant Syndrome",
+            "NOONAN Syndrome",
+            "Plummer Vinson Syndrome",
+            "RAMSAY Hunt Syndrome",
+            "Raynaud's Phenomenon",
+            "Zollinger Ellison Syndrome"
           ]
         },
         {
-          "id": 29,
+          "id": 38,
           "name": "Urology",
           "author": "",
           "subtitle": "",
@@ -520,10 +690,37 @@
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "urology",
           "submenu": false,
-          "children": [
-            "BPH"
-          ]
+          "children": ["BPH"]
         },
+        {
+          "id": 39,
+          "name": "Other",
+          "author": "",
+          "subtitle": "",
+          "appId": 1,
+          "parentId": 19,
+          "type": "html",
+          "content": "<h1>The standard Lorem Ipsum</h1>",
+          "slug": "other",
+          "submenu": false,
+          "children": [
+            "Acromegaly",
+            "Antimicrobial awareness",
+            "COELIAC Associations",
+            "Complications of TPN",
+            "Differential diagnosis vitamins",
+            "High ESR Napkin",
+            "Hyperkalaemia causes",
+            "Malaria common symptoms",
+            "Screening test evaluation",
+            "SIADH causes",
+            "Sleep hygiene",
+            "SOCRATES Pain history",
+            "VIT Deficiency",
+            "Wilson's disease",
+            "Zenker's diverticulum"
+          ]
+        }
       ]
     }
   ]
