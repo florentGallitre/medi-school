@@ -18,4 +18,4 @@ export default class HelloWorld extends Vue {
 h1 {
     /* styles */
 }
-</style>
+</style> 

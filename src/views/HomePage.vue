@@ -9,7 +9,7 @@
       </p>
       <div class="cards d-flex col-12 justify-content-center">
         <div class="card">
-          <img src="" alt="" />
+          <img src="" alt=""/>
           <p>Mnemonics</p>
         </div>
         <div class="card pl-2 pr-2">
