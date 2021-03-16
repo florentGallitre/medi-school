@@ -7,26 +7,9 @@
         The best place to study medicine, created just for you. You can access
         study notes, mnemonics.
       </p>
-<<<<<<< HEAD
       <keep-alive>
         <component v-bind:is="currentTheme"></component>
       </keep-alive>
-=======
-      <div class="cards d-flex col-12 justify-content-center">
-        <div class="card">
-          <img src="" alt=""/>
-          <p>Mnemonics</p>
-        </div>
-        <div class="card pl-2 pr-2">
-          <img src="" alt="" />
-          <p>Study Notes</p>
-        </div>
-        <div class="card">
-          <img src="" alt="" />
-          <p>Cases challenges</p>
-        </div>
-      </div>
->>>>>>> dc63468a7f93810c2fc5c700400cf685a02eff46
     </div>
   </div>
 </template>
