@@ -1,5 +1,5 @@
 <template>
-  <div class="homePage">
+  <div class="homePage m-0 p-0 col-12">
     <HomePageHeader></HomePageHeader>
     <div class="home-component">
       <h2 class="title">Home</h2>

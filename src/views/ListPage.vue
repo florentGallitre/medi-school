@@ -1,5 +1,5 @@
 <template>
-  <div class="list-page">
+  <div class="listPage">
         <PageHeader></PageHeader>
   </div>
 </template>
@@ -10,7 +10,7 @@ import PageHeader from '../components/PageHeader.vue';
 
 
 export default Vue.extend({
-  name: "Home",
+  name: "ListPage",
   components: { PageHeader },
   mounted()
   {
@@ -25,10 +25,5 @@ export default Vue.extend({
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.other-page {
-    text-align: left;
-    margin: 16px;
-    max-width: 80%;
-    margin: auto;
-}
+
 </style>
