@@ -10,7 +10,6 @@ import { Component, Vue } from "vue-property-decorator";
 export default Vue.extend({
   name: "ThemeButton",
   props: ["themeName"],
-  data() {},
 });
 </script>
 
