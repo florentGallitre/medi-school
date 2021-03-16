@@ -268,11 +268,29 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 12,
-              "slug": "side-effects-of-ace-i",
+              "slug": "side-effects-of-levodopa",
               "authorId": 1
             },
-            "Side effects of Lithium",
-            "Steroids adverse effects and cautions"
+            {
+              "id": 120,
+              "name":"Side effects of Lithium",
+              "component": "SideEffectsOfLithium",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 12,
+              "slug": "side-effects-of-lithium",
+              "authorId": 1
+            },
+            {
+              "id": 121,
+              "name": "Steroids adverse effects and cautions",
+              "component": "SteroidsAdverseEffectsAndCautions",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 12,
+              "slug": "steroids-adverse-effects-and-cautions",
+              "authorId": 1
+            }
           ]
         },
         {
@@ -281,12 +299,26 @@
           "author": "",
           "subtitle": "",
           "appId": 1,
+          "authorId": [
+            1
+          ],
           "parentId": 1,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "ear-nose-throat",
           "submenu": false,
-          "children": ["Causative organisms of otitis externa"]
+          "children": [
+            {
+              "id": 122,
+              "name": "Causative organisms of otitis externa",
+              "component": "CausativeOrganismsOfOtitisExterna",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 13,
+              "slug": "causative-organisms-of-otitis-externa",
+              "authorId": 1
+              }
+            ]
         },
         {
           "id": 14,
@@ -294,20 +326,95 @@
           "author": "",
           "subtitle": "",
           "appId": 1,
+          "authorId": [
+            1
+          ],
           "parentId": 1,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "endocrinology",
           "submenu": false,
           "children": [
-            "Causes of hypocalcaemia",
-            "Management of DKA",
-            "Management of thyroid storm",
-            "Precipitants of DKA",
-            "Presentation of hypercalcaemia",
-            "Presentation of hypocalcaemia",
-            "Thyroid status",
-            "Types of multiple endocrine neoplasia"
+            {
+              "id": 123,
+              "name": "Causes of hypocalcaemia",
+              "component": "CausesOfHypocalcaemia",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 14,
+              "slug": "causes-of-of-hypocal-caemia",
+              "authorId": 1
+            },
+            {
+              "id": 124,
+              "name": "Management of DKA",
+              "component": "ManagementOfDKA",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 14,
+              "slug": "managment-of-dka",
+              "authorId": 1
+            },
+            {
+              "id": 125,
+              "name": "Management of thyroid storm",
+              "component": "ManagementOfThyroidStorm",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 14,
+              "slug": "managment-of-thyroid-storm",
+              "authorId": 1
+            },
+            {
+              "id": 126,
+              "name": "Precipitants of DKA",
+              "component": "PrecipitantsOfDKA",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 14,
+              "slug": "precipitants-of-dka",
+              "authorId": 1
+            },
+            {
+              "id": 127,
+              "name": "Presentation of hypercalcaemia",
+              "component": "PresentationOfHypercalcaemia",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 14,
+              "slug": "presentation-of-hypercalcaemia",
+              "authorId": 1
+            },
+            {
+              "id": 128,
+              "name": "Presentation of hypocalcaemia",
+              "component": "PresentationOfHypocalcaemia",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 14,
+              "slug": "presentation-of-hypocalcaemia",
+              "authorId": 1
+            },
+            {
+              "id": 129,
+              "name": "Thyroid status",
+              "component": "ThyroidStatus",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 14,
+              "slug": "thyroid-status",
+              "authorId": 1
+            },
+            {
+              "id": 130,
+              "name": "Types of multiple endocrine neoplasia",
+              "component": "TypesOfMultipleEndocrineNeoplasia",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 14,
+              "slug": "thyroid-of-multiple-endocrine-neoplasia",
+              "authorId": 1
+            }
           ]
         },
         {
@@ -316,17 +423,65 @@
           "author": "",
           "subtitle": "",
           "appId": 1,
+          "authorId": [
+            1
+          ],
           "parentId": 1,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "gastroenterology",
           "submenu": false,
           "children": [
-            "Causes of abdominal distension",
-            "Crohn's disease",
-            "Management of oesophageal varices",
-            "Risk factors for Gallstones",
-            "Symptoms of dyspepsia"
+            {
+              "id": 131,
+              "name": "Causes of abdominal distension",
+              "component": "CausesOfAbdominalDistension",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 15,
+              "slug": "causes-of-abdominal-distension",
+              "authorId": 1             
+            },
+            {
+              "id": 132,
+              "name": "Crohn's disease",
+              "component": "CrohnsDisease",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 15,
+              "slug": "causes-of-abdominal-distension",
+              "authorId": 1  
+            },
+            {
+              "id": 133,
+              "name": "Management of oesophageal varices",
+              "component": "ManagementOfOesophagealVarices",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 15,
+              "slug": "managment-of-oesophageal-varices",
+              "authorId": 1 
+            },
+            {
+              "id": 134,
+              "name": "Risk factors for Gallstones",
+              "component": "RiskFactorsForGallstones",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 15,
+              "slug": "risk-factors-for-gallstones",
+              "authorId": 1 
+            },
+            {
+              "id": 135,
+              "name": "Symptoms of dyspepsia",
+              "component": "SymptomsOfDyspepsia",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 15,
+              "slug": "symptoms-of-dyspepsia",
+              "authorId": 1 
+            }
           ]
         },
         {
@@ -335,12 +490,15 @@
           "author": "",
           "subtitle": "",
           "appId": 1,
+          "authorId": [
+            1
+          ],
           "parentId": 1,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "gyn-obs",
           "submenu": false,
-          "children": [""]
+          "children": []
         },
         {
           "id": 17,
@@ -348,18 +506,34 @@
           "author": "",
           "subtitle": "",
           "appId": 1,
+          "authorId": [
+            1
+          ],
           "parentId": 1,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "hepatology",
           "submenu": false,
-          "children": ["Alcohol's effect on warfarin metabolism"]
+          "children": [
+            {
+              "id": 136,
+              "name": "Alcohol's effect on warfarin metabolism",
+              "component": "AlcoholsEffectOnWarfarinMetabolism",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 17,
+              "slug": "alcohols-effect-on-warfarin-metabolism",
+              "authorId": 1 
+            }
+          ]
         },
         {
           "id": 18,
           "name": "Nephrology",
-          "author": "",
           "subtitle": "",
+          "authorId": [
+            1
+          ],
           "appId": 1,
           "parentId": 1,
           "type": "html",
@@ -367,32 +541,143 @@
           "slug": "nephrology",
           "submenu": false,
           "children": [
-            "eGFR variables for MDRD equation",
-            "GFR categories for CKD classification",
-            "Indications for acute dialysis",
-            "Opioid prescribing in renal impairement",
-            "Pre-renal causes of AKI",
-            "Renal Artery Stenosis"
+            {
+              "id": 137,
+              "name": "eGFR variables for MDRD equation",
+              "component": "EGFRVariablesForMDRDEquation",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 18,
+              "slug": "egfr-variables-for-mdrd-equation",
+              "authorId": 1 
+            },
+            {
+              "id": 138,
+              "name": "GFR categories for CKD classification",
+              "component": "GFRCategoriesForCKDClassification",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 18,
+              "slug": "gfr-categories-for-ckd-classification",
+              "authorId": 1 
+            },
+            {
+              "id": 139,
+              "name": "Indications for acute dialysis",
+              "component": "IndicationsForAcuteDialysis",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 18,
+              "slug": "indications-for-acute-dialysis",
+              "authorId": 1 
+            },
+            {
+              "id": 140,
+              "name": "Opioid prescribing in renal impairement",
+              "component": "OpioidPrescribingInRenalImpairement",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 18,
+              "slug": "opioid-prescribing-in-renal-impairement",
+              "authorId": 1 
+            },
+            {
+              "id": 141,
+              "name": "Pre-renal causes of AKI",
+              "component": "PrerenalCausesOfAKI",
+              "slug": "pre-renal-causes-of-aki",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 18,
+              "authorId": 1 
+            },
+            {
+              "id": 142,
+              "name": "Renal Artery Stenosis",
+              "component": "RenalArteryStenosis",
+              "slug": "Renal-artery-stenosis",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 18,
+              "authorId": 1 
+            }
           ]
         },
         {
           "id": 19,
           "name": "Neurology",
-          "author": "",
           "subtitle": "",
           "appId": 1,
+          "authorId": [
+            1
+          ],
           "parentId": 1,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "neurology",
           "submenu": false,
           "children": [
-            "Core features of Parkinsonism",
-            "Causes of peripheral neuropathy",
-            "Mental state exam",
-            "Modified Glasgow criteria",
-            "Nerve damage",
-            "Presentation of complex partial seizures"
+            {
+              "id": 143,
+              "name": "Core features of Parkinsonism",
+              "component": "CoreFeaturesOfParkinsonism",
+              "slug": "core-features-of-parkinsonism",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 19,
+              "authorId": 1 
+
+            },
+            {
+              "id": 144,
+              "name": "Causes of peripheral neuropathy",
+              "component": "CausesOfPeripheralNeuropathy",
+              "slug": "causes-of-peripheral-neuropathy",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 19,
+              "authorId": 1 
+            },
+            {
+              "id": 145,
+              "name": "Mental state exam",
+              "component": "MentalStateExam",
+              "slug": "mental-state-exam",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 19,
+              "authorId": 1 
+            },
+            {
+              "id": 146,
+              "name": "Modified Glasgow criteria",
+              "component": "ModifiedGlasgowCriteria",
+              "slug": "modified-glasgow-criteria",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 19,
+              "authorId": 1 
+            },
+            {
+              "id": 147,
+              "name": "Nerve damage",
+              "component": "NerveDamage",
+              "slug": "nerve-damage",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 19,
+              "authorId": 1 
+            },
+            {
+              "id": 148,
+              "name": "Presentation of complex partial seizures",
+              "component": "PresentationOfComplexPartialSeizures",
+              "slug": "presentation-of-complex-partial-seizures",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 19,
+              "authorId": 1 
+            }
           ]
         },
         {
