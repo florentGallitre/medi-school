@@ -7,20 +7,9 @@
         The best place to study medicine, created just for you. You can access
         study notes, mnemonics.
       </p>
-      <div class="cards d-flex col-12 justify-content-center">
-        <div class="card">
-          <img src="" alt="" />
-          <p>Mnemonics</p>
-        </div>
-        <div class="card pl-2 pr-2">
-          <img src="" alt="" />
-          <p>Study Notes</p>
-        </div>
-        <div class="card">
-          <img src="" alt="" />
-          <p>Cases challenges</p>
-        </div>
-      </div>
+      <keep-alive>
+        <component v-bind:is="currentTheme"></component>
+      </keep-alive>
     </div>
   </div>
 </template>
@@ -30,6 +19,7 @@ import axios from "axios";
 import Vue from "vue";
 import Auth from "../service/Auth";
 import HomePageHeader from "@/components/HomePageHeader.vue";
+import DataService from "@/service/DataService";
 
 export default Vue.extend({
   name: "HomePage",
@@ -38,13 +28,30 @@ export default Vue.extend({
     return {
       appInfo: {},
       appSection: {},
+      currentTheme: null,
     };
   },
   mounted() {
-    console.log(Auth.getApiKey());
+    // const slug = this.$route.params.slug;
+    // console.log(slug);
     this.loadData().then((result: any) => {
       this.appInfo = result.appData;
       this.appSection = result.tree;
+      console.log(this.appSection[1].children);
+      // faire boucle dans les sections (2) et les mettre dans une variable et faire une boucle dans template 
+      DataService.load()
+        .then(() => {
+          const cat = this.searchBySlug(DataService.$data.tree, slug);
+
+          if (cat === null) {
+            this.notFound = true;
+          } else {
+            this.currentComponent = cat.component;
+          }
+        })
+        .catch((e) => {
+          console.log(e);
+        });
     });
   },
   methods: {
@@ -54,8 +61,19 @@ export default Vue.extend({
       );
       return data.data;
     },
-  },
+    // searchBySlug(dataJsonTree: Array<any>, slug: string) {
+    //   for (let i in dataJsonTree) {
+    //     const mainCategory = dataJsonTree[i];
+    //     return mainCategory;
+    //     // for (let j in mainCategory) {
+    //     //   const subCategory = mainCategory[j];
+    //     //   if (subCategory.slug === slug) {
+    //     //     return subCategory;
+    //     //   }
+    //     // }
+      }
+    
+  
 });
 </script>
 
-<style></style>
