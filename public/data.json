@@ -10,8 +10,8 @@
       "subtitle": "Sous-titre facultatif",
       "author": [
         {
-        "id": 1,
-        "name": "med_nmemomics"
+          "id": 1,
+          "name": "med_nmemomics"
         }
       ],
       "appId": 1,
@@ -86,8 +86,8 @@
               "authorId": 1
             },
             {
-              "id":105,
-              "name":"Cyanotic congenital heart defects",
+              "id": 105,
+              "name": "Cyanotic congenital heart defects",
               "component": "CyanoticCongenitalHeartDefects",
               "subtitle": "",
               "appId": 1,
@@ -104,7 +104,7 @@
               "parentId": 10,
               "slug": "managment-of-heart-failure",
               "authorId": 1
-              },
+            },
             {
               "id": 107,
               "name": "Management option for peripheral vascular disease",
@@ -114,7 +114,7 @@
               "parentId": 10,
               "slug": "managment-option-for-peripheral-vascular-disease",
               "authorId": 1
-              },
+            },
             {
               "id": 108,
               "name": "mitrale Vs p pulmonale",
@@ -226,8 +226,7 @@
               "parentId": 12,
               "slug": "drugs-that-cause-agranulocytosis",
               "authorId": 1
-            }
-              ,
+            },
             {
               "id": 116,
               "name": "Drugs that induce and exacerbate AKI",
@@ -270,7 +269,7 @@
             },
             {
               "id": 120,
-              "name":"Side effects of Lithium",
+              "name": "Side effects of Lithium",
               "component": "SideEffectsOfLithium",
               "subtitle": "",
               "appId": 1,
@@ -313,8 +312,8 @@
               "parentId": 13,
               "slug": "causative-organisms-of-otitis-externa",
               "authorId": 1
-              }
-            ]
+            }
+          ]
         },
         {
           "id": 14,
@@ -434,7 +433,7 @@
               "appId": 1,
               "parentId": 15,
               "slug": "causes-of-abdominal-distension",
-              "authorId": 1             
+              "authorId": 1
             },
             {
               "id": 132,
@@ -444,7 +443,7 @@
               "appId": 1,
               "parentId": 15,
               "slug": "causes-of-abdominal-distension",
-              "authorId": 1  
+              "authorId": 1
             },
             {
               "id": 133,
@@ -454,7 +453,7 @@
               "appId": 1,
               "parentId": 15,
               "slug": "managment-of-oesophageal-varices",
-              "authorId": 1 
+              "authorId": 1
             },
             {
               "id": 134,
@@ -464,7 +463,7 @@
               "appId": 1,
               "parentId": 15,
               "slug": "risk-factors-for-gallstones",
-              "authorId": 1 
+              "authorId": 1
             },
             {
               "id": 135,
@@ -474,7 +473,7 @@
               "appId": 1,
               "parentId": 15,
               "slug": "symptoms-of-dyspepsia",
-              "authorId": 1 
+              "authorId": 1
             }
           ]
         },
@@ -515,7 +514,7 @@
               "appId": 1,
               "parentId": 17,
               "slug": "alcohols-effect-on-warfarin-metabolism",
-              "authorId": 1 
+              "authorId": 1
             }
           ]
         },
@@ -541,7 +540,7 @@
               "appId": 1,
               "parentId": 18,
               "slug": "egfr-variables-for-mdrd-equation",
-              "authorId": 1 
+              "authorId": 1
             },
             {
               "id": 138,
@@ -551,7 +550,7 @@
               "appId": 1,
               "parentId": 18,
               "slug": "gfr-categories-for-ckd-classification",
-              "authorId": 1 
+              "authorId": 1
             },
             {
               "id": 139,
@@ -561,7 +560,7 @@
               "appId": 1,
               "parentId": 18,
               "slug": "indications-for-acute-dialysis",
-              "authorId": 1 
+              "authorId": 1
             },
             {
               "id": 140,
@@ -571,7 +570,7 @@
               "appId": 1,
               "parentId": 18,
               "slug": "opioid-prescribing-in-renal-impairement",
-              "authorId": 1 
+              "authorId": 1
             },
             {
               "id": 141,
@@ -581,7 +580,7 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 18,
-              "authorId": 1 
+              "authorId": 1
             },
             {
               "id": 142,
@@ -591,7 +590,7 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 18,
-              "authorId": 1 
+              "authorId": 1
             }
           ]
         },
@@ -617,8 +616,7 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 19,
-              "authorId": 1 
-
+              "authorId": 1
             },
             {
               "id": 144,
@@ -628,7 +626,7 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 19,
-              "authorId": 1 
+              "authorId": 1
             },
             {
               "id": 145,
@@ -638,7 +636,7 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 19,
-              "authorId": 1 
+              "authorId": 1
             },
             {
               "id": 146,
@@ -648,7 +646,7 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 19,
-              "authorId": 1 
+              "authorId": 1
             },
             {
               "id": 147,
@@ -658,7 +656,7 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 19,
-              "authorId": 1 
+              "authorId": 1
             },
             {
               "id": 148,
@@ -668,7 +666,7 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 19,
-              "authorId": 1 
+              "authorId": 1
             }
           ]
         },
@@ -888,12 +886,66 @@
           "slug": "pulmonary",
           "submenu": false,
           "children": [
-            "Assessing severity of community acquired pneumonia",
-            "Causes of exudative pleural effusion",
-            "Causes of lower zone pulmonary fibrosis",
-            "Causes of transudative pleural effusion",
-            "Causes of upper zone pulmonary fibrosis",
-            "Non-therapeutic management of COPD"
+            {
+              "id": 240,
+              "name": "Assessing severity of community acquired pneumonia",
+              "component": "AssessingSeverityOfCommunityAcquiredPneumonia",
+              "slug": "assessing-severity-of-community-acquired-pneumonia",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 30,
+              "authorId": 1
+            },
+            {
+              "id": 241,
+              "name": "Causes of exudative pleural effusion",
+              "component": "CausesOfExudativePleuralEffusion",
+              "slug": "causes-of-exudative-pleural-effusion",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 30,
+              "authorId": 1
+            },
+            {
+              "id": 242,
+              "name": "Causes of lower zone pulmonary fibrosis",
+              "component": "CausesOfLowerZonePulmonaryFibrosis",
+              "slug": "causes-of-lower-zone-pulmonary-fibrosis",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 30,
+              "authorId": 1
+            },
+            {
+              "id": 243,
+              "name": "Causes of transudative pleural effusion",
+              "component": "CausesOfTransudativePleuralEffusion",
+              "slug": "causes-of-transudative-pleural-effusion",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 30,
+              "authorId": 1
+            },
+            {
+              "id": 244,
+              "name": "Causes of upper zone pulmonary fibrosis",
+              "component": "CausesOfUpperZonePulmonaryFibrosis",
+              "slug": "causes-of-upper-zone-pulmonary-fibrosis",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 30,
+              "authorId": 1
+            },
+            {
+              "id": 245,
+              "name": "Non-therapeutic management of COPD",
+              "component": "NonTherapeuticManagementOfCopd",
+              "slug": "non-therapeutic-management-of-copd",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 30,
+              "authorId": 1
+            }
           ]
         },
         {
@@ -908,14 +960,50 @@
           "slug": "syndromes",
           "submenu": false,
           "children": [
-            "Antenatal screening for Down's syndrome",
-            "Management of Raynaud's phenomenon",
-            "Marfan syndrome",
-            "Symptoms of serotinin syndrome"
+            {
+              "id": 250,
+              "name": "Antenatal screening for Down's syndrome",
+              "component": "AntenatalScreeningForDownsSyndrome",
+              "slug": "antenatal-screening-for-downs-syndrome",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 30,
+              "authorId": 1
+            },
+            {
+              "id": 251,
+              "name": "Management of Raynaud's phenomenon",
+              "component": "ManagementOfRaynaudsPhenomenon",
+              "slug": "management-of-raynauds-phenomenon",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 30,
+              "authorId": 1
+            },
+            {
+              "id": 252,
+              "name": "Marfan syndrome",
+              "component": "MarfanSyndrome",
+              "slug": "marfan-syndrome",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 30,
+              "authorId": 1
+            },
+            {
+              "id": 253,
+              "name": "Symptoms of serotinin syndrome",
+              "component": "SymptomsOfSerotininSyndrome",
+              "slug": "symptoms-of-serotinin-syndrome",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 30,
+              "authorId": 1
+            }
           ]
         },
         {
-          "id": 26,
+          "id": 30,
           "name": "Other",
           "author": "",
           "subtitle": "",
@@ -926,17 +1014,116 @@
           "slug": "other",
           "submenu": false,
           "children": [
-            "Adjuvant therapy for colorectal cancer",
-            "Causes of clubbing",
-            "Extra parts of gynaecological history taking",
-            "Extra parts of psychiatric history taking",
-            "Life threatening thoracic trauma",
-            "Limited cutaneous systemic sclerosis",
-            "Management of stress incontinence",
-            "Manegement of nocturnal enuresis",
-            "Morphoeic BCC",
-            "Phaeochromocytoma",
-            "RA Vs OA X-ray findings"
+            {
+              "id": 300,
+              "name": "Adjuvant therapy for colorectal cancer",
+              "component": "AdjuvantTherapyForColorectalCancer",
+              "slug": "adjuvant-therapy-for-colorectal-cancer",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 30,
+              "authorId": 1
+            },
+            {
+              "id": 301,
+              "name": "Causes of clubbing",
+              "component": "CausesOfClubbing",
+              "slug": "causes-of-clubbing",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 30,
+              "authorId": 1
+            },
+            {
+              "id": 302,
+              "name": "Extra parts of gynaecological history taking",
+              "component": "ExtraPartsOfGynaecologicalHistoryTaking",
+              "slug": "extra-parts-of-gynaecological-history-taking",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 30,
+              "authorId": 1
+            },
+            {
+              "id": 303,
+              "name": "Extra parts of psychiatric history taking",
+              "component": "ExtraPartsOfPsychiatricHistoryTaking",
+              "slug": "extra-parts-of-psychiatric-history-taking",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 30,
+              "authorId": 1
+            },
+            {
+              "id": 304,
+              "name": "Life threatening thoracic trauma",
+              "component": "LifeThreateningThoracicTrauma",
+              "slug": "life-threatening-thoracic-trauma",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 30,
+              "authorId": 1
+            },
+            {
+              "id": 305,
+              "name": "Limited cutaneous systemic sclerosis",
+              "component": "LimitedCutaneousSystemicSclerosis",
+              "slug": "limited-cutaneous-systemic-sclerosis",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 30,
+              "authorId": 1
+            },
+            {
+              "id": 306,
+              "name": "Management of stress incontinence",
+              "component": "ManagementOfStressIncontinence",
+              "slug": "management-of-stress-incontinence",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 30,
+              "authorId": 1
+            },
+            {
+              "id": 307,
+              "name": "Manegement of nocturnal enuresis",
+              "component": "ManegementOfNocturnalEnuresis",
+              "slug": "manegement-of-nocturnal-enuresis",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 30,
+              "authorId": 1
+            },
+            {
+              "id": 308,
+              "name": "Morphoeic BCC",
+              "component": "MorphoeicBCC",
+              "slug": "morphoeic-bcc",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 30,
+              "authorId": 1
+            },
+            {
+              "id": 309,
+              "name": "Phaeochromocytoma",
+              "component": "Phaeochromocytoma",
+              "slug": "phaeochromocytoma",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 30,
+              "authorId": 1
+            },
+            {
+              "id": 310,
+              "name": "RA Vs OA X-ray findings",
+              "component": "RaVsOaXRayFindings",
+              "slug": "ra-vs-oa-xray-findings",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 30,
+              "authorId": 1
+            }
           ]
         }
       ]
@@ -1067,7 +1254,9 @@
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "geriatrics",
           "submenu": false,
-          "children": ["4 As test Delirum"]
+          "children": [
+            "4 As test Delirum"
+          ]
         },
         {
           "id": 25,
@@ -1097,7 +1286,9 @@
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "hepatology",
           "submenu": false,
-          "children": ["Cirrhosis causes"]
+          "children": [
+            "Cirrhosis causes"
+          ]
         },
         {
           "id": 27,
@@ -1228,8 +1419,10 @@
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "psychiatry",
           "submenu": false,
-          "children": ["ADHD", 
-            "Bipolar disorder"]
+          "children": [
+            "ADHD",
+            "Bipolar disorder"
+          ]
         },
         {
           "id": 34,
@@ -1260,8 +1453,10 @@
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "surgery",
           "submenu": false,
-          "children": ["Perianal abscess", 
-            "Surgical incisions"]
+          "children": [
+            "Perianal abscess",
+            "Surgical incisions"
+          ]
         },
         {
           "id": 36,
@@ -1300,7 +1495,9 @@
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "urology",
           "submenu": false,
-          "children": ["BPH"]
+          "children": [
+            "BPH"
+          ]
         },
         {
           "id": 38,
