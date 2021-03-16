@@ -334,7 +334,7 @@
       ]
     },
     {
-      "id": 19,
+      "id": 18,
       "name": "Study-notes",
       "author": "",
       "subtitle": "",
@@ -346,12 +346,12 @@
       "submenu": false,
       "children": [
         {
-          "id": 20,
+          "id": 19,
           "name": "Cardiology-Vascular",
           "author": "",
           "subtitle": "",
           "appId": 1,
-          "parentId": 19,
+          "parentId": 18,
           "type": "html",
           "content": "Contenu à afficher",
           "slug": "cardiology-vascular",
@@ -373,12 +373,12 @@
           ]
         },
         {
-          "id": 21,
+          "id": 20,
           "name": "Dermatology",
           "author": "",
           "subtitle": "",
           "appId": 1,
-          "parentId": 19,
+          "parentId": 18,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "dermatology",
@@ -392,12 +392,12 @@
           ]
         },
         {
-          "id": 22,
+          "id": 21,
           "name": "Ear,Nose,Throat",
           "author": "",
           "subtitle": "",
           "appId": 1,
-          "parentId": 19,
+          "parentId": 18,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "ear-nose-throat",
@@ -411,12 +411,12 @@
           ]
         },
         {
-          "id": 23,
+          "id": 22,
           "name": "Endocrinology",
           "author": "",
           "subtitle": "",
           "appId": 1,
-          "parentId": 19,
+          "parentId": 18,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "endocrinology",
@@ -430,12 +430,12 @@
           ]
         },
         {
-          "id": 24,
+          "id": 23,
           "name": "Gastroenterology",
           "author": "",
           "subtitle": "",
           "appId": 1,
-          "parentId": 19,
+          "parentId": 18,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "gastroenterology",
@@ -449,12 +449,12 @@
           ]
         },
         {
-          "id": 25,
+          "id": 24,
           "name": "Geriatrics",
           "author": "",
           "subtitle": "",
           "appId": 1,
-          "parentId": 19,
+          "parentId": 18,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "geriatrics",
@@ -462,12 +462,12 @@
           "children": ["4 As test Delirum"]
         },
         {
-          "id": 26,
+          "id": 25,
           "name": "Haematology",
           "author": "",
           "subtitle": "",
           "appId": 1,
-          "parentId": 19,
+          "parentId": 18,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": " ",
@@ -479,12 +479,12 @@
           ]
         },
         {
-          "id": 27,
+          "id": 26,
           "name": "Hepatology",
           "author": "",
           "subtitle": "",
           "appId": 1,
-          "parentId": 19,
+          "parentId": 18,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "hepatology",
@@ -492,12 +492,12 @@
           "children": ["Cirrhosis causes"]
         },
         {
-          "id": 28,
+          "id": 27,
           "name": "Nephrology",
           "author": "",
           "subtitle": "",
           "appId": 1,
-          "parentId": 19,
+          "parentId": 18,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "nephrology",
@@ -510,12 +510,12 @@
           ]
         },
         {
-          "id": 29,
+          "id": 28,
           "name": "Neurology",
           "author": "",
           "subtitle": "",
           "appId": 1,
-          "parentId": 19,
+          "parentId": 18,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "neurology",
@@ -533,12 +533,12 @@
           ]
         },
         {
-          "id": 30,
+          "id": 29,
           "name": "Oncology",
           "author": "",
           "subtitle": "",
           "appId": 1,
-          "parentId": 19,
+          "parentId": 18,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "oncology",
@@ -553,12 +553,12 @@
           ]
         },
         {
-          "id": 31,
+          "id": 30,
           "name": "Ophtalmology",
           "author": "",
           "subtitle": "",
           "appId": 1,
-          "parentId": 19,
+          "parentId": 18,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "ophtalmology",
@@ -570,12 +570,12 @@
           ]
         },
         {
-          "id": 32,
+          "id": 31,
           "name": "Orthopedy",
           "author": "",
           "subtitle": "",
           "appId": 1,
-          "parentId": 19,
+          "parentId": 18,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "orthopedy",
@@ -592,12 +592,12 @@
           ]
         },
         {
-          "id": 33,
+          "id": 32,
           "name": "Pharmacology",
           "author": "",
           "subtitle": "",
           "appId": 1,
-          "parentId": 19,
+          "parentId": 18,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "pharmacology",
@@ -610,12 +610,12 @@
           ]
         },
         {
-          "id": 34,
+          "id": 33,
           "name": "Psychiatry",
           "author": "",
           "subtitle": "",
           "appId": 1,
-          "parentId": 19,
+          "parentId": 18,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "psychiatry",
@@ -623,12 +623,12 @@
           "children": ["ADHD", "Bipolar disorder"]
         },
         {
-          "id": 35,
+          "id": 34,
           "name": "Pulmonary",
           "author": "",
           "subtitle": "",
           "appId": 1,
-          "parentId": 19,
+          "parentId": 18,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "pulmonary",
@@ -641,12 +641,12 @@
           ]
         },
         {
-          "id": 36,
+          "id": 35,
           "name": "Surgery",
           "author": "",
           "subtitle": "",
           "appId": 1,
-          "parentId": 19,
+          "parentId": 18,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "surgery",
@@ -654,12 +654,12 @@
           "children": ["Perianal abscess", "Surgical incisions"]
         },
         {
-          "id": 37,
+          "id": 36,
           "name": "Syndromes",
           "author": "",
           "subtitle": "",
           "appId": 1,
-          "parentId": 19,
+          "parentId": 18,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "syndromes",
@@ -680,12 +680,12 @@
           ]
         },
         {
-          "id": 38,
+          "id": 37,
           "name": "Urology",
           "author": "",
           "subtitle": "",
           "appId": 1,
-          "parentId": 19,
+          "parentId": 18,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "urology",
@@ -693,12 +693,12 @@
           "children": ["BPH"]
         },
         {
-          "id": 39,
+          "id": 38,
           "name": "Other",
           "author": "",
           "subtitle": "",
           "appId": 1,
-          "parentId": 19,
+          "parentId": 18,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "other",
