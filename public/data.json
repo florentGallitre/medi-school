@@ -8,7 +8,12 @@
       "id": 1,
       "name": "Mnemonics",
       "subtitle": "Sous-titre facultatif",
-      "author": "",
+      "author": [
+        {
+        "id": 1,
+        "name": "med_nmemomics"
+        }
+      ],
       "appId": 1,
       "parentId": null,
       "type": "list",
@@ -17,10 +22,13 @@
       "submenu": false,
       "children": [
         {
-          "id": 2,
+          "id": 10,
           "name": "Cardiology",
           "author": "",
           "subtitle": "Sous-titre",
+          "authorId": [
+            1
+          ],
           "appId": 1,
           "parentId": 1,
           "type": "html",
@@ -28,60 +36,247 @@
           "slug": "cardiology",
           "submenu": false,
           "children": [
-            "Aortic stenosis triad",
-            "Causes of cardiogenic shock",
-            "Causes of high output heart failure",
-            "Complications of myocardial infarction",
-            "CXR heart failure",
-            "Cyanotic congenital heart defects",
-            "Management of heart failure",
-            "Management option for peripheral vascular disease",
-            "p mitrale Vs p pulmonale",
-            "Reversible causes of cardiac arrest"
+            {
+              "id": 100,
+              "name": "Aortic stenosis triad",
+              "component": "AorticStenosisTriad",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 10,
+              "slug": "aortic-stenosis-Triad",
+              "authorId": 1
+            },
+            {
+              "id": 101,
+              "name": "Causes of cardiogenic shock",
+              "component": "CausesOfCardiogenicSchock",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 10,
+              "slug": "causes-of-cardiogenic-schock",
+              "authorId": 1
+            },
+            {
+              "id": 102,
+              "name": "Causes of high output heart failure",
+              "component": "CausesOfHighOutputHeartFailure",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 10,
+              "slug": "causes-of-high-output-heart-failre",
+              "authorId": 1
+            },
+            {
+              "id": 103,
+              "name": "Complications of myocardial infarction",
+              "component": "ComplicationsOfMyocardialInfarction",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 10,
+              "slug": "complications-of-myocardial-infarction",
+              "authorId": 1
+            },
+            {
+              "id": 104,
+              "name": "CXR heart failure",
+              "component": "CXRHeartFailure",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 10,
+              "slug": "crx-heart-failure",
+              "authorId": 1
+            },
+            {
+              "id":105,
+              "name":"Cyanotic congenital heart defects",
+              "component": "CyanoticCongenitalHeartDefects",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 10,
+              "slug": "cyanotic-congenital-heart-defects",
+              "authorId": 1
+            },
+            {
+              "id": 106,
+              "name": "Management of heart failure",
+              "component": "ManagementOfHeartFailure",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 10,
+              "slug": "managment-of-heart-failure",
+              "authorId": 1
+              },
+            {
+              "id": 107,
+              "name": "Management option for peripheral vascular disease",
+              "component": "ManagementOptionForPeripheralVascularDisease",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 10,
+              "slug": "managment-option-for-peripheral-vascular-disease",
+              "authorId": 1
+              },
+            {
+              "id": 108,
+              "name": "mitrale Vs p pulmonale",
+              "component": "MitraleVsPPulmonale",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 10,
+              "slug": "mitrale-vs-p-pulmonale",
+              "authorId": 1
+            },
+            {
+              "id": 109,
+              "name": "Reversible causes of cardiac arrest",
+              "component": "ReversibleCausesOfCardiacArrest",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 10,
+              "slug": "reversible-causes-of-cardiac-arrest",
+              "authorId": 1
+            }
           ]
         },
         {
-          "id": 3,
+          "id": 11,
           "name": "Dermatology",
           "author": "",
           "subtitle": "",
           "appId": 1,
           "parentId": 1,
+          "authorId": [
+            1
+          ],
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "dermatology",
           "submenu": false,
           "children": [
-            "Eczema management",
-            "Henoch-Schonlein Purpura",
-            "Management of psoriasis",
-            "PemphigUS Vs PemphigOID"
+            {
+              "id": 110,
+              "name": "Eczema management",
+              "component": "EczemaManagment",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 11,
+              "slug": "eczema-managment",
+              "authorId": 1
+            },
+            {
+              "id": 111,
+              "name": "Henoch-Schonlein Purpura",
+              "component": "HenochSchonleinPurpura",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 11,
+              "slug": "henoch-schonlein-purpura",
+              "authorId": 1
+            },
+            {
+              "id": 112,
+              "name": "Management of psoriasis",
+              "component": "ManagementOfPsoriasis",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 11,
+              "slug": "management-of-psoriasis",
+              "authorId": 1
+            },
+            {
+              "id": 113,
+              "name": "PemphigUS Vs PemphigOID",
+              "component": "PemphigUSVsPemphigOID",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 11,
+              "slug": "pemphigus-vs-pemphigoid",
+              "authorId": 1
+            }
           ]
         },
         {
-          "id": 4,
+          "id": 12,
           "name": "Drugs and vaccines",
           "author": "",
           "subtitle": "",
           "appId": 1,
+          "authorId": [
+            1
+          ],
           "parentId": 1,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "drugs-and-vaccines",
           "submenu": false,
           "children": [
-            "Contraindications of ACE-I",
-            "Drugs that cause agranulocytosis",
-            "Drugs that induce and exacerbate AKI",
-            "LIVE attenuated vaccines (+Varicella zoster)",
-            "Side effects of ACE-I",
-            "Side effects of Levodopa",
+            {
+              "id": 114,
+              "name": "Contraindications of ACE-I",
+              "component": "ContraindicationsOfACEI",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 12,
+              "slug": "contraindications-of-ace-i",
+              "authorId": 1
+            },
+            {
+              "id": 115,
+              "name": "Drugs that cause agranulocytosis",
+              "component": "DrugsThatCauseAgranulocytosis",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 12,
+              "slug": "drugs-that-cause-agranulocytosis",
+              "authorId": 1
+            }
+              ,
+            {
+              "id": 116,
+              "name": "Drugs that induce and exacerbate AKI",
+              "component": "DrugsThatInduceAndExacerbateAKI",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 12,
+              "slug": "drugs-that-induce-and-exacerbate-aki",
+              "authorId": 1
+            },
+            {
+              "id": 117,
+              "name": "LIVE attenuated vaccines (+Varicella zoster)",
+              "component": "LiveAttenuatedVaccinesPlusVaricellaZoster",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 12,
+              "slug": "live-attenuated-vaccines-plus-varicella-zoster",
+              "authorId": 1
+            },
+            {
+              "id": 118,
+              "name": "Side effects of ACE-I",
+              "component": "SideEffectsOfAceI",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 12,
+              "slug": "side-effects-of-ace-i",
+              "authorId": 1
+            },
+            {
+              "id": 119,
+              "name": "Side effects of Levodopa",
+              "component": "SideEffectsOfLevodopa",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 12,
+              "slug": "side-effects-of-ace-i",
+              "authorId": 1
+            },
             "Side effects of Lithium",
             "Steroids adverse effects and cautions"
           ]
         },
         {
-          "id": 5,
+          "id": 13,
           "name": "Ear,Nose,Throat",
           "author": "",
           "subtitle": "",
@@ -94,7 +289,7 @@
           "children": ["Causative organisms of otitis externa"]
         },
         {
-          "id": 6,
+          "id": 14,
           "name": "Endocrinology",
           "author": "",
           "subtitle": "",
@@ -116,7 +311,7 @@
           ]
         },
         {
-          "id": 7,
+          "id": 15,
           "name": "Gastroenterology",
           "author": "",
           "subtitle": "",
@@ -135,7 +330,7 @@
           ]
         },
         {
-          "id": 8,
+          "id": 16,
           "name": "Gyn&Obs",
           "author": "",
           "subtitle": "",
@@ -148,7 +343,7 @@
           "children": [""]
         },
         {
-          "id": 9,
+          "id": 17,
           "name": "Hepatology",
           "author": "",
           "subtitle": "",
@@ -161,7 +356,7 @@
           "children": ["Alcohol's effect on warfarin metabolism"]
         },
         {
-          "id": 10,
+          "id": 18,
           "name": "Nephrology",
           "author": "",
           "subtitle": "",
@@ -181,7 +376,7 @@
           ]
         },
         {
-          "id": 11,
+          "id": 19,
           "name": "Neurology",
           "author": "",
           "subtitle": "",
@@ -201,7 +396,7 @@
           ]
         },
         {
-          "id": 12,
+          "id": 20,
           "name": "Ophtalmology",
           "author": "",
           "subtitle": "",
@@ -214,7 +409,7 @@
           "children": ["Colles fracture"]
         },
         {
-          "id": 13,
+          "id": 21,
           "name": "Orthopedy",
           "author": "",
           "subtitle": "",
@@ -232,7 +427,7 @@
           ]
         },
         {
-          "id": 13,
+          "id": 22,
           "name": "Paediatrics",
           "author": "",
           "subtitle": "",
@@ -253,7 +448,7 @@
           ]
         },
         {
-          "id": 14,
+          "id": 23,
           "name": "Palliative care",
           "author": "",
           "subtitle": "",
@@ -269,7 +464,7 @@
           ]
         },
         {
-          "id": 15,
+          "id": 24,
           "name": "Pulmonary",
           "author": "",
           "subtitle": "",
@@ -289,7 +484,7 @@
           ]
         },
         {
-          "id": 16,
+          "id": 25,
           "name": "Syndromes",
           "author": "",
           "subtitle": "",
@@ -307,7 +502,7 @@
           ]
         },
         {
-          "id": 17,
+          "id": 26,
           "name": "Other",
           "author": "",
           "subtitle": "",
@@ -334,7 +529,7 @@
       ]
     },
     {
-      "id": 18,
+      "id": 27,
       "name": "Study-notes",
       "author": "",
       "subtitle": "",
@@ -373,7 +568,7 @@
           ]
         },
         {
-          "id": 20,
+          "id": 28,
           "name": "Dermatology",
           "author": "",
           "subtitle": "",
@@ -392,7 +587,7 @@
           ]
         },
         {
-          "id": 21,
+          "id": 29,
           "name": "Ear,Nose,Throat",
           "author": "",
           "subtitle": "",
@@ -411,7 +606,7 @@
           ]
         },
         {
-          "id": 22,
+          "id": 30,
           "name": "Endocrinology",
           "author": "",
           "subtitle": "",
@@ -430,7 +625,7 @@
           ]
         },
         {
-          "id": 23,
+          "id": 31,
           "name": "Gastroenterology",
           "author": "",
           "subtitle": "",
@@ -449,7 +644,7 @@
           ]
         },
         {
-          "id": 24,
+          "id": 32,
           "name": "Geriatrics",
           "author": "",
           "subtitle": "",
