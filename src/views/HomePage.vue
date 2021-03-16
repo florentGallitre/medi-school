@@ -7,11 +7,9 @@
         The best place to study medicine, created just for you. You can access
         study notes, mnemonics.
       </p>
-      <ul class="primary">
-        <li v-for="section in appSection" :key="section.name">
-          {{ section.name }}
-        </li>
-      </ul>
+      <div v-for="section in appSection" :key="section.name">
+        <ThemeButton :themeName="section.name" />
+      </div>
     </div>
   </div>
 </template>
