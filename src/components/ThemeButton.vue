@@ -1,12 +1,16 @@
 <template>
-  <div class="theme-btn"></div>
+  <div class="theme-btn">
+    <button>{{ themeName }}</button>
+  </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
 
-@Component
-export default class ThemButton extends Vue {}
+export default Vue.extend({
+  name: "ThemeButton",
+  props: ["themeName"],
+});
 </script>
 
 <style lang="scss">
