@@ -7,9 +7,17 @@
         The best place to study medicine, created just for you. You can access
         study notes, mnemonics.
       </p>
+<<<<<<< HEAD
       <keep-alive>
         <component v-bind:is="currentTheme"></component>
       </keep-alive>
+=======
+      <ul class="primary">
+        <li v-for="section in appSection" :key="section.name">
+          {{ section.name }}
+        </li>
+      </ul>
+>>>>>>> a4ac920619885f8fee98d39112a80c65891b4b5b
     </div>
   </div>
 </template>
@@ -19,11 +27,12 @@ import axios from "axios";
 import Vue from "vue";
 import Auth from "../service/Auth";
 import HomePageHeader from "@/components/HomePageHeader.vue";
+import ThemeButton from "@/components/ThemeButton.vue";
 import DataService from "@/service/DataService";
 
 export default Vue.extend({
   name: "HomePage",
-  components: { HomePageHeader },
+  components: { HomePageHeader, ThemeButton },
   data() {
     return {
       appInfo: {},
@@ -33,25 +42,28 @@ export default Vue.extend({
   },
   mounted() {
     // const slug = this.$route.params.slug;
-    // console.log(slug);
     this.loadData().then((result: any) => {
       this.appInfo = result.appData;
       this.appSection = result.tree;
-      console.log(this.appSection[1].children);
-      // faire boucle dans les sections (2) et les mettre dans une variable et faire une boucle dans template 
-      DataService.load()
-        .then(() => {
-          const cat = this.searchBySlug(DataService.$data.tree, slug);
+      // this.appSection.forEach((section) => {
+      //   console.log(section.name);
+      // });
 
-          if (cat === null) {
-            this.notFound = true;
-          } else {
-            this.currentComponent = cat.component;
-          }
-        })
-        .catch((e) => {
-          console.log(e);
-        });
+      // faire boucle dans les sections (2) et les mettre dans une variable et faire une boucle dans template
+
+      // DataService.load()
+      //   .then(() => {
+      //     const cat = this.searchBySlug(DataService.$data.tree, slug);
+
+      //     if (cat === null) {
+      //       this.notFound = true;
+      //     } else {
+      //       this.currentComponent = cat.component;
+      //     }
+      //   })
+      //   .catch((e) => {
+      //     console.log(e);
+      //   });
     });
   },
   methods: {
@@ -71,9 +83,6 @@ export default Vue.extend({
     //     //     return subCategory;
     //     //   }
     //     // }
-      }
-    
-  
+  },
 });
 </script>
-
