@@ -8,7 +8,12 @@
       "id": 1,
       "name": "Mnemonics",
       "subtitle": "Sous-titre facultatif",
-      "author": "",
+      "author": [
+        {
+          "id": 1,
+          "name": "med_nmemomics"
+        }
+      ],
       "appId": 1,
       "parentId": null,
       "type": "list",
@@ -17,10 +22,12 @@
       "submenu": false,
       "children": [
         {
-          "id": 2,
+          "id": 10,
           "name": "Cardiology",
-          "author": "",
           "subtitle": "Sous-titre",
+          "authorId": [
+            1
+          ],
           "appId": 1,
           "parentId": 1,
           "type": "html",
@@ -28,143 +35,496 @@
           "slug": "cardiology",
           "submenu": false,
           "children": [
-            "Aortic stenosis triad",
-            "Causes of cardiogenic shock",
-            "Causes of high output heart failure",
-            "Complications of myocardial infarction",
-            "CXR heart failure",
-            "Cyanotic congenital heart defects",
-            "Management of heart failure",
-            "Management option for peripheral vascular disease",
-            "p mitrale Vs p pulmonale",
-            "Reversible causes of cardiac arrest"
+            {
+              "id": 100,
+              "name": "Aortic stenosis triad",
+              "component": "AorticStenosisTriad",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 10,
+              "slug": "aortic-stenosis-Triad",
+              "authorId": 1
+            },
+            {
+              "id": 101,
+              "name": "Causes of cardiogenic shock",
+              "component": "CausesOfCardiogenicSchock",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 10,
+              "slug": "causes-of-cardiogenic-schock",
+              "authorId": 1
+            },
+            {
+              "id": 102,
+              "name": "Causes of high output heart failure",
+              "component": "CausesOfHighOutputHeartFailure",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 10,
+              "slug": "causes-of-high-output-heart-failre",
+              "authorId": 1
+            },
+            {
+              "id": 103,
+              "name": "Complications of myocardial infarction",
+              "component": "ComplicationsOfMyocardialInfarction",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 10,
+              "slug": "complications-of-myocardial-infarction",
+              "authorId": 1
+            },
+            {
+              "id": 104,
+              "name": "CXR heart failure",
+              "component": "CXRHeartFailure",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 10,
+              "slug": "crx-heart-failure",
+              "authorId": 1
+            },
+            {
+              "id": 105,
+              "name": "Cyanotic congenital heart defects",
+              "component": "CyanoticCongenitalHeartDefects",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 10,
+              "slug": "cyanotic-congenital-heart-defects",
+              "authorId": 1
+            },
+            {
+              "id": 106,
+              "name": "Management of heart failure",
+              "component": "ManagementOfHeartFailure",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 10,
+              "slug": "managment-of-heart-failure",
+              "authorId": 1
+            },
+            {
+              "id": 107,
+              "name": "Management option for peripheral vascular disease",
+              "component": "ManagementOptionForPeripheralVascularDisease",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 10,
+              "slug": "managment-option-for-peripheral-vascular-disease",
+              "authorId": 1
+            },
+            {
+              "id": 108,
+              "name": "mitrale Vs p pulmonale",
+              "component": "MitraleVsPPulmonale",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 10,
+              "slug": "mitrale-vs-p-pulmonale",
+              "authorId": 1
+            },
+            {
+              "id": 109,
+              "name": "Reversible causes of cardiac arrest",
+              "component": "ReversibleCausesOfCardiacArrest",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 10,
+              "slug": "reversible-causes-of-cardiac-arrest",
+              "authorId": 1
+            }
           ]
         },
         {
-          "id": 3,
+          "id": 11,
           "name": "Dermatology",
-          "author": "",
           "subtitle": "",
           "appId": 1,
           "parentId": 1,
+          "authorId": [
+            1
+          ],
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "dermatology",
           "submenu": false,
           "children": [
-            "Eczema management",
-            "Henoch-Schonlein Purpura",
-            "Management of psoriasis",
-            "PemphigUS Vs PemphigOID"
+            {
+              "id": 110,
+              "name": "Eczema management",
+              "component": "EczemaManagment",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 11,
+              "slug": "eczema-managment",
+              "authorId": 1
+            },
+            {
+              "id": 111,
+              "name": "Henoch-Schonlein Purpura",
+              "component": "HenochSchonleinPurpura",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 11,
+              "slug": "henoch-schonlein-purpura",
+              "authorId": 1
+            },
+            {
+              "id": 112,
+              "name": "Management of psoriasis",
+              "component": "ManagementOfPsoriasis",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 11,
+              "slug": "management-of-psoriasis",
+              "authorId": 1
+            },
+            {
+              "id": 113,
+              "name": "PemphigUS Vs PemphigOID",
+              "component": "PemphigUSVsPemphigOID",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 11,
+              "slug": "pemphigus-vs-pemphigoid",
+              "authorId": 1
+            }
           ]
         },
         {
-          "id": 4,
+          "id": 12,
           "name": "Drugs and vaccines",
-          "author": "",
           "subtitle": "",
           "appId": 1,
+          "authorId": [
+            1
+          ],
           "parentId": 1,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "drugs-and-vaccines",
           "submenu": false,
           "children": [
-            "Contraindications of ACE-I",
-            "Drugs that cause agranulocytosis",
-            "Drugs that induce and exacerbate AKI",
-            "LIVE attenuated vaccines (+Varicella zoster)",
-            "Side effects of ACE-I",
-            "Side effects of Levodopa",
-            "Side effects of Lithium",
-            "Steroids adverse effects and cautions"
+            {
+              "id": 114,
+              "name": "Contraindications of ACE-I",
+              "component": "ContraindicationsOfACEI",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 12,
+              "slug": "contraindications-of-ace-i",
+              "authorId": 1
+            },
+            {
+              "id": 115,
+              "name": "Drugs that cause agranulocytosis",
+              "component": "DrugsThatCauseAgranulocytosis",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 12,
+              "slug": "drugs-that-cause-agranulocytosis",
+              "authorId": 1
+            },
+            {
+              "id": 116,
+              "name": "Drugs that induce and exacerbate AKI",
+              "component": "DrugsThatInduceAndExacerbateAKI",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 12,
+              "slug": "drugs-that-induce-and-exacerbate-aki",
+              "authorId": 1
+            },
+            {
+              "id": 117,
+              "name": "LIVE attenuated vaccines (+Varicella zoster)",
+              "component": "LiveAttenuatedVaccinesPlusVaricellaZoster",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 12,
+              "slug": "live-attenuated-vaccines-plus-varicella-zoster",
+              "authorId": 1
+            },
+            {
+              "id": 118,
+              "name": "Side effects of ACE-I",
+              "component": "SideEffectsOfAceI",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 12,
+              "slug": "side-effects-of-ace-i",
+              "authorId": 1
+            },
+            {
+              "id": 119,
+              "name": "Side effects of Levodopa",
+              "component": "SideEffectsOfLevodopa",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 12,
+              "slug": "side-effects-of-levodopa",
+              "authorId": 1
+            },
+            {
+              "id": 120,
+              "name": "Side effects of Lithium",
+              "component": "SideEffectsOfLithium",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 12,
+              "slug": "side-effects-of-lithium",
+              "authorId": 1
+            },
+            {
+              "id": 121,
+              "name": "Steroids adverse effects and cautions",
+              "component": "SteroidsAdverseEffectsAndCautions",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 12,
+              "slug": "steroids-adverse-effects-and-cautions",
+              "authorId": 1
+            }
           ]
         },
         {
-          "id": 5,
+          "id": 13,
           "name": "Ear,Nose,Throat",
-          "author": "",
           "subtitle": "",
           "appId": 1,
+          "authorId": [
+            1
+          ],
           "parentId": 1,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "ear-nose-throat",
           "submenu": false,
-          "children": ["Causative organisms of otitis externa"]
+          "children": [
+            {
+              "id": 122,
+              "name": "Causative organisms of otitis externa",
+              "component": "CausativeOrganismsOfOtitisExterna",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 13,
+              "slug": "causative-organisms-of-otitis-externa",
+              "authorId": 1
+            }
+          ]
         },
         {
-          "id": 6,
+          "id": 14,
           "name": "Endocrinology",
-          "author": "",
           "subtitle": "",
           "appId": 1,
+          "authorId": [
+            1
+          ],
           "parentId": 1,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "endocrinology",
           "submenu": false,
           "children": [
-            "Causes of hypocalcaemia",
-            "Management of DKA",
-            "Management of thyroid storm",
-            "Precipitants of DKA",
-            "Presentation of hypercalcaemia",
-            "Presentation of hypocalcaemia",
-            "Thyroid status",
-            "Types of multiple endocrine neoplasia"
+            {
+              "id": 123,
+              "name": "Causes of hypocalcaemia",
+              "component": "CausesOfHypocalcaemia",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 14,
+              "slug": "causes-of-of-hypocal-caemia",
+              "authorId": 1
+            },
+            {
+              "id": 124,
+              "name": "Management of DKA",
+              "component": "ManagementOfDKA",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 14,
+              "slug": "managment-of-dka",
+              "authorId": 1
+            },
+            {
+              "id": 125,
+              "name": "Management of thyroid storm",
+              "component": "ManagementOfThyroidStorm",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 14,
+              "slug": "managment-of-thyroid-storm",
+              "authorId": 1
+            },
+            {
+              "id": 126,
+              "name": "Precipitants of DKA",
+              "component": "PrecipitantsOfDKA",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 14,
+              "slug": "precipitants-of-dka",
+              "authorId": 1
+            },
+            {
+              "id": 127,
+              "name": "Presentation of hypercalcaemia",
+              "component": "PresentationOfHypercalcaemia",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 14,
+              "slug": "presentation-of-hypercalcaemia",
+              "authorId": 1
+            },
+            {
+              "id": 128,
+              "name": "Presentation of hypocalcaemia",
+              "component": "PresentationOfHypocalcaemia",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 14,
+              "slug": "presentation-of-hypocalcaemia",
+              "authorId": 1
+            },
+            {
+              "id": 129,
+              "name": "Thyroid status",
+              "component": "ThyroidStatus",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 14,
+              "slug": "thyroid-status",
+              "authorId": 1
+            },
+            {
+              "id": 130,
+              "name": "Types of multiple endocrine neoplasia",
+              "component": "TypesOfMultipleEndocrineNeoplasia",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 14,
+              "slug": "thyroid-of-multiple-endocrine-neoplasia",
+              "authorId": 1
+            }
           ]
         },
         {
-          "id": 7,
+          "id": 15,
           "name": "Gastroenterology",
-          "author": "",
           "subtitle": "",
           "appId": 1,
+          "authorId": [
+            1
+          ],
           "parentId": 1,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "gastroenterology",
           "submenu": false,
           "children": [
-            "Causes of abdominal distension",
-            "Crohn's disease",
-            "Management of oesophageal varices",
-            "Risk factors for Gallstones",
-            "Symptoms of dyspepsia"
+            {
+              "id": 131,
+              "name": "Causes of abdominal distension",
+              "component": "CausesOfAbdominalDistension",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 15,
+              "slug": "causes-of-abdominal-distension",
+              "authorId": 1
+            },
+            {
+              "id": 132,
+              "name": "Crohn's disease",
+              "component": "CrohnsDisease",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 15,
+              "slug": "causes-of-abdominal-distension",
+              "authorId": 1
+            },
+            {
+              "id": 133,
+              "name": "Management of oesophageal varices",
+              "component": "ManagementOfOesophagealVarices",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 15,
+              "slug": "managment-of-oesophageal-varices",
+              "authorId": 1
+            },
+            {
+              "id": 134,
+              "name": "Risk factors for Gallstones",
+              "component": "RiskFactorsForGallstones",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 15,
+              "slug": "risk-factors-for-gallstones",
+              "authorId": 1
+            },
+            {
+              "id": 135,
+              "name": "Symptoms of dyspepsia",
+              "component": "SymptomsOfDyspepsia",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 15,
+              "slug": "symptoms-of-dyspepsia",
+              "authorId": 1
+            }
           ]
         },
         {
-          "id": 8,
+          "id": 16,
           "name": "Gyn&Obs",
-          "author": "",
           "subtitle": "",
           "appId": 1,
+          "authorId": [
+            1
+          ],
           "parentId": 1,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "gyn-obs",
           "submenu": false,
-          "children": [""]
+          "children": []
         },
         {
-          "id": 9,
+          "id": 17,
           "name": "Hepatology",
-          "author": "",
           "subtitle": "",
           "appId": 1,
+          "authorId": [
+            1
+          ],
           "parentId": 1,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "hepatology",
           "submenu": false,
-          "children": ["Alcohol's effect on warfarin metabolism"]
+          "children": [
+            {
+              "id": 136,
+              "name": "Alcohol's effect on warfarin metabolism",
+              "component": "AlcoholsEffectOnWarfarinMetabolism",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 17,
+              "slug": "alcohols-effect-on-warfarin-metabolism",
+              "authorId": 1
+            }
+          ]
         },
         {
-          "id": 10,
+          "id": 18,
           "name": "Nephrology",
-          "author": "",
           "subtitle": "",
+          "authorId": [
+            1
+          ],
           "appId": 1,
           "parentId": 1,
           "type": "html",
@@ -172,38 +532,150 @@
           "slug": "nephrology",
           "submenu": false,
           "children": [
-            "eGFR variables for MDRD equation",
-            "GFR categories for CKD classification",
-            "Indications for acute dialysis",
-            "Opioid prescribing in renal impairement",
-            "Pre-renal causes of AKI",
-            "Renal Artery Stenosis"
+            {
+              "id": 137,
+              "name": "eGFR variables for MDRD equation",
+              "component": "EGFRVariablesForMDRDEquation",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 18,
+              "slug": "egfr-variables-for-mdrd-equation",
+              "authorId": 1
+            },
+            {
+              "id": 138,
+              "name": "GFR categories for CKD classification",
+              "component": "GFRCategoriesForCKDClassification",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 18,
+              "slug": "gfr-categories-for-ckd-classification",
+              "authorId": 1
+            },
+            {
+              "id": 139,
+              "name": "Indications for acute dialysis",
+              "component": "IndicationsForAcuteDialysis",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 18,
+              "slug": "indications-for-acute-dialysis",
+              "authorId": 1
+            },
+            {
+              "id": 140,
+              "name": "Opioid prescribing in renal impairement",
+              "component": "OpioidPrescribingInRenalImpairement",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 18,
+              "slug": "opioid-prescribing-in-renal-impairement",
+              "authorId": 1
+            },
+            {
+              "id": 141,
+              "name": "Pre-renal causes of AKI",
+              "component": "PrerenalCausesOfAKI",
+              "slug": "pre-renal-causes-of-aki",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 18,
+              "authorId": 1
+            },
+            {
+              "id": 142,
+              "name": "Renal Artery Stenosis",
+              "component": "RenalArteryStenosis",
+              "slug": "Renal-artery-stenosis",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 18,
+              "authorId": 1
+            }
           ]
         },
         {
-          "id": 11,
+          "id": 19,
           "name": "Neurology",
-          "author": "",
           "subtitle": "",
           "appId": 1,
+          "authorId": [
+            1
+          ],
           "parentId": 1,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "neurology",
           "submenu": false,
           "children": [
-            "Core features of Parkinsonism",
-            "Causes of peripheral neuropathy",
-            "Mental state exam",
-            "Modified Glasgow criteria",
-            "Nerve damage",
-            "Presentation of complex partial seizures"
+            {
+              "id": 143,
+              "name": "Core features of Parkinsonism",
+              "component": "CoreFeaturesOfParkinsonism",
+              "slug": "core-features-of-parkinsonism",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 19,
+              "authorId": 1
+            },
+            {
+              "id": 144,
+              "name": "Causes of peripheral neuropathy",
+              "component": "CausesOfPeripheralNeuropathy",
+              "slug": "causes-of-peripheral-neuropathy",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 19,
+              "authorId": 1
+            },
+            {
+              "id": 145,
+              "name": "Mental state exam",
+              "component": "MentalStateExam",
+              "slug": "mental-state-exam",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 19,
+              "authorId": 1
+            },
+            {
+              "id": 146,
+              "name": "Modified Glasgow criteria",
+              "component": "ModifiedGlasgowCriteria",
+              "slug": "modified-glasgow-criteria",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 19,
+              "authorId": 1
+            },
+            {
+              "id": 147,
+              "name": "Nerve damage",
+              "component": "NerveDamage",
+              "slug": "nerve-damage",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 19,
+              "authorId": 1
+            },
+            {
+              "id": 148,
+              "name": "Presentation of complex partial seizures",
+              "component": "PresentationOfComplexPartialSeizures",
+              "slug": "presentation-of-complex-partial-seizures",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 19,
+              "authorId": 1
+            }
           ]
         },
         {
-          "id": 12,
+          "id": 20,
           "name": "Ophtalmology",
-          "author": "",
+          "authorId": [
+            1
+          ],
           "subtitle": "",
           "appId": 1,
           "parentId": 1,
@@ -211,12 +683,24 @@
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "ophtalmology",
           "submenu": false,
-          "children": ["Colles fracture"]
+          "children": [
+            {
+              "id": 149,
+              "name": "Colles fracture",
+              "component": "CollesFracture",
+              "slug": "colles-fracture",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 20,
+              "authorId": 1
+            }]
         },
         {
-          "id": 13,
+          "id": 21,
           "name": "Orthopedy",
-          "author": "",
+          "authorId": [
+            1
+          ],
           "subtitle": "",
           "appId": 1,
           "parentId": 1,
@@ -225,16 +709,55 @@
           "slug": "orthopedy",
           "submenu": false,
           "children": [
-            "Examining the optic nerve",
-            "Features of reactive arthritis",
-            "Indications for bisphosphonates",
-            "Osteoporosis risk factors"
+            {
+              "id": 150,
+              "name": "Examining the optic nerve",
+              "component": "ExaminingTheOpticNerve",
+              "slug": "examining-the-optic-nerve",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 21,
+              "authorId": 1
+
+            },
+            {
+              "id": 151,
+              "name": "Features of reactive arthritis",
+              "component": "FeaturesOfReactiveArthritis",
+              "slug": "features-of-reactive-arthritis",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 21,
+              "authorId": 1
+            },
+            {
+              "id": 152,
+              "name": "Indications for bisphosphonates",
+              "component": "IndicationsForBisphosphonates",
+              "slug": "indications-for-bisphosphonates",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 21,
+              "authorId": 1
+            },
+            {
+              "id": 153,
+              "name": "Osteoporosis risk factors",
+              "component": "OsteoporosisRiskFactors",
+              "slug": "osteoporosis-risk-factors",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 21,
+              "authorId": 1
+            }
           ]
         },
         {
-          "id": 13,
+          "id": 22,
           "name": "Paediatrics",
-          "author": "",
+          "authorId": [
+            1
+          ],
           "subtitle": "",
           "appId": 1,
           "parentId": 1,
@@ -243,19 +766,84 @@
           "slug": "paediatrics",
           "submenu": false,
           "children": [
-            "Causes of meningitis in children",
-            "Causes of meningitis in neonates",
-            "Management of Kawasaki disease",
-            "Necrotizing enterocolitis",
-            "Omphalocele and Gastroschisis",
-            "Presentation of normal pressure hydrocephalus",
-            "Summary of pyloric stenosis"
+            {
+              "id": 154,
+              "name": "Causes of meningitis in children",
+              "component": "CausesOfMeningitisInChildren",
+              "slug": "causes-of-meningitis-in-children",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 22,
+              "authorId": 1
+            },
+            {
+              "id": 155,
+              "name": "Causes of meningitis in neonates",
+              "component": "CausesOfMeningitisInNeonates",
+              "slug": "Causes-of-meningitis-in-neonates",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 22,
+              "authorId": 1
+            },
+            {
+              "id": 156,
+              "name": "Management of Kawasaki disease",
+              "component": "ManagementOfKawasakiDisease",
+              "slug":  "management-of-kawasaki-disease",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 22,
+              "authorId": 1
+            },
+            {
+              "id": 156,
+              "name": "Necrotizing enterocolitis",
+              "component": "NecrotizingEnterocolitis",
+              "slug": "necrotizing-enterocolitis",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 22,
+              "authorId": 1
+            },
+            {
+              "id": 157,
+              "name": "Omphalocele and Gastroschisis",
+              "component": "OmphaloceleAndGastroschisis",
+              "slug": "OmphaloceleAndgastroschisis",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 22,
+              "authorId": 1
+            },
+            {
+              "id": 158,
+              "name": "Presentation of normal pressure hydrocephalus",
+              "component": "PresentationOfNormalPressureHydrocephalus",
+              "slug": "presentation-of-normal-pressure-hydrocephalus",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 22,
+              "authorId": 1
+            },
+            {
+              "id": 159,
+              "name": "Summary of pyloric stenosis",
+              "component": "SummaryOfPyloricStenosis",
+              "slug": "summary-of-pyloric-stenosis",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 22,
+              "authorId": 1
+            }
           ]
         },
         {
-          "id": 14,
+          "id": 23,
           "name": "Palliative care",
-          "author": "",
+          "authorId": [
+            1
+          ],
           "subtitle": "",
           "appId": 1,
           "parentId": 1,
@@ -264,12 +852,30 @@
           "slug": "palliative-care",
           "submenu": false,
           "children": [
-            "Management of breathlessness in palliative care",
-            "Uses of corticosteroids in palliative care"
+            {
+              "id": 160,
+              "name": "Management of breathlessness in palliative care",
+              "component": "ManagementOfBreathlessnessInPalliativeCare",
+              "slug": "Mmanagement-of-breathlessness-in-palliative-care",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 23,
+              "authorId": 1
+            },
+            {
+              "id": 161,
+              "name": "Uses of corticosteroids in palliative care",
+              "component": "UsesOfCorticosteroidsInPalliativeCare",
+              "slug": "uses-of-corticosteroids-in-palliative-care",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 23,
+              "authorId": 1
+            }
           ]
         },
         {
-          "id": 15,
+          "id": 24,
           "name": "Pulmonary",
           "author": "",
           "subtitle": "",
@@ -280,16 +886,70 @@
           "slug": "pulmonary",
           "submenu": false,
           "children": [
-            "Assessing severity of community acquired pneumonia",
-            "Causes of exudative pleural effusion",
-            "Causes of lower zone pulmonary fibrosis",
-            "Causes of transudative pleural effusion",
-            "Causes of upper zone pulmonary fibrosis",
-            "Non-therapeutic management of COPD"
+            {
+              "id": 240,
+              "name": "Assessing severity of community acquired pneumonia",
+              "component": "AssessingSeverityOfCommunityAcquiredPneumonia",
+              "slug": "assessing-severity-of-community-acquired-pneumonia",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 30,
+              "authorId": 1
+            },
+            {
+              "id": 241,
+              "name": "Causes of exudative pleural effusion",
+              "component": "CausesOfExudativePleuralEffusion",
+              "slug": "causes-of-exudative-pleural-effusion",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 30,
+              "authorId": 1
+            },
+            {
+              "id": 242,
+              "name": "Causes of lower zone pulmonary fibrosis",
+              "component": "CausesOfLowerZonePulmonaryFibrosis",
+              "slug": "causes-of-lower-zone-pulmonary-fibrosis",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 30,
+              "authorId": 1
+            },
+            {
+              "id": 243,
+              "name": "Causes of transudative pleural effusion",
+              "component": "CausesOfTransudativePleuralEffusion",
+              "slug": "causes-of-transudative-pleural-effusion",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 30,
+              "authorId": 1
+            },
+            {
+              "id": 244,
+              "name": "Causes of upper zone pulmonary fibrosis",
+              "component": "CausesOfUpperZonePulmonaryFibrosis",
+              "slug": "causes-of-upper-zone-pulmonary-fibrosis",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 30,
+              "authorId": 1
+            },
+            {
+              "id": 245,
+              "name": "Non-therapeutic management of COPD",
+              "component": "NonTherapeuticManagementOfCopd",
+              "slug": "non-therapeutic-management-of-copd",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 30,
+              "authorId": 1
+            }
           ]
         },
         {
-          "id": 16,
+          "id": 25,
           "name": "Syndromes",
           "author": "",
           "subtitle": "",
@@ -300,14 +960,50 @@
           "slug": "syndromes",
           "submenu": false,
           "children": [
-            "Antenatal screening for Down's syndrome",
-            "Management of Raynaud's phenomenon",
-            "Marfan syndrome",
-            "Symptoms of serotinin syndrome"
+            {
+              "id": 250,
+              "name": "Antenatal screening for Down's syndrome",
+              "component": "AntenatalScreeningForDownsSyndrome",
+              "slug": "antenatal-screening-for-downs-syndrome",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 30,
+              "authorId": 1
+            },
+            {
+              "id": 251,
+              "name": "Management of Raynaud's phenomenon",
+              "component": "ManagementOfRaynaudsPhenomenon",
+              "slug": "management-of-raynauds-phenomenon",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 30,
+              "authorId": 1
+            },
+            {
+              "id": 252,
+              "name": "Marfan syndrome",
+              "component": "MarfanSyndrome",
+              "slug": "marfan-syndrome",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 30,
+              "authorId": 1
+            },
+            {
+              "id": 253,
+              "name": "Symptoms of serotinin syndrome",
+              "component": "SymptomsOfSerotininSyndrome",
+              "slug": "symptoms-of-serotinin-syndrome",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 30,
+              "authorId": 1
+            }
           ]
         },
         {
-          "id": 17,
+          "id": 30,
           "name": "Other",
           "author": "",
           "subtitle": "",
@@ -318,25 +1014,133 @@
           "slug": "other",
           "submenu": false,
           "children": [
-            "Adjuvant therapy for colorectal cancer",
-            "Causes of clubbing",
-            "Extra parts of gynaecological history taking",
-            "Extra parts of psychiatric history taking",
-            "Life threatening thoracic trauma",
-            "Limited cutaneous systemic sclerosis",
-            "Management of stress incontinence",
-            "Manegement of nocturnal enuresis",
-            "Morphoeic BCC",
-            "Phaeochromocytoma",
-            "RA Vs OA X-ray findings"
+            {
+              "id": 300,
+              "name": "Adjuvant therapy for colorectal cancer",
+              "component": "AdjuvantTherapyForColorectalCancer",
+              "slug": "adjuvant-therapy-for-colorectal-cancer",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 30,
+              "authorId": 1
+            },
+            {
+              "id": 301,
+              "name": "Causes of clubbing",
+              "component": "CausesOfClubbing",
+              "slug": "causes-of-clubbing",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 30,
+              "authorId": 1
+            },
+            {
+              "id": 302,
+              "name": "Extra parts of gynaecological history taking",
+              "component": "ExtraPartsOfGynaecologicalHistoryTaking",
+              "slug": "extra-parts-of-gynaecological-history-taking",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 30,
+              "authorId": 1
+            },
+            {
+              "id": 303,
+              "name": "Extra parts of psychiatric history taking",
+              "component": "ExtraPartsOfPsychiatricHistoryTaking",
+              "slug": "extra-parts-of-psychiatric-history-taking",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 30,
+              "authorId": 1
+            },
+            {
+              "id": 304,
+              "name": "Life threatening thoracic trauma",
+              "component": "LifeThreateningThoracicTrauma",
+              "slug": "life-threatening-thoracic-trauma",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 30,
+              "authorId": 1
+            },
+            {
+              "id": 305,
+              "name": "Limited cutaneous systemic sclerosis",
+              "component": "LimitedCutaneousSystemicSclerosis",
+              "slug": "limited-cutaneous-systemic-sclerosis",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 30,
+              "authorId": 1
+            },
+            {
+              "id": 306,
+              "name": "Management of stress incontinence",
+              "component": "ManagementOfStressIncontinence",
+              "slug": "management-of-stress-incontinence",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 30,
+              "authorId": 1
+            },
+            {
+              "id": 307,
+              "name": "Manegement of nocturnal enuresis",
+              "component": "ManegementOfNocturnalEnuresis",
+              "slug": "manegement-of-nocturnal-enuresis",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 30,
+              "authorId": 1
+            },
+            {
+              "id": 308,
+              "name": "Morphoeic BCC",
+              "component": "MorphoeicBCC",
+              "slug": "morphoeic-bcc",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 30,
+              "authorId": 1
+            },
+            {
+              "id": 309,
+              "name": "Phaeochromocytoma",
+              "component": "Phaeochromocytoma",
+              "slug": "phaeochromocytoma",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 30,
+              "authorId": 1
+            },
+            {
+              "id": 310,
+              "name": "RA Vs OA X-ray findings",
+              "component": "RaVsOaXRayFindings",
+              "slug": "ra-vs-oa-xray-findings",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 30,
+              "authorId": 1
+            }
           ]
         }
       ]
     },
     {
-      "id": 18,
+      "id": 2,
       "name": "Study-notes",
-      "author": "",
+      "author": [
+        {
+          "id": 2,
+          "name": "Plabverse"
+        },
+        {
+          "id": 3,
+          "name": "Drmichaelhanrahan"
+        }
+      ],
       "subtitle": "",
       "appId": 1,
       "parentId": null,
@@ -346,381 +1150,1372 @@
       "submenu": false,
       "children": [
         {
-          "id": 19,
+          "id": 20,
           "name": "Cardiology-Vascular",
-          "author": "",
+          "authorId": [
+            2,
+            3
+          ],
           "subtitle": "",
           "appId": 1,
-          "parentId": 18,
+          "parentId": 2,
           "type": "html",
           "content": "Contenu à afficher",
           "slug": "cardiology-vascular",
           "submenu": false,
           "children": [
-            "Acute Pericarditis",
-            "Aortic dissection",
-            "Atrial fribrillation",
-            "Cardiac Myxoma",
-            "Cardiac tamponade",
-            "Dyspnoea",
-            "Heart block POEM",
-            "ECG changes",
-            "Hs & Ts for ACLS",
-            "Management of ACS",
-            "Management of Acute Coronary Syndrome",
-            "Ruptured Aortic Aneurysm",
-            "Temporal arteritis(ta)"
-          ]
-        },
-        {
-          "id": 20,
-          "name": "Dermatology",
-          "author": "",
-          "subtitle": "",
-          "appId": 1,
-          "parentId": 18,
-          "type": "html",
-          "content": "<h1>The standard Lorem Ipsum</h1>",
-          "slug": "dermatology",
-          "submenu": false,
-          "children": [
-            "Acanthosis nigricans",
-            "Psoriasis",
-            "Erythema Multiform",
-            "Henoch - Schönlein Purpura",
-            "Molluscum contagiosum"
+            {
+              "id": 200,
+              "name": "Acute Pericarditis",
+              "component": "AcutePericarditisComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 20,
+              "slug": "acute-pericarditis"
+            },
+            {
+              "id": 201,
+              "name": "Aortic dissection",
+              "component": "AorticDissectionComponent",
+              "authorId": 3,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 20,
+              "slug": "aortic-dissection"
+            },
+            {
+              "id": 202,
+              "name": "Atrial fribrillation",
+              "component": "AtrialFribrillationComponent",
+              "authorId": 3,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 20,
+              "slug": "atrial-fribrillation"
+            },
+            {
+              "id": 203,
+              "name": "Cardiac Myxoma",
+              "component": "CardiacMyxomaComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 20,
+              "slug": "cardiac-myxoma"
+            },
+            {
+              "id": 204,
+              "name": "Cardiac Tamponade",
+              "component": "CardiacTamponadeComponent",
+              "authorId": 3,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 20,
+              "slug": "cardiac-tamponade"
+            },
+            {
+              "id": 205,
+              "name": "Dyspnoea",
+              "component": "DyspnoeaComponent",
+              "authorId": 3,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 20,
+              "slug": "dyspnoea"
+            },
+            {
+              "id": 206,
+              "name": "Heart Block POEM",
+              "component": "HeartBlockPOEMComponent",
+              "authorId": 3,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 20,
+              "slug": "heart-block-poem"
+            },
+            {
+              "id": 207,
+              "name": "ECG changes",
+              "component": "ECGChangesComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 20,
+              "slug": "ecg-changes"
+            },
+            {
+              "id": 208,
+              "name": "Hs & Ts for ACLS",
+              "component": "HsTsForAclsComponent",
+              "authorId": 3,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 20,
+              "slug": "hs-ts-for-acls"
+            },
+            {
+              "id": 209,
+              "name": "Management of ACS",
+              "component": "ManagementOfAcsComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 20,
+              "slug": "management-of-acs"
+            },
+            {
+              "id": 210,
+              "name": "Management of Acute Coronary Syndrome",
+              "component": "ManagementOfAcuteCoronarySyndromeComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 20,
+              "slug": "management-of-acute-coronary-syndrome"
+            },
+            {
+              "id": 211,
+              "name": "Ruptured Aortic Aneurysm",
+              "component": "RupturedAorticAneurysmComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 20,
+              "slug": "ruptured-aortic-aneurysm"
+            },
+            {
+              "id": 212,
+              "name": "Temporal arteritis(ta)",
+              "component": "TemporalArteritisComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 20,
+              "slug": "temporal-arteritis"
+            }
           ]
         },
         {
           "id": 21,
-          "name": "Ear,Nose,Throat",
-          "author": "",
+          "name": "Dermatology",
+          "authorId": [
+            2,
+            3
+          ],
           "subtitle": "",
           "appId": 1,
-          "parentId": 18,
+          "parentId": 2,
           "type": "html",
-          "content": "<h1>The standard Lorem Ipsum</h1>",
-          "slug": "ear-nose-throat",
+          "content": "Contenu à afficher",
+          "slug": "dermatology",
           "submenu": false,
           "children": [
-            "Meniere's disease",
-            "Acoustic neuroma",
-            "Otitis externa",
-            "Acute epiglottitis",
-            "Bell's palsy"
+            {
+              "id": 210,
+              "name": "Acanthosis nigricans",
+              "component": "AcanthosisNigricansComponent",
+              "authorId": 3,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 21,
+              "slug": "acanthosis-nigricans"
+            },
+            {
+              "id": 211,
+              "name": "Psoriasis",
+              "component": "PsoriasisComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 21,
+              "slug": "psoriasis"
+            },
+            {
+              "id": 212,
+              "name": "Erythema Multiform",
+              "component": "ErythemaMultiformComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 21,
+              "slug": "erythema-multiform"
+            },
+            {
+              "id": 213,
+              "name": "Henoch - Schönlein Purpura",
+              "component": "HenochSchönleinPurpuraComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 21,
+              "slug": "henoch-schönlein-purpura"
+            },
+            {
+              "id": 214,
+              "name": "Molluscum contagiosum",
+              "component": "MolluscumContagiosumComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 21,
+              "slug": "molluscum-contagiosum"
+            }
           ]
         },
         {
           "id": 22,
+          "name": "Ear,Nose,Throat",
+          "authorId": [
+            2,
+            3
+          ],
+          "subtitle": "",
+          "appId": 1,
+          "parentId": 2,
+          "type": "html",
+          "content": "Display content",
+          "slug": "ear-nose-throat",
+          "submenu": false,
+          "children": [
+            {
+              "id": 220,
+              "name": "Meniere's disease",
+              "component": "MenieresDiseaseComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 22,
+              "slug": "menieres-disease"
+            },
+            {
+              "id": 221,
+              "name": "Acoustic neuroma",
+              "component": "AcousticNeuromaComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 22,
+              "slug": "acoustic-neuroma"
+            },
+            {
+              "id": 222,
+              "name": "Otitis externa",
+              "component": "OtitisExternaComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 22,
+              "slug": "otitis-externa"
+            },
+            {
+              "id": 223,
+              "name": "Acute epiglottitis",
+              "component": "AcuteEpiglottitisComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 22,
+              "slug": "acute-epiglottitis"
+            },
+            {
+              "id": 224,
+              "name": "Bell's palsy",
+              "component": "BellsPalsyComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 22,
+              "slug": "bells-palsy"
+            }
+          ]
+        },
+        {
+          "id": 23,
           "name": "Endocrinology",
           "author": "",
           "subtitle": "",
           "appId": 1,
-          "parentId": 18,
+          "parentId": 2,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "endocrinology",
           "submenu": false,
           "children": [
-            "DKA",
-            "Hashimoto's Thyroiditis",
-            "Hypomagnesemia causes",
-            "Hypophosphatemia causes",
-            "Pheochromocytoma"
+            {
+              "id": 230,
+              "name": "DKA",
+              "component": "DKAComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 23,
+              "slug": "dka"
+            },
+            {
+              "id": 231,
+              "name": "Hashimoto's Thyroiditis",
+              "component": "HashimotosThyroiditisComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 23,
+              "slug": "hashimotos-thyroiditis"
+            },
+            {
+              "id": 232,
+              "name": "Hypomagnesemia causes",
+              "component": "HypomagnesemiaCausesComponent",
+              "authorId": 3,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 23,
+              "slug": "hypomagnesemia-causes"
+            },
+            {
+              "id": 233,
+              "name": "Hypophosphatemia causes",
+              "component": "HypophosphatemiaCausesComponent",
+              "authorId": 3,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 23,
+              "slug": "hypophosphatemia-causes"
+            },
+            {
+              "id": 234,
+              "name": "Pheochromocytoma",
+              "component": "PheochromocytomaComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 23,
+              "slug": "pheochromocytoma"
+            }
           ]
         },
         {
-          "id": 23,
+          "id": 24,
           "name": "Gastroenterology",
           "author": "",
           "subtitle": "",
           "appId": 1,
-          "parentId": 18,
+          "parentId": 2,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "gastroenterology",
           "submenu": false,
           "children": [
-            "Acute Cholecystitis",
-            "Dyspepsia",
-            "Esophageal Spasm",
-            "Gallstones",
-            "IBS"
+            {
+              "id": 240,
+              "name": "Acute Cholecystitis",
+              "component": "AcuteCholecystitisComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 24,
+              "slug": "acute-cholecystitis"
+            },
+            {
+              "id": 241,
+              "name": "Dyspepsia",
+              "component": "DyspepsiaComponent",
+              "authorId": 3,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 24,
+              "slug": "dyspepsia"
+            },
+            {
+              "id": 242,
+              "name": "Esophageal Spasm",
+              "component": "EsophagealSpasmComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 24,
+              "slug": "esophageal-spasm"
+            },
+            {
+              "id": 243,
+              "name": "Gallstones",
+              "component": "GallstonesComponent",
+              "authorId": 3,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 24,
+              "slug": "gallstones"
+            },
+            {
+              "id": 243,
+              "name": "IBS",
+              "component": "IBSComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 24,
+              "slug": "ibs"
+            }
           ]
         },
         {
-          "id": 24,
+          "id": 25,
           "name": "Geriatrics",
           "author": "",
           "subtitle": "",
           "appId": 1,
-          "parentId": 18,
+          "parentId": 2,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "geriatrics",
           "submenu": false,
-          "children": ["4 As test Delirum"]
+          "children": [
+            {
+              "id": 250,
+              "name": "4 As test Delirum",
+              "component": "4AsTestDelirumComponent",
+              "authorId": 3,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 25,
+              "slug": "4-as-test-delirum"
+            }
+          ]
         },
         {
-          "id": 25,
+          "id": 26,
           "name": "Haematology",
           "author": "",
           "subtitle": "",
           "appId": 1,
-          "parentId": 18,
+          "parentId": 2,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": " ",
           "submenu": false,
           "children": [
-            "Haemoptysis",
-            "Macrocytic anaemia",
-            "Neutrophilia & Neutropenia"
+            {
+              "id": 260,
+              "name": "Haemoptysis",
+              "component": "HaemoptysisComponent",
+              "authorId": 3,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 26,
+              "slug": "haemoptysis"
+            },
+            {
+              "id": 261,
+              "name": "Macrocytic anaemia",
+              "component": "MacrocyticAnaemiaComponent",
+              "authorId": 3,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 26,
+              "slug": "macrocytic-anaemia"
+            },
+            {
+              "id": 262,
+              "name": "Neutrophilia & Neutropenia",
+              "component": "NeutrophiliaNeutropeniaComponent",
+              "authorId": 3,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 26,
+              "slug": "neutrophilia-neutropenia"
+            }
           ]
         },
         {
-          "id": 26,
+          "id": 27,
           "name": "Hepatology",
           "author": "",
           "subtitle": "",
           "appId": 1,
-          "parentId": 18,
+          "parentId": 2,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "hepatology",
           "submenu": false,
-          "children": ["Cirrhosis causes"]
+          "children": [
+            {
+              "id": 270,
+              "name": "Cirrhosis causes",
+              "component": "CirrhosisCausesComponent",
+              "authorId": 3,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 27,
+              "slug": "cirrhosis-causes"
+            }
+          ]
         },
         {
-          "id": 27,
+          "id": 28,
           "name": "Nephrology",
           "author": "",
           "subtitle": "",
           "appId": 1,
-          "parentId": 18,
+          "parentId": 2,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "nephrology",
           "submenu": false,
           "children": [
-            "Acute Kidney Injury",
-            "Nephrotoxic",
-            "Kidney vs Spleen",
-            "Renal vein thrombosis"
+            {
+              "id": 280,
+              "name": "Acute Kidney Injury",
+              "component": "AcuteKidneyInjuryComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 28,
+              "slug": "acutekidney-injury"
+            },
+            {
+              "id": 281,
+              "name": "Nephrotoxic",
+              "component": "NephrotoxicComponent",
+              "authorId": 3,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 28,
+              "slug": "nephrotoxic"
+            },
+            {
+              "id": 282,
+              "name": "Kidney vs Spleen",
+              "component": "KidneyVsSpleenComponent",
+              "authorId": 3,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 28,
+              "slug": "kidney-vs-spleen"
+            },
+            {
+              "id": 283,
+              "name": "Renal vein thrombosis",
+              "component": "RenalVeinThrombosisComponent",
+              "authorId": 3,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 28,
+              "slug": "renal-vein-thrombosis"
+            }
           ]
         },
         {
-          "id": 28,
+          "id": 29,
           "name": "Neurology",
           "author": "",
           "subtitle": "",
           "appId": 1,
-          "parentId": 18,
+          "parentId": 2,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "neurology",
           "submenu": false,
           "children": [
-            "ALS",
-            "Cerebral hemorrhage on CT scan",
-            "Cranial nerves",
-            "Delirium",
-            "Lesions of upper and lower motor neurons",
-            "Migraine",
-            "Normal Pressure Hydrocephalus",
-            "Parkinson's disease",
-            "Subarachnoid haemorrage"
+            {
+              "id": 290,
+              "name": "ALS",
+              "component": "ALSComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 29,
+              "slug": "als"
+            },
+            {
+              "id": 291,
+              "name": "Cerebral hemorrhage on CT scan",
+              "component": "CerebralHemorrhageOnCTScanComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 29,
+              "slug": "cerebral-hemorrhage-on-ct-scan"
+            },
+            {
+              "id": 292,
+              "name": "Cranial nerves",
+              "component": "CranialNervesComponent",
+              "authorId": 3,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 29,
+              "slug": "cranial-nerves"
+            },
+            {
+              "id": 293,
+              "name": "Delirium",
+              "component": "DeliriumComponent",
+              "authorId": 3,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 29,
+              "slug": "delirium"
+            },
+            {
+              "id": 294,
+              "name": "Lesions of upper and lower motor neurons",
+              "component": "LesionsOfUpperAndLowerMotorNeuronsComponent",
+              "authorId": 3,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 29,
+              "slug": "lesions-of-upper-and-lower-motor-neurons"
+            },
+            {
+              "id": 295,
+              "name": "Migraine",
+              "component": "MigraineComponent",
+              "authorId": 3,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 29,
+              "slug": "migraine"
+            },
+            {
+              "id": 296,
+              "name": "Normal Pressure Hydrocephalus",
+              "component": "NormalPressureHydrocephalusComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 29,
+              "slug": "normal-pressure-hydrocephalus"
+            },
+            {
+              "id": 297,
+              "name": "Parkinson's disease",
+              "component": "ParkinsonsDiseaseComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 29,
+              "slug": "parkinsons-disease"
+            },
+            {
+              "id": 298,
+              "name": "Subarachnoid haemorrage",
+              "component": "SubarachnoidHaemorrageComponent",
+              "authorId": 3,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 29,
+              "slug": "subarachnoid-haemorrage"
+            }
           ]
         },
         {
-          "id": 29,
+          "id": 30,
           "name": "Oncology",
           "author": "",
           "subtitle": "",
           "appId": 1,
-          "parentId": 18,
+          "parentId": 2,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "oncology",
           "submenu": false,
           "children": [
-            "Esophageal Cancer",
-            "Fibroadenoma",
-            "Melanoma signs",
-            "Ovarian cancer",
-            "Prostate Cancer",
-            "Tumor markers"
+            {
+              "id": 300,
+              "name": "Esophageal Cancer",
+              "component": "EsophagealCancerComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 30,
+              "slug": "esophageal-cancer"
+            },
+            {
+              "id": 301,
+              "name": "Fibroadenoma",
+              "component": "FibroadenomaComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 30,
+              "slug": "fibroadenoma"
+            },
+            {
+              "id": 302,
+              "name": "Melanoma signs",
+              "component": "MelanomaSignsComponent",
+              "authorId": 3,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 30,
+              "slug": "melanoma-signs"
+            },
+            {
+              "id": 303,
+              "name": "Ovarian cancer",
+              "component": "OvarianCancerComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 30,
+              "slug": "ovarian-cancer"
+            },
+            {
+              "id": 304,
+              "name": "Prostate cancer",
+              "component": "ProstateCancerComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 30,
+              "slug": "prostate-cancer"
+            },
+            {
+              "id": 305,
+              "name": "Tumor markers",
+              "component": "TumorMarkersComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 30,
+              "slug": "tumor-markers"
+            }
           ]
         },
         {
-          "id": 30,
+          "id": 31,
           "name": "Ophtalmology",
           "author": "",
           "subtitle": "",
           "appId": 1,
-          "parentId": 18,
+          "parentId": 2,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "ophtalmology",
           "submenu": false,
           "children": [
-            "Optic Neuritis",
-            "Retinal detachment",
-            "Transient vision loss"
+            {
+              "id": 310,
+              "name": "Optic Neuritis",
+              "component": "OpticsNeuritisComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 31,
+              "slug": "optic-neuritis"
+            },
+            {
+              "id": 311,
+              "name": "Retinal detachment",
+              "component": "RetinalDetachmentComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 31,
+              "slug": "retinal-detachment"
+            },
+            {
+              "id": 312,
+              "name": "Transient vision loss",
+              "component": "TransientVisionLossComponent",
+              "authorId": 3,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 31,
+              "slug": "transient-vision-loss"
+            }
           ]
         },
         {
-          "id": 31,
+          "id": 32,
           "name": "Orthopedy",
           "author": "",
           "subtitle": "",
           "appId": 1,
-          "parentId": 18,
+          "parentId": 2,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "orthopedy",
           "submenu": false,
           "children": [
-            "Achilles tendon rupture",
-            "Deep tendon reflexes",
-            "Dupuytren's contracture",
-            "Osteogenesis Imperfecta",
-            "Osteomyelitis Risk factors",
-            "PAGET'S Disease",
-            "Slipped upper femoral epiphysis (SUFE)",
-            "ULNAR N. INJURY"
+            {
+              "id": 320,
+              "name": "Achilles tendon rupture",
+              "component": "AchillesTendonRuptureComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 32,
+              "slug": "achilles-tendon-rupture"
+            },
+            {
+              "id": 321,
+              "name": "Deep tendon reflexes",
+              "component": "DeepTendonReflexesComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 32,
+              "slug": "deep-tendon-reflexes"
+            },
+            {
+              "id": 322,
+              "name": "Dupuytren's contracture",
+              "component": "DupuytrensContractureComponent",
+              "authorId": 3,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 32,
+              "slug": "dupuytrens-contracture"
+            },
+            {
+              "id": 323,
+              "name": "Osteogenesis Imperfecta",
+              "component": "OsteogenesisImperfectaComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 32,
+              "slug": "osteogenesis-imperfecta"
+            },
+            {
+              "id": 324,
+              "name": "Osteomyelitis Risk factors",
+              "component": "OsteomyelitisRiskFactorsComponent",
+              "authorId": 3,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 32,
+              "slug": "Osteomyelitis-risk-factors"
+            },
+            {
+              "id": 325,
+              "name": "PAGET'S Disease",
+              "component": "PagetsDiseaseComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 32,
+              "slug": "pagets-disease"
+            },
+            {
+              "id": 326,
+              "name": "Slipped upper femoral epiphysis (SUFE)",
+              "component": "SUFEComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 32,
+              "slug": "slipped-upper-femoral-epiphysis"
+            },
+            {
+              "id": 326,
+              "name": "ULNAR N. INJURY",
+              "component": "UlnarNInjuryComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 32,
+              "slug": "ulnar-n-injury"
+            }
           ]
         },
         {
-          "id": 32,
+          "id": 33,
           "name": "Pharmacology",
           "author": "",
           "subtitle": "",
           "appId": 1,
-          "parentId": 18,
+          "parentId": 2,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "pharmacology",
           "submenu": false,
           "children": [
-            "Benzodiazepines overdose",
-            "NSAIDS",
-            "Opiate side effects",
-            "Salbutamol"
+            {
+              "id": 330,
+              "name": "Benzodiazepines overdose",
+              "component": "BenzodiazepinesOverdoseComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 33,
+              "slug": "benzodiazepines-overdose"
+            },
+            {
+              "id": 331,
+              "name": "NSAIDS",
+              "component": "NSAIDSComponent",
+              "authorId": 3,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 33,
+              "slug": "nsaids"
+            },
+            {
+              "id": 332,
+              "name": "Opiate side effects",
+              "component": "OpiateSideEffectsComponent",
+              "authorId": 3,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 33,
+              "slug": "opiate-side-effects"
+            },
+            {
+              "id": 333,
+              "name": "Salbutamol",
+              "component": "SalbutamolComponent",
+              "authorId": 3,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 33,
+              "slug": "salbutamol"
+            }
           ]
         },
         {
-          "id": 33,
+          "id": 34,
           "name": "Psychiatry",
           "author": "",
           "subtitle": "",
           "appId": 1,
-          "parentId": 18,
+          "parentId": 2,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "psychiatry",
           "submenu": false,
-          "children": ["ADHD", 
-            "Bipolar disorder"]
+          "children": [
+            {
+              "id": 340,
+              "name": "ADHD",
+              "component": "ADHDComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 34,
+              "slug": "adhd"
+            },
+            {
+              "id": 341,
+              "name": "Bipolar disorder",
+              "component": "BipolarDisorderComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 34,
+              "slug": "adhd"
+            }
+          ]
         },
         {
-          "id": 34,
+          "id": 35,
           "name": "Pulmonary",
           "author": "",
           "subtitle": "",
           "appId": 1,
-          "parentId": 18,
+          "parentId": 2,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "pulmonary",
           "submenu": false,
           "children": [
-            "Cystic Fibrosis",
-            "Pneumothorax",
-            "Pulmonary embolism",
-            "Risk factors for ARDS"
+            {
+              "id": 350,
+              "name": "Cystic Fibrosis",
+              "component": "CysticFibrosisComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 35,
+              "slug": "cystic-fibrosis"
+            },
+            {
+              "id": 351,
+              "name": "Pneumothorax",
+              "component": "PneumothoraxComponent",
+              "authorId": 3,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 35,
+              "slug": "pneumothorax"
+            },
+            {
+              "id": 352,
+              "name": "Pulmonary embolism",
+              "component": "PulmonaryEmbolismComponent",
+              "authorId": 3,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 35,
+              "slug": "pulmonary-embolism"
+            },
+            {
+              "id": 353,
+              "name": "Risk factors for ARDS",
+              "component": "RiskFactorsForARDSComponent",
+              "authorId": 3,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 35,
+              "slug": "risk-factors-for-ards"
+            }
           ]
         },
         {
-          "id": 35,
+          "id": 36,
           "name": "Surgery",
           "author": "",
           "subtitle": "",
           "appId": 1,
-          "parentId": 18,
+          "parentId": 2,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "surgery",
           "submenu": false,
-          "children": ["Perianal abscess", 
-            "Surgical incisions"]
+          "children": [
+            {
+              "id": 360,
+              "name": "Perianal abscess",
+              "component": "PerianalAbscessComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 36,
+              "slug": "perianal-abscess"
+            },
+            {
+              "id": 361,
+              "name": "Surgical incisions",
+              "component": "SurgicalIncisionsComponent",
+              "authorId": 3,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 36,
+              "slug": "surgical-incisions"
+            }
+          ]
         },
         {
-          "id": 36,
+          "id": 37,
           "name": "Syndromes",
           "author": "",
           "subtitle": "",
           "appId": 1,
-          "parentId": 18,
+          "parentId": 2,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "syndromes",
           "submenu": false,
           "children": [
-            "Carpal Tunnel Syndrome",
-            "CONN'S Syndrome",
-            "Down Syndrome",
-            "HELLP Syndrome",
-            "Klinefelter's Syndrome XXY",
-            "MEIGS' Syndrome",
-            "Neuroleptic Malignant Syndrome",
-            "NOONAN Syndrome",
-            "Plummer Vinson Syndrome",
-            "RAMSAY Hunt Syndrome",
-            "Raynaud's Phenomenon",
-            "Zollinger Ellison Syndrome"
+            {
+              "id": 370,
+              "name": "Carpal Tunnel Syndrome",
+              "component": "CarpalTunnelSyndromeComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 37,
+              "slug": "carpal-tunnel-syndrome"
+            },
+            {
+              "id": 371,
+              "name": "CONN'S Syndrome",
+              "component": "ConnsSyndromeComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 37,
+              "slug": "conns-syndrome"
+            },
+            {
+              "id": 372,
+              "name": "Down Syndrome",
+              "component": "DownSyndromeComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 37,
+              "slug": "down-syndrome"
+            },
+            {
+              "id": 373,
+              "name": "HELLP Syndrome",
+              "component": "HellpSyndromeComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 37,
+              "slug": "hellp-syndrome"
+            },
+            {
+              "id": 374,
+              "name": "Klinefelter's Syndrome XXY",
+              "component": "KlinefeltersSyndromeComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 37,
+              "slug": "Klinefelters-syndrome-xxy"
+            },
+            {
+              "id": 375,
+              "name": "MEIGS' Syndrome",
+              "component": "MeigsSyndromeComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 37,
+              "slug": "meigs-syndrome"
+            },
+            {
+              "id": 376,
+              "name": "Neuroleptic Malignant Syndrome",
+              "component": "NeurolepticMalignantSyndromeComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 37,
+              "slug": "neuroleptic-malignant-syndrome"
+            },
+            {
+              "id": 377,
+              "name": "NOONAN Syndrome",
+              "component": "NoonanSyndromeComponent",
+              "authorId": 3,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 37,
+              "slug": "noonan-syndrome"
+            },
+            {
+              "id": 378,
+              "name": "Plummer Vinson Syndrome",
+              "component": "PlummerVinsonSyndromeComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 37,
+              "slug": "plummer-vinson-syndrome"
+            },
+            {
+              "id": 379,
+              "name": "RAMSAY Hunt Syndrome",
+              "component": "RamsayHuntSyndromeComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 37,
+              "slug": "ramsay-hunt-syndrome"
+            },
+            {
+              "id": 3700,
+              "name": "Raynaud's Phenomenon",
+              "component": "RaynaudsPhenomenonComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 37,
+              "slug": "Raynauds-phenomenon"
+            },
+            {
+              "id": 3701,
+              "name": "Zollinger Ellison Syndrome",
+              "component": "ZollingerEllisonSyndromeComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 37,
+              "slug": "zollinger-ellison-syndrome"
+            }
           ]
         },
         {
-          "id": 37,
+          "id": 38,
           "name": "Urology",
           "author": "",
           "subtitle": "",
           "appId": 1,
-          "parentId": 18,
+          "parentId": 2,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "urology",
           "submenu": false,
-          "children": ["BPH"]
+          "children": [
+            {
+              "id": 380,
+              "name": "BPH",
+              "component": "BPHComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 38,
+              "slug": "bhp"
+            }
+          ]
         },
         {
-          "id": 38,
+          "id": 39,
           "name": "Other",
           "author": "",
           "subtitle": "",
           "appId": 1,
-          "parentId": 18,
+          "parentId": 2,
           "type": "html",
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "other",
           "submenu": false,
           "children": [
-            "Acromegaly",
-            "Antimicrobial awareness",
-            "COELIAC Associations",
-            "Complications of TPN",
-            "Differential diagnosis vitamins",
-            "High ESR Napkin",
-            "Hyperkalaemia causes",
-            "Malaria common symptoms",
-            "Screening test evaluation",
-            "SIADH causes",
-            "Sleep hygiene",
-            "SOCRATES Pain history",
-            "VIT Deficiency",
-            "Wilson's disease",
-            "Zenker's diverticulum"
+            {
+              "id": 390,
+              "name": "Acromegaly",
+              "component": "AcromegalyComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 39,
+              "slug": "acromegaly"
+            },
+            {
+              "id": 391,
+              "name": "Antimicrobial awareness",
+              "component": "AntimicrobialAwarenessComponent",
+              "authorId": 3,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 39,
+              "slug": "antimicrobial-awareness"
+            },
+            {
+              "id": 392,
+              "name": "COELIAC Associations",
+              "component": "CoeliacAssociationsComponent",
+              "authorId": 3,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 39,
+              "slug": "coeliac-associations"
+            },
+            {
+              "id": 393,
+              "name": "Complications of TPN",
+              "component": "ComplicationsOfTpnComponent",
+              "authorId": 3,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 39,
+              "slug": "complications-of-tpn"
+            },
+            {
+              "id": 394,
+              "name": "Differential diagnosis vitamins",
+              "component": "DifferentialDiagnosisVitaminsComponent",
+              "authorId": 3,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 39,
+              "slug": "differential-diagnosis-vitamins"
+            },
+            {
+              "id": 395,
+              "name": "High ESR Napkin",
+              "component": "HighESRNapkinComponent",
+              "authorId": 3,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 39,
+              "slug": "high-esr-napkin"
+            },
+            {
+              "id": 396,
+              "name": "Hyperkalaemia causes",
+              "component": "HyperkalaemiaCausesComponent",
+              "authorId": 3,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 39,
+              "slug": "hyperkalaemia-causes"
+            },
+            {
+              "id": 397,
+              "name": "Malaria common symptoms",
+              "component": "MalariaCommonSymptomsComponent",
+              "authorId": 3,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 39,
+              "slug": "Malaria-common-symptoms"
+            },
+            {
+              "id": 398,
+              "name": "Screening test evaluation",
+              "component": "ScreeningTestEvaluationComponent",
+              "authorId": 3,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 39,
+              "slug": "screening-test-evaluation"
+            },
+            {
+              "id": 399,
+              "name": "SIADH causes",
+              "component": "SiadhCausesComponent",
+              "authorId": 3,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 39,
+              "slug": "siadh-causes"
+            },
+            {
+              "id": 3900,
+              "name": "Sleep hygiene",
+              "component": "SleepHygieneComponent",
+              "authorId": 3,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 39,
+              "slug": "sleep-hygiene"
+            },
+            {
+              "id": 3901,
+              "name": "SOCRATES Pain history",
+              "component": "SocratesPainHistoryComponent",
+              "authorId": 3,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 39,
+              "slug": "socrates-pain-history"
+            },
+            {
+              "id": 3902,
+              "name": "VIT Deficiency",
+              "component": "VitDeficiencyComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 39,
+              "slug": "vit-deficiency"
+            },
+            {
+              "id": 3903,
+              "name": "Wilson's disease",
+              "component": "WilsonsDiseaseComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 39,
+              "slug": "wilsons-disease"
+            },
+            {
+              "id": 3904,
+              "name": "Zenker's diverticulum",
+              "component": "ZenkersDiverticulumComponent",
+              "authorId": 2,
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 39,
+              "slug": "zenkers-diverticulum"
+            }
           ]
         }
       ]

@@ -1,6 +1,5 @@
 <template>
   <div class="header-background">
-    <div></div>
   </div>
 </template>
 
@@ -13,4 +12,5 @@ export default class HomePageHeader extends Vue {}
 
 <style lang="scss">
 @import url("../assets/css/header.scss");
+
 </style>
