@@ -8,7 +8,9 @@
         study notes, mnemonics.
       </p>
       <div v-for="section in appSection" :key="section.name">
-        <ThemeButton :themeName="section.name" />
+        <router-link :to="{name: 'ListPage', params: {section: section.slug}}">
+          <ThemeButton :themeName="section.name" />
+        </router-link>
       </div>
     </div>
   </div>
@@ -59,6 +61,9 @@ export default Vue.extend({
     });
   },
   methods: {
+    goTo(list: any) {
+
+    },
     async loadData() {
       const data = await axios.get(
         `${window.location.origin + window.location.pathname}/data.json`
