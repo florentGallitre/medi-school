@@ -620,7 +620,8 @@
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "psychiatry",
           "submenu": false,
-          "children": ["ADHD", "Bipolar disorder"]
+          "children": ["ADHD", 
+            "Bipolar disorder"]
         },
         {
           "id": 34,
@@ -651,7 +652,8 @@
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "surgery",
           "submenu": false,
-          "children": ["Perianal abscess", "Surgical incisions"]
+          "children": ["Perianal abscess", 
+            "Surgical incisions"]
         },
         {
           "id": 36,
