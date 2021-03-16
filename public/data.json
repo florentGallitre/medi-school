@@ -24,7 +24,6 @@
         {
           "id": 10,
           "name": "Cardiology",
-          "author": "",
           "subtitle": "Sous-titre",
           "authorId": [
             1
@@ -141,7 +140,6 @@
         {
           "id": 11,
           "name": "Dermatology",
-          "author": "",
           "subtitle": "",
           "appId": 1,
           "parentId": 1,
@@ -198,7 +196,6 @@
         {
           "id": 12,
           "name": "Drugs and vaccines",
-          "author": "",
           "subtitle": "",
           "appId": 1,
           "authorId": [
@@ -296,7 +293,6 @@
         {
           "id": 13,
           "name": "Ear,Nose,Throat",
-          "author": "",
           "subtitle": "",
           "appId": 1,
           "authorId": [
@@ -323,7 +319,6 @@
         {
           "id": 14,
           "name": "Endocrinology",
-          "author": "",
           "subtitle": "",
           "appId": 1,
           "authorId": [
@@ -420,7 +415,6 @@
         {
           "id": 15,
           "name": "Gastroenterology",
-          "author": "",
           "subtitle": "",
           "appId": 1,
           "authorId": [
@@ -487,7 +481,6 @@
         {
           "id": 16,
           "name": "Gyn&Obs",
-          "author": "",
           "subtitle": "",
           "appId": 1,
           "authorId": [
@@ -503,7 +496,6 @@
         {
           "id": 17,
           "name": "Hepatology",
-          "author": "",
           "subtitle": "",
           "appId": 1,
           "authorId": [
@@ -683,7 +675,9 @@
         {
           "id": 20,
           "name": "Ophtalmology",
-          "author": "",
+          "authorId": [
+            1
+          ],
           "subtitle": "",
           "appId": 1,
           "parentId": 1,
@@ -691,12 +685,24 @@
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "ophtalmology",
           "submenu": false,
-          "children": ["Colles fracture"]
+          "children": [
+            {
+              "id": 149,
+              "name": "Colles fracture",
+              "component": "CollesFracture",
+              "slug": "colles-fracture",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 20,
+              "authorId": 1
+            }]
         },
         {
           "id": 21,
           "name": "Orthopedy",
-          "author": "",
+          "authorId": [
+            1
+          ],
           "subtitle": "",
           "appId": 1,
           "parentId": 1,
@@ -705,16 +711,55 @@
           "slug": "orthopedy",
           "submenu": false,
           "children": [
-            "Examining the optic nerve",
-            "Features of reactive arthritis",
-            "Indications for bisphosphonates",
-            "Osteoporosis risk factors"
+            {
+              "id": 150,
+              "name": "Examining the optic nerve",
+              "component": "ExaminingTheOpticNerve",
+              "slug": "examining-the-optic-nerve",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 21,
+              "authorId": 1
+
+            },
+            {
+              "id": 151,
+              "name": "Features of reactive arthritis",
+              "component": "FeaturesOfReactiveArthritis",
+              "slug": "features-of-reactive-arthritis",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 21,
+              "authorId": 1
+            },
+            {
+              "id": 152,
+              "name": "Indications for bisphosphonates",
+              "component": "IndicationsForBisphosphonates",
+              "slug": "indications-for-bisphosphonates",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 21,
+              "authorId": 1
+            },
+            {
+              "id": 153,
+              "name": "Osteoporosis risk factors",
+              "component": "OsteoporosisRiskFactors",
+              "slug": "osteoporosis-risk-factors",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 21,
+              "authorId": 1
+            }
           ]
         },
         {
           "id": 22,
           "name": "Paediatrics",
-          "author": "",
+          "authorId": [
+            1
+          ],
           "subtitle": "",
           "appId": 1,
           "parentId": 1,
@@ -723,19 +768,84 @@
           "slug": "paediatrics",
           "submenu": false,
           "children": [
-            "Causes of meningitis in children",
-            "Causes of meningitis in neonates",
-            "Management of Kawasaki disease",
-            "Necrotizing enterocolitis",
-            "Omphalocele and Gastroschisis",
-            "Presentation of normal pressure hydrocephalus",
-            "Summary of pyloric stenosis"
+            {
+              "id": 154,
+              "name": "Causes of meningitis in children",
+              "component": "CausesOfMeningitisInChildren",
+              "slug": "causes-of-meningitis-in-children",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 22,
+              "authorId": 1
+            },
+            {
+              "id": 155,
+              "name": "Causes of meningitis in neonates",
+              "component": "CausesOfMeningitisInNeonates",
+              "slug": "Causes-of-meningitis-in-neonates",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 22,
+              "authorId": 1
+            },
+            {
+              "id": 156,
+              "name": "Management of Kawasaki disease",
+              "component": "ManagementOfKawasakiDisease",
+              "slug":  "management-of-kawasaki-disease",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 22,
+              "authorId": 1
+            },
+            {
+              "id": 156,
+              "name": "Necrotizing enterocolitis",
+              "component": "NecrotizingEnterocolitis",
+              "slug": "necrotizing-enterocolitis",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 22,
+              "authorId": 1
+            },
+            {
+              "id": 157,
+              "name": "Omphalocele and Gastroschisis",
+              "component": "OmphaloceleAndGastroschisis",
+              "slug": "OmphaloceleAndgastroschisis",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 22,
+              "authorId": 1
+            },
+            {
+              "id": 158,
+              "name": "Presentation of normal pressure hydrocephalus",
+              "component": "PresentationOfNormalPressureHydrocephalus",
+              "slug": "presentation-of-normal-pressure-hydrocephalus",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 22,
+              "authorId": 1
+            },
+            {
+              "id": 159,
+              "name": "Summary of pyloric stenosis",
+              "component": "SummaryOfPyloricStenosis",
+              "slug": "summary-of-pyloric-stenosis",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 22,
+              "authorId": 1
+            }
           ]
         },
         {
           "id": 23,
           "name": "Palliative care",
-          "author": "",
+          "authorId": [
+            1
+          ],
           "subtitle": "",
           "appId": 1,
           "parentId": 1,
@@ -744,8 +854,26 @@
           "slug": "palliative-care",
           "submenu": false,
           "children": [
-            "Management of breathlessness in palliative care",
-            "Uses of corticosteroids in palliative care"
+            {
+              "id": 160,
+              "name": "Management of breathlessness in palliative care",
+              "component": "ManagementOfBreathlessnessInPalliativeCare",
+              "slug": "Mmanagement-of-breathlessness-in-palliative-care",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 23,
+              "authorId": 1
+            },
+            {
+              "id": 161,
+              "name": "Uses of corticosteroids in palliative care",
+              "component": "UsesOfCorticosteroidsInPalliativeCare",
+              "slug": "uses-of-corticosteroids-in-palliative-care",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 23,
+              "authorId": 1
+            }
           ]
         },
         {
