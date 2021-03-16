@@ -7,17 +7,11 @@
         The best place to study medicine, created just for you. You can access
         study notes, mnemonics.
       </p>
-<<<<<<< HEAD
-      <keep-alive>
-        <component v-bind:is="currentTheme"></component>
-      </keep-alive>
-=======
       <ul class="primary">
         <li v-for="section in appSection" :key="section.name">
           {{ section.name }}
         </li>
       </ul>
->>>>>>> a4ac920619885f8fee98d39112a80c65891b4b5b
     </div>
   </div>
 </template>
