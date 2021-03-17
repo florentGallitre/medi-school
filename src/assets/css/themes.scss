@@ -1,0 +1,18 @@
+.themes {
+    display: flex;
+    flex-direction: row;
+  }
+
+
+.theme-btn {
+    background-color: #ff9c8d;
+    border-radius: 3vh;
+    margin: 2vh;
+    width: 25vw;
+    height: 30vh;
+  }
+  .theme-title {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 3vh;
+  }
