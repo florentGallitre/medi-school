@@ -11,7 +11,7 @@
         <router-link
           :to="{ name: 'ListPage', params: { section: section.slug } }"
         >
-          <ThemeButton :themeName="section.name" />
+          <ThemeButton :themeName="section" />
         </router-link>
       </div>
     </div>
