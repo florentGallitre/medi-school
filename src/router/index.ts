@@ -12,9 +12,9 @@ const routes: Array<RouteConfig> = [
         component: HomePage
     },
     {
-        path: '/list-page/:section',
+        path: '/list-page/:id',
         name: 'ListPage',
-        component: ListPage
+        component: ListPage,
     },
 ]
 
