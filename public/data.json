@@ -2519,6 +2519,24 @@
           ]
         }
       ]
+    },
+    {
+      "id": 3,
+      "name": "Cases challenges",
+      "subtitle": "Sous-titre facultatif",
+      "author": [
+        {
+          "id": 3,
+          "name": "cases_challenge"
+        }
+      ],
+      "appId": 1,
+      "parentId": null,
+      "type": "list",
+      "content": "",
+      "slug": "cases-challenge",
+      "submenu": false,
+      "children":[]
     }
   ]
 }
