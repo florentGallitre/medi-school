@@ -7,17 +7,11 @@
         The best place to study medicine, created just for you. You can access
         study notes, mnemonics.
       </p>
-<<<<<<< HEAD
-      <ul class="primary">
-        <li v-for="section in appSection" :key="section.name">
-          {{ section.name }}
-        </li>
-      </ul>
-=======
       <div v-for="section in appSection" :key="section.name">
-        <ThemeButton :themeName="section.name" />
+        <router-link :to="{name: 'ListPage', params: {section: section.slug}}">
+          <ThemeButton :themeName="section.name" />
+        </router-link>
       </div>
->>>>>>> df8b2a3b1c62b18ae405add0c092d7449447fbc2
     </div>
   </div>
 </template>
@@ -67,6 +61,9 @@ export default Vue.extend({
     });
   },
   methods: {
+    goTo(list: any) {
+
+    },
     async loadData() {
       const data = await axios.get(
         `${window.location.origin + window.location.pathname}/data.json`
