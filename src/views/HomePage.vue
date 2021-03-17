@@ -7,12 +7,16 @@
         The best place to study medicine, created just for you. You can access
         study notes, mnemonics.
       </p>
-      <div v-for="section in appSection" :key="section.name">
-        <router-link
-          :to="{ name: 'ListPage', params: { section: section.slug } }"
-        >
-          <ThemeButton :themeName="section.name" />
-        </router-link>
+
+      <div class="row d-flex justify-content-center">
+        <div v-for="section in appSection" :key="section.name" >
+          <router-link
+            :to="{ name: 'ListPage', params: { section: section.slug } }"
+          >
+            <ThemeButton :themeName="section.name" />
+          </router-link>
+        </div>
+
       </div>
     </div>
   </div>
@@ -21,10 +25,8 @@
 <script lang="ts">
 import axios from "axios";
 import Vue from "vue";
-import Auth from "../service/Auth";
 import HomePageHeader from "@/components/HomePageHeader.vue";
 import ThemeButton from "@/components/ThemeButton.vue";
-import DataService from "@/service/DataService";
 
 export default Vue.extend({
   name: "HomePage",
