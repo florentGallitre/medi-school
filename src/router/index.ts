@@ -4,7 +4,6 @@ import HomePage from '@/views/HomePage.vue'
 import ListPage from '@/views/ListPage.vue'
 import ItemPage from '@/views/ItemPage.vue'
 
-
 Vue.use(VueRouter)
 
 const routes: Array<RouteConfig> = [
@@ -19,7 +18,8 @@ const routes: Array<RouteConfig> = [
         component: ListPage,
         children: [
             {
-                path: '/:slug',
+                path: '/list-page/:section/:item',
+                name: 'ItemPage',
                 component: ItemPage,
             }
 
