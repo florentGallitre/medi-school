@@ -14,7 +14,7 @@ const routes: Array<RouteConfig> = [
     {
         path: '/list-page/:section',
         name: 'ListPage',
-        component: ListPage
+        component: ListPage,
     },
 ]
 
