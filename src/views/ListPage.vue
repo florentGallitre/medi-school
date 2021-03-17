@@ -5,7 +5,7 @@
       <Topic :topicName="topic.name" />
         <div v-for="item in topic.children" :key="item.name">
           <router-link :to="{ name:'ItemPage', params: { item: item.slug } }">
-            <Item :itemName="item.name" />           
+            <Item :itemName="item.name" />        
           </router-link>
       </div>
     </div>
