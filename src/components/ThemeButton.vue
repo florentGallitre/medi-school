@@ -1,8 +1,8 @@
 <template>
-  <div-container class="bv-theme-btn-row" cols="12">
+  <div class="theme-btn" >
     <img class="theme-img"/>
     <span class="theme-title">{{ themeName }}</span>
-  </div-container>
+  </div>
 </template>
 
 <script lang="ts">

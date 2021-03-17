@@ -7,8 +7,10 @@
         The best place to study medicine, created just for you. You can access
         study notes, mnemonics.
       </p>
-      <div v-for="section in appSection" :key="section.name">
-        <router-link :to="{name: 'ListPage', params: {section: section.slug}}">
+      <div class="container d-flex justify-content-center col-lg-6-sm-3" v-for="section in appSection" :key="section.name" >
+        <router-link
+          :to="{ name: 'ListPage', params: { section: section.slug } }"
+        >
           <ThemeButton :themeName="section.name" />
         </router-link>
       </div>
@@ -35,35 +37,12 @@ export default Vue.extend({
     };
   },
   mounted() {
-    // const slug = this.$route.params.slug;
     this.loadData().then((result: any) => {
       this.appInfo = result.appData;
       this.appSection = result.tree;
-      // this.appSection.forEach((section) => {
-      //   console.log(section.name);
-      // });
-
-      // faire boucle dans les sections (2) et les mettre dans une variable et faire une boucle dans template
-
-      // DataService.load()
-      //   .then(() => {
-      //     const cat = this.searchBySlug(DataService.$data.tree, slug);
-
-      //     if (cat === null) {
-      //       this.notFound = true;
-      //     } else {
-      //       this.currentComponent = cat.component;
-      //     }
-      //   })
-      //   .catch((e) => {
-      //     console.log(e);
-      //   });
     });
   },
   methods: {
-    goTo(list: any) {
-
-    },
     async loadData() {
       const data = await axios.get(
         `${window.location.origin + window.location.pathname}/data.json`
