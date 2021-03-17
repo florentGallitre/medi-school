@@ -18,7 +18,7 @@ const routes: Array<RouteConfig> = [
         component: ListPage,
     },
     {
-        path: '/list-page/:section/:item',
+        path: '/list-page/:section/:topic/:item',
         name: 'ItemPage',
         component: ItemPage,
     },

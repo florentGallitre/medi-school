@@ -4,7 +4,7 @@
     <div v-for="topic in this.categories" :key="topic.name">
       <Topic :topicName="topic.name" />
         <div v-for="item in topic.children" :key="item.name">
-          <router-link :to="{ name:'ItemPage', params: { item: item.slug } }">
+          <router-link :to="{ name:'ItemPage', params: { topic:topic.slug, item: item.slug } }">
             <Item :itemName="item.name" />        
           </router-link>
       </div>
