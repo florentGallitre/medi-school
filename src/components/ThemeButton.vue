@@ -2,7 +2,15 @@
   <div class="theme-btn">
     <img class="theme-img" src="" />
     <span class="theme-title">{{ themeName }}</span>
-  </div>
+    <!-- <i class="fas fa-brain"></i> 
+    <i class="fas fa-notes-medical"></i> 
+    <i class="fas fa-first-aid"></i>     -->
+</div>
+      
+
+      
+    
+  
 </template>
 
 <script lang="ts">
