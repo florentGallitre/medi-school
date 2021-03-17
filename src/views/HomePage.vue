@@ -7,12 +7,14 @@
         The best place to study medicine, created just for you. You can access
         study notes, mnemonics.
       </p>
-      <div class="container d-flex justify-content-center col-lg-6-sm-3" v-for="section in appSection" :key="section.name" >
-        <router-link
-          :to="{ name: 'ListPage', params: { section: section.slug } }"
-        >
-          <ThemeButton :themeName="section.name" />
-        </router-link>
+      <div class="row d-flex justify-content-center">
+        <div v-for="section in appSection" :key="section.name" >
+          <router-link
+            :to="{ name: 'ListPage', params: { section: section.slug } }"
+          >
+            <ThemeButton :themeName="section" />
+          </router-link>
+        </div>
       </div>
     </div>
   </div>

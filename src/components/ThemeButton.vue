@@ -1,8 +1,14 @@
 <template>
-  <div class="theme-btn" >
-    <img class="theme-img"/>
-    <span class="theme-title">{{ themeName }}</span>
-  </div>
+  <div class="theme-btn">
+    <img class="theme-img" src="" />
+    <span class="theme-title">{{ themeName.name }}</span>
+    {{themeName.img}}
+</div>
+      
+
+      
+    
+  
 </template>
 
 <script lang="ts">
@@ -11,6 +17,7 @@ import { Vue } from "vue-property-decorator";
 export default Vue.extend({
   name: "ThemeButton",
   props: ["themeName"],
+  
 });
 </script>
 
