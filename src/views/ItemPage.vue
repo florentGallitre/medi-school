@@ -1,7 +1,7 @@
 <template>
   <div class="itemPage">
     <PageHeader></PageHeader>
-    <div>{{ item.title }}</div>
+    <div>{{ itemName }}</div>
     <div>{{ item.content }}</div>
   </div>
 </template>
@@ -13,6 +13,7 @@ import PageHeader from "../components/PageHeader.vue";
 
 export default Vue.extend({
   name: "ItemPage",
+  props: ["itemName"],
   data() {
     return {
       item: [],
