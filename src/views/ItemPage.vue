@@ -1,8 +1,7 @@
 <template>
   <div class="itemPage">
     <PageHeader></PageHeader>
-    <div>{{ itemName }}</div>
-    <div>{{ item.content }}</div>
+    <div>{{ this.$route.params }}</div>
   </div>
 </template>
 
@@ -13,7 +12,6 @@ import PageHeader from "../components/PageHeader.vue";
 
 export default Vue.extend({
   name: "ItemPage",
-  props: ["itemName"],
   data() {
     return {
       item: [],
@@ -22,7 +20,11 @@ export default Vue.extend({
   components: { PageHeader },
   mounted() {
     this.loadData().then((result: any) => {
-      this.item = result.tree[0].children;
+      result.tree.forEach((cat) => {
+        if ((cat.slug = this.$route.params)) {
+          this.item = result.tree[0].children;
+        }
+      });
     });
   },
   methods: {
@@ -30,6 +32,7 @@ export default Vue.extend({
       const data = await axios.get(
         `${window.location.origin + window.location.pathname}/data.json`
       );
+      console.log(data.data);
       return data.data;
     },
   },

@@ -1,12 +1,19 @@
 <template>
   <div class="listPage">
     <PageHeader></PageHeader>
+    <!-- {{ this.categories }} -->
+
     <div v-for="topic in this.categories" :key="topic.name">
       <Topic :topicName="topic.name" />
-        <div v-for="item in topic.children" :key="item.name">
-          <router-link :to="{ name:'ItemPage', params: { topic:topic.slug, item: item.slug } }">
-            <Item :itemName="item.name" />        
-          </router-link>
+      <div v-for="item in topic.children" :key="item.name">
+        <router-link
+          :to="{
+            name: 'ItemPage',
+            params: { topic: topic.slug, item: item.slug },
+          }"
+        >
+          <Item :itemName="item.name" />
+        </router-link>
       </div>
     </div>
   </div>
@@ -30,8 +37,11 @@ export default Vue.extend({
   mounted() {
     this.loadData().then((result: any) => {
       result.tree.forEach((cat) => {
-        if ((cat.slug = this.$route.params.section)) {
-          this.categories = result.tree[0].children;
+        if (cat.slug == this.$route.params.section) {
+          let categories = cat.children;
+          categories.forEach((cat) => {
+            this.categories.push(cat);
+          });
         }
       });
     });
