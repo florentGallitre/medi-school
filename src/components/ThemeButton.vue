@@ -1,11 +1,14 @@
 <template>
-  <div class="theme-btn">
-    <button class="col-lg-4">{{ themeName }}</button>
-  </div>
+  <container class="theme-btn">
+    <row>
+    <img class="theme-img" src="" />
+    <span-col class="theme-title">{{ themeName }}</span-col>
+    </row>
+  </container>
 </template>
 
 <script lang="ts">
-import { Component, Vue } from "vue-property-decorator";
+import { Vue } from "vue-property-decorator";
 
 export default Vue.extend({
   name: "ThemeButton",
@@ -14,5 +17,5 @@ export default Vue.extend({
 </script>
 
 <style lang="scss">
-@import url("../assets/css/global.scss");
+@import url("../assets/css/themes.scss");
 </style>
