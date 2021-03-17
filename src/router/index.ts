@@ -16,14 +16,11 @@ const routes: Array<RouteConfig> = [
         path: '/list-page/:section',
         name: 'ListPage',
         component: ListPage,
-        children: [
-            {
-                path: '/list-page/:section/:item',
-                name: 'ItemPage',
-                component: ItemPage,
-            }
-
-        ]
+    },
+    {
+        path: '/list-page/:section/:item',
+        name: 'ItemPage',
+        component: ItemPage,
     },
 ]
 
