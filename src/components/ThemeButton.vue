@@ -1,6 +1,6 @@
 <template>
   <div class="theme-btn">
-    <button>{{ themeName }}</button>
+    <button class="col-lg-4">{{ themeName }}</button>
   </div>
 </template>
 
