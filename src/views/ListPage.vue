@@ -3,6 +3,11 @@
     <PageHeader></PageHeader>
     <div v-for="topic in this.categories" :key="topic.name">
       <Topic :topicName="topic.name" />
+        <div v-for="item in topic.children" :key="item.name">
+          <router-link :to="{ name:'ItemPage', params: { item: item.slug } }">
+            <Item :itemName="item.name" />           
+          </router-link>
+      </div>
     </div>
   </div>
 </template>
@@ -12,6 +17,7 @@ import Vue from "vue";
 import axios from "axios";
 import PageHeader from "../components/PageHeader.vue";
 import Topic from "../components/Topic.vue";
+import Item from "../components/Item.vue";
 
 export default Vue.extend({
   name: "ListPage",
@@ -20,7 +26,7 @@ export default Vue.extend({
       categories: [],
     };
   },
-  components: { PageHeader, Topic },
+  components: { PageHeader, Topic, Item },
   mounted() {
     this.loadData().then((result: any) => {
       result.tree.forEach((cat) => {
