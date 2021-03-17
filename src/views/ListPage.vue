@@ -1,10 +1,9 @@
 <template>
   <div class="listPage">
     <PageHeader></PageHeader>
-    <span>{{ id }}</span>
-    <!-- <div v-for="topic in this.section" :key="topic.name">
-      <Topic :topicName="topic.name" /> 
-    </div> -->
+    <div v-for="topic in this.categories" :key="topic.name">
+      <Topic :topicName="topic.name" />
+    </div>
   </div>
 </template>
 
@@ -18,19 +17,13 @@ export default Vue.extend({
   name: "ListPage",
   data() {
     return {
-      id: 0,
-      topic: null,
+      categories: [],
     };
   },
   components: { PageHeader, Topic },
-  created() {
-    this.id = this.$route.params.id;
-  },
   mounted() {
-    this.topic = this.loadData().then((result: any) => {
-      result.tree.map((data) => {
-        return (data.id = this.id);
-      });
+    this.loadData().then((result: any) => {
+      this.categories = result.tree[0].children;
     });
   },
   methods: {
