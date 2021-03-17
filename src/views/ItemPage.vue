@@ -1,7 +1,8 @@
 <template>
   <div class="itemPage">
     <PageHeader></PageHeader>
-    <div>{{ this.$route.params }}</div>
+    <div>{{ this.item.name }}</div>
+    <img v-bind:src="this.item.imgPath" class="item-image" />
   </div>
 </template>
 
@@ -15,14 +16,26 @@ export default Vue.extend({
   data() {
     return {
       item: [],
+      imgPath: "",
     };
   },
   components: { PageHeader },
   mounted() {
     this.loadData().then((result: any) => {
       result.tree.forEach((cat) => {
-        if ((cat.slug = this.$route.params)) {
-          this.item = result.tree[0].children;
+        if (cat.slug == this.$route.params.section) {
+          let categories = cat.children;
+          categories.forEach((cat) => {
+            if (cat.slug == this.$route.params.topic) {
+              let items = cat.children;
+              items.forEach((element) => {
+                if (element.slug == this.$route.params.item) {
+                  this.item = element;
+                  this.imgPath = element.imgPath;
+                }
+              });
+            }
+          });
         }
       });
     });
@@ -32,7 +45,6 @@ export default Vue.extend({
       const data = await axios.get(
         `${window.location.origin + window.location.pathname}/data.json`
       );
-      console.log(data.data);
       return data.data;
     },
   },
@@ -40,4 +52,9 @@ export default Vue.extend({
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped></style>
+<style scoped>
+.item-image {
+  width: 100%;
+  height: auto;
+}
+</style>

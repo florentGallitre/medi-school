@@ -7,6 +7,7 @@
     {
       "id": 1,
       "name": "Mnemonics",
+      "img": "<i class='fas fa-brain'></i>",
       "subtitle": "Sous-titre facultatif",
       "author": [
         {
@@ -43,7 +44,8 @@
               "appId": 1,
               "parentId": 10,
               "slug": "aortic-stenosis-Triad",
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/64.Aortic stenosis triad.jpeg"
             },
             {
               "id": 101,
@@ -693,7 +695,8 @@
               "appId": 1,
               "parentId": 20,
               "authorId": 1
-            }]
+            }
+          ]
         },
         {
           "id": 21,
@@ -718,7 +721,6 @@
               "appId": 1,
               "parentId": 21,
               "authorId": 1
-
             },
             {
               "id": 151,
@@ -790,7 +792,7 @@
               "id": 156,
               "name": "Management of Kawasaki disease",
               "component": "ManagementOfKawasakiDisease",
-              "slug":  "management-of-kawasaki-disease",
+              "slug": "management-of-kawasaki-disease",
               "subtitle": "",
               "appId": 1,
               "parentId": 22,
@@ -1131,6 +1133,7 @@
     {
       "id": 2,
       "name": "Study-notes",
+      "img": "<i class='fas fa-notes-medical'></i>",
       "author": [
         {
           "id": 2,
