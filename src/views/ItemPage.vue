@@ -23,11 +23,7 @@ export default Vue.extend({
   components: { PageHeader, Topic },
   mounted() {
     this.loadData().then((result: any) => {
-      result.tree.forEach((cat) => {
-        if ((cat.slug = this.$route.params.section)) {
-          this.categories = result.tree[0].children;
-        }
-      });
+      this.categories = result.tree[0].children;
     });
   },
   methods: {
