@@ -14,20 +14,8 @@ export default Vue.extend({
   data() {
     return {};
   },
-  methods: {
-            scroll(event) {
-        },
-  },
-  mounted() {
-    DataService.load()
-      .then(() => {
-        this.name = DataService.$data.appData.name;
-        this.categories = DataService.$data.tree;
-      })
-      .catch((e) => {
-        console.log(e);
-      });
-  },
+  methods: {},
+  mounted() {},
 });
 </script>
 

@@ -21,10 +21,10 @@
 </template>
 
 <script lang="ts">
-import axios from "axios";
 import Vue from "vue";
 import HomePageHeader from "@/components/HomePageHeader.vue";
 import ThemeButton from "@/components/ThemeButton.vue";
+import DataService from "@/service/DataService";
 
 export default Vue.extend({
   name: "HomePage",
@@ -33,32 +33,22 @@ export default Vue.extend({
     return {
       appInfo: {},
       appSection: {},
-      currentTheme: null,
     };
   },
   mounted() {
-    this.loadData().then((result: any) => {
-      this.appInfo = result.appData;
-      this.appSection = result.tree;
-    });
+    this.loadData();
   },
   methods: {
     async loadData() {
-      const data = await axios.get(
-        `${window.location.origin + window.location.pathname}/data.json`
-      );
-      return data.data;
+      await DataService.load()
+        .then(() => {
+          this.appInfo = DataService.$data.appData.name;
+          this.appSection = DataService.$data.tree;
+        })
+        .catch((e) => {
+          console.log(e);
+        });
     },
-    // searchBySlug(dataJsonTree: Array<any>, slug: string) {
-    //   for (let i in dataJsonTree) {
-    //     const mainCategory = dataJsonTree[i];
-    //     return mainCategory;
-    //     // for (let j in mainCategory) {
-    //     //   const subCategory = mainCategory[j];
-    //     //   if (subCategory.slug === slug) {
-    //     //     return subCategory;
-    //     //   }
-    //     // }
   },
 });
 </script>

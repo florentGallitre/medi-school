@@ -1,6 +1,8 @@
 <template>
   <div class="listPage">
     <PageHeader></PageHeader>
+
+    <Author :authorid="[]"></Author>
     <!-- {{ this.categories }} -->
 
     <div v-for="topic in this.categories" :key="topic.name">
@@ -9,7 +11,7 @@
         <router-link
           :to="{
             name: 'ItemPage',
-            params: { topic: topic.slug, item: item.slug},
+            params: { topic: topic.slug, item: item.slug },
           }"
         >
           <Item :itemName="item.name" />
@@ -25,6 +27,8 @@ import axios from "axios";
 import PageHeader from "../components/PageHeader.vue";
 import Topic from "../components/Topic.vue";
 import Item from "../components/Item.vue";
+import DataService from "@/service/DataService";
+import Author from "../components/Author.vue";
 
 export default Vue.extend({
   name: "ListPage",
@@ -33,25 +37,26 @@ export default Vue.extend({
       categories: [],
     };
   },
-  components: { PageHeader, Topic, Item },
+  components: { PageHeader, Topic, Item, Author },
   mounted() {
-    this.loadData().then((result: any) => {
-      result.tree.forEach((cat) => {
-        if (cat.slug == this.$route.params.section) {
-          let categories = cat.children;
-          categories.forEach((cat) => {
-            this.categories.push(cat);
-          });
-        }
-      });
-    });
+    this.loadData();
+
+    // result.tree.forEach((cat) => {
+    //   if (cat.slug == this.$route.params.section) {
+    //     let categories = cat.children;
+    //     categories.forEach((cat) => {
+    //       this.categories.push(cat);
+    //     });
+    //   }
+    // });
   },
   methods: {
     async loadData() {
-      const data = await axios.get(
-        `${window.location.origin + window.location.pathname}/data.json`
+      await DataService.getTopicJson(this.$route.params.section).then(
+        (result) => {
+          console.log(result);
+        }
       );
-      return data.data;
     },
   },
 });
