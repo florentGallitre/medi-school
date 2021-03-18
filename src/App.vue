@@ -1,6 +1,8 @@
 <template>
   <div id="app">
+    <div class="scrollable-content">
     <router-view></router-view>
+    </div>
   </div>
 </template>
 
@@ -12,7 +14,10 @@ export default Vue.extend({
   data() {
     return {};
   },
-  methods: {},
+  methods: {
+            scroll(event) {
+        },
+  },
   mounted() {
     DataService.load()
       .then(() => {
@@ -28,6 +33,7 @@ export default Vue.extend({
 
 <style lang="scss">
 @import url("./assets/css/global.scss");
+@import url("./assets/css/_variables.scss");
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -50,5 +56,12 @@ export default Vue.extend({
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+.scrollable-content {
+    margin-top: $headerHeight;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
 }
 </style>
