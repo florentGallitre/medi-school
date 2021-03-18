@@ -3,7 +3,7 @@
     <PageHeader></PageHeader>
 
     <Author :authorid="[]"></Author>
-    <!-- {{ this.categories }} -->
+    {{ this.categories }}
 
     <div v-for="topic in this.categories" :key="topic.name">
       <Topic :topicName="topic.name" />
@@ -34,31 +34,20 @@ export default Vue.extend({
   name: "ListPage",
   data() {
     return {
-      categories: [],
+      categories: null,
     };
   },
   components: { PageHeader, Topic, Item, Author },
   mounted() {
-    this.loadData();
-
-    // result.tree.forEach((cat) => {
-    //   if (cat.slug == this.$route.params.section) {
-    //     let categories = cat.children;
-    //     categories.forEach((cat) => {
-    //       this.categories.push(cat);
-    //     });
-    //   }
-    // });
+    DataService.load()
+      .then(() => {
+        DataService.getTopicJson(this.$route.params.section);
+      })
+      .catch((e) => {
+        console.log(e);
+      });
   },
-  methods: {
-    async loadData() {
-      await DataService.getTopicJson(this.$route.params.section).then(
-        (result) => {
-          console.log(result);
-        }
-      );
-    },
-  },
+  methods: {},
 });
 </script>
 

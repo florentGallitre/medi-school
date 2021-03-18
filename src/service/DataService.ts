@@ -28,20 +28,14 @@ class DataServiceClass {
         })
     }
 
-    getTopicJson(slug: string): Promise<any> {
-        return new Promise(() => {
-            if (this.$isLoaded) {
-                this.$tree.forEach(element => {
-                    if (element.slug == slug) {
-                        console.log(element)
-                        return element
-                    }
-                });
+    getTopicJson(slug: string) {
+        this.$tree.forEach(element => {
+            if (element.slug == slug) {
+                return element
             }
-        })
-
-
+        });
     }
 }
+
 
 export default new DataServiceClass()
