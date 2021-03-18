@@ -1,8 +1,9 @@
 <template>
   <div class="listPage">
     <PageHeader></PageHeader>
-    <Author :author="[]"></Author>
+   <Author></Author>
     <div class="border-radius-header">
+     
       <div v-for="topic in this.categories" :key="topic.name">
             <h2 id="headingAccordion">
               <Topic @click="click" :topicName="topic.name" :icon="topic.icon" />
@@ -39,6 +40,7 @@ export default Vue.extend({
   data() {
     return {
       categories: [],
+      authorName: [],
       
     };
   },
@@ -47,7 +49,12 @@ export default Vue.extend({
     DataService.load()
       .then(() => {
         let result = DataService.getTopicJson(this.$route.params.section);
+        let authorResult = DataService.getAuthorName(this.$route.params.section);
         this.categories = [...result.children];
+        this.authorName = [...authorResult];
+        console.log(authorResult);
+        
+        
       })
       .catch((e) => {
         console.log(e);

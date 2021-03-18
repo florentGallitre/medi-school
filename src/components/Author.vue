@@ -1,6 +1,6 @@
 <template>
   <div class="author">
-    <span class="p-3">Author </span>
+    <span class="p-3">Author</span>
   
     <!-- boucle pr afficher tous les auteurs en fonction du nbre delement du tableau -->
   </div>
@@ -12,7 +12,7 @@ import Vue from "vue";
 
 export default Vue.extend({
   name: "Author",
-  props: ["authorId"],
+  props: ["authorName"],
 });
 </script>
 

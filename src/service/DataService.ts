@@ -41,6 +41,22 @@ class DataServiceClass {
     getItemJson() {
 
     }
+
+    getAuthorName(slug: string) {
+        let result = null
+        for (let i in this.$tree) {
+            if (this.$tree[i].slug == slug) {
+                result = this.$tree[i].author
+                for (let j in result) {
+                    return result[j].name;
+                    
+                }
+
+            }
+        }
+
+        return result;
+    }
 }
 
 
