@@ -13,16 +13,7 @@ export default Vue.extend({
     return {};
   },
   methods: {},
-  mounted() {
-    DataService.load()
-      .then(() => {
-        this.name = DataService.$data.appData.name;
-        this.categories = DataService.$data.tree;
-      })
-      .catch((e) => {
-        console.log(e);
-      });
-  },
+  mounted() {},
 });
 </script>
 
