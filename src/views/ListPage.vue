@@ -9,7 +9,7 @@
         <router-link
           :to="{
             name: 'ItemPage',
-            params: { topic: topic.slug, item: item.slug },
+            params: { topic: topic.slug, item: item.slug},
           }"
         >
           <Item :itemName="item.name" />
