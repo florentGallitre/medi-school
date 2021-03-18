@@ -5,22 +5,27 @@
     <div class="border-radius-header">
      
       <div v-for="topic in this.categories" :key="topic.name">
-            <h2 id="headingAccordion">
-              <Topic @click="click" :topicName="topic.name" :icon="topic.icon" />
-            </h2>
-              <div class="itemDropdown" v-for="item in topic.children" :key="item.name">
-                <router-link
-                    :to="{
-                      name: 'ItemPage',
-                      params: { topic: topic.slug, item: item.slug },
-                    }"
-                  >
-                  <Item :itemName="item.name" />
-                </router-link>
-            </div>
-          </div>
+        <h2 id="headingAccordion" @click="toggleDisplayItemList(topic)">
+          <Topic :topicName="topic.name" :icon="topic.icon" />
+        </h2>
+        <div
+          v-show="displayItemList"
+          class="itemDropdown"
+          v-for="item in topic.children"
+          :key="item.name"
+        >
+          <router-link
+            :to="{
+              name: 'ItemPage',
+              params: { topic: topic.slug, item: item.slug },
+            }"
+          >
+            <Item :itemName="item.name" />
+          </router-link>
         </div>
       </div>
+    </div>
+  </div>
 </template>
 
 <script lang="ts">
@@ -34,14 +39,12 @@ import Author from "../components/Author.vue";
 
 export default Vue.extend({
   name: "ListPage",
-  props: {
-    
-  },
+  props: {},
   data() {
     return {
       categories: [],
       authorName: [],
-      
+      displayItemList: true,
     };
   },
   components: { PageHeader, Topic, Item, Author },
@@ -60,7 +63,11 @@ export default Vue.extend({
         console.log(e);
       });
   },
-  methods: {},
+  methods: {
+    toggleDisplayItemList(topic) {
+      this.displayItemList = !this.displayItemList;
+    },
+  },
 });
 </script>
 
