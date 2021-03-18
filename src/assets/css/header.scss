@@ -6,3 +6,27 @@
     width: 100vw;
     height: 40vh;
 }
+
+
+.pageHeader {
+    background-image: url("../logo.png"), url("../home/pills.png"), url("../home/background.jpg");
+    background-size: 28vh, auto 70vh, 100vw auto;
+    background-repeat: no-repeat;
+    background-position: 90% 30%, 5% 50%, 70% 5%;
+    width: auto;
+    height: 30vh;
+    position: relative;
+  }
+  
+.backBtn {
+    margin-right: 93%;
+    top: 15%;
+}
+
+.fa-caret-left {
+    color: white;
+    width: 15px !important; 
+    height: auto;
+}
+
+  
