@@ -13,16 +13,7 @@ export default Vue.extend({
     return {};
   },
   methods: {},
-  mounted() {
-    DataService.load()
-      .then(() => {
-        this.name = DataService.$data.appData.name;
-        this.categories = DataService.$data.tree;
-      })
-      .catch((e) => {
-        console.log(e);
-      });
-  },
+  mounted() {},
 });
 </script>
 
@@ -38,6 +29,7 @@ export default Vue.extend({
   position: fixed;
   width: 100%;
   height: 100%;
+  overflow: hidden;
 }
 #nav {
   padding: 30px;

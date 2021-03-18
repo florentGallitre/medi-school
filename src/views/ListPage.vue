@@ -27,6 +27,8 @@ import axios from "axios";
 import PageHeader from "../components/PageHeader.vue";
 import Topic from "../components/Topic.vue";
 import Item from "../components/Item.vue";
+import DataService from "@/service/DataService";
+import Author from "../components/Author.vue";
 
 export default Vue.extend({
   name: "ListPage",
@@ -39,28 +41,29 @@ export default Vue.extend({
       
     };
   },
-  components: { PageHeader, Topic, Item },
+  components: { PageHeader, Topic, Item, Author },
   mounted() {
-    this.loadData().then((result: any) => {
-      result.tree.forEach((cat) => {
-        if (cat.slug == this.$route.params.section) {
-          let categories = cat.children;
-          categories.forEach((cat) => {
-            this.categories.push(cat);
-          });
-        }
-      });
-    });
+    this.loadData();
+
+    // result.tree.forEach((cat) => {
+    //   if (cat.slug == this.$route.params.section) {
+    //     let categories = cat.children;
+    //     categories.forEach((cat) => {
+    //       this.categories.push(cat);
+    //     });
+    //   }
+    // });
   },
   methods: {
     collapse() {
 
     },
     async loadData() {
-      const data = await axios.get(
-        `${window.location.origin + window.location.pathname}/data.json`
+      await DataService.getTopicJson(this.$route.params.section).then(
+        (result) => {
+          console.log(result);
+        }
       );
-      return data.data;
     },
   },
 });
