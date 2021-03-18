@@ -10,6 +10,5 @@ new Vue({
   router,
   render: h => h(App),
   data: {
-    toggle: true
   }
 }).$mount('#app')
