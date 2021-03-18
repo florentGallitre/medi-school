@@ -1,7 +1,7 @@
 .header-background {
     background-image: url("../logo.png"), url("../home/pills.png"), url("../home/medischool_header.png"), url("../home/background.jpg");
-    background-size: 28vh, auto 30vh, 70vh, 100vw 100vh;
-    background-position: 6vw 19vh, 3vw 2vh, -6vw -2vh, 0;
+    background-size: 28vh, auto 30vh, 60vh, 100vw 100vh;
+    background-position: 6vw 13vh, 3vw 2vh, -6vw -2vh, 0;
     background-repeat: no-repeat;
     width: 100vw;
     height: 40vh;
@@ -10,11 +10,11 @@
 
 .pageHeader {
     background-image: url("../logo.png"), url("../home/pills.png"), url("../home/background.jpg");
-    background-size: 28vh, auto 40vh, 100vw auto;
+    background-size: 28vh, auto 30vh, 100vw 100vh;
     background-repeat: no-repeat;
-    background-position: 90% 30%, 70vh, 70% 5%;
+    background-position: 90% 30%, 100%, 70% 5%;
     width: auto;
-    height: 30vh;
+    height: 25vh;
     position: relative;
   }
   

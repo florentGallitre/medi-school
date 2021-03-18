@@ -1,6 +1,7 @@
 <template>
   <div class="listPage">
     <PageHeader></PageHeader>
+    <Author :author="[]"></Author>
     <div class="border-radius-header">
       <div v-for="topic in this.categories" :key="topic.name">
             <h2 id="headingAccordion">
