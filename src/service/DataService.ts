@@ -29,11 +29,17 @@ class DataServiceClass {
     }
 
     getTopicJson(slug: string) {
-        this.$tree.forEach(element => {
-            if (element.slug == slug) {
-                return element
+        let result = null
+        for (let i in this.$tree) {
+            if (this.$tree[i].slug == slug) {
+                result = this.$tree[i]
             }
-        });
+        }
+        return result;
+    }
+
+    getItemJson() {
+
     }
 }
 
