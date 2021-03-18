@@ -1,9 +1,11 @@
-.home-component {
+.border-radius-header {
     margin-top: -10vh;
     border-radius: 40px;
     background-color: white;
     height: 100%;
+    width: 100%;
     padding: 5vw;
+    position: absolute;
 }
 .title {
     text-align: left;

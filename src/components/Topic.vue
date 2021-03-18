@@ -1,6 +1,7 @@
 <template>
-  <div class="topic">
-    <button class="p-3">{{ topicName }}</button>
+  <div class="topic d-flex justify-content-center align-items-center">
+      <button @click='toggle = !toggle' v-html="topicName + icon" class="accordion-button col-10 pt-2 pb-2 pl-3 pr-3 topicBtn d-flex justify-content-between" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+      </button>
   </div>
 </template>
 
@@ -9,7 +10,7 @@ import Vue from "vue";
 
 export default Vue.extend({
   name: "Topic",
-  props: ["topicName"],
+  props: ["topicName", "icon"],
 
   data() {
     return {};
@@ -21,4 +22,6 @@ export default Vue.extend({
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped></style>
+<style scoped>
+  @import url("../assets/css/topic.scss");
+</style>
