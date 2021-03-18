@@ -45,7 +45,7 @@
               "parentId": 10,
               "slug": "aortic-stenosis-Triad",
               "authorId": 1,
-              "imgPath": "../img/64.Aortic stenosis triad.jpeg"
+              "imgPath": "../img//mnemonics/cardiology/64.Aortic stenosis triad.jpeg"
             },
             {
               "id": 101,
@@ -55,7 +55,8 @@
               "appId": 1,
               "parentId": 10,
               "slug": "causes-of-cardiogenic-schock",
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/cardiology/63.Causes of cardiogenic shock.jpeg"
             },
             {
               "id": 102,
@@ -65,7 +66,8 @@
               "appId": 1,
               "parentId": 10,
               "slug": "causes-of-high-output-heart-failre",
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/cardiology/61.Causes of high output heart failure.jpeg"
             },
             {
               "id": 103,
@@ -75,7 +77,8 @@
               "appId": 1,
               "parentId": 10,
               "slug": "complications-of-myocardial-infarction",
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/cardiology/10.Complications of myocardial infarction.jpeg"
             },
             {
               "id": 104,
@@ -85,7 +88,8 @@
               "appId": 1,
               "parentId": 10,
               "slug": "crx-heart-failure",
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/cardiology/9.CXR heart failure.jpeg"
             },
             {
               "id": 105,
@@ -95,7 +99,8 @@
               "appId": 1,
               "parentId": 10,
               "slug": "cyanotic-congenital-heart-defects",
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/cardiology/77.Cyanotic congenital heart defects.jpeg"
             },
             {
               "id": 106,
@@ -105,7 +110,8 @@
               "appId": 1,
               "parentId": 10,
               "slug": "managment-of-heart-failure",
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/cardiology/66.Management of heart failure.jpeg"
             },
             {
               "id": 107,
@@ -115,7 +121,8 @@
               "appId": 1,
               "parentId": 10,
               "slug": "managment-option-for-peripheral-vascular-disease",
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/cardiology/45.Management option for peripheral vascular disease.jpeg"
             },
             {
               "id": 108,
@@ -125,7 +132,8 @@
               "appId": 1,
               "parentId": 10,
               "slug": "mitrale-vs-p-pulmonale",
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/cardiology/70.p mitrale Vs p pulmonale.jpeg"
             },
             {
               "id": 109,
@@ -135,7 +143,8 @@
               "appId": 1,
               "parentId": 10,
               "slug": "reversible-causes-of-cardiac-arrest",
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/cardiology/17.Reversible causes of cardiac arrest.jpeg"
             }
           ]
         },
@@ -161,7 +170,8 @@
               "appId": 1,
               "parentId": 11,
               "slug": "eczema-managment",
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/dermatology/86.Eczema management.jpeg"
             },
             {
               "id": 111,
@@ -171,7 +181,8 @@
               "appId": 1,
               "parentId": 11,
               "slug": "henoch-schonlein-purpura",
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/dermatology/81.Henoch-Schonlein Purpura.jpeg"
             },
             {
               "id": 112,
@@ -181,7 +192,8 @@
               "appId": 1,
               "parentId": 11,
               "slug": "management-of-psoriasis",
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/dermatology/80.Management of psoriasis.jpeg"
             },
             {
               "id": 113,
@@ -191,7 +203,8 @@
               "appId": 1,
               "parentId": 11,
               "slug": "pemphigus-vs-pemphigoid",
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/dermatology/1.PemphigUS Vs PemphigOID.jpeg"
             }
           ]
         },
@@ -217,7 +230,8 @@
               "appId": 1,
               "parentId": 12,
               "slug": "contraindications-of-ace-i",
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/drugs-and-vaccines/67.Contraindications of ACE-I.jpeg"
             },
             {
               "id": 115,
@@ -227,7 +241,8 @@
               "appId": 1,
               "parentId": 12,
               "slug": "drugs-that-cause-agranulocytosis",
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/drugs-and-vaccines/21.Drugs that cause agranulocytosis.jpeg"
             },
             {
               "id": 116,
@@ -237,7 +252,8 @@
               "appId": 1,
               "parentId": 12,
               "slug": "drugs-that-induce-and-exacerbate-aki",
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/drugs-and-vaccines/56.Drugs that induce and exacerbate AKI.jpeg"
             },
             {
               "id": 117,
@@ -247,7 +263,8 @@
               "appId": 1,
               "parentId": 12,
               "slug": "live-attenuated-vaccines-plus-varicella-zoster",
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/drugs-and-vaccines/76.LIVE attenuated vaccines (+Varicella zoster).jpeg"
             },
             {
               "id": 118,
@@ -257,7 +274,8 @@
               "appId": 1,
               "parentId": 12,
               "slug": "side-effects-of-ace-i",
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/drugs-and-vaccines/68.Side effects of ACE-I.jpeg"
             },
             {
               "id": 119,
@@ -267,7 +285,8 @@
               "appId": 1,
               "parentId": 12,
               "slug": "side-effects-of-levodopa",
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/drugs-and-vaccines/28.Side effects of Levodopa.jpeg"
             },
             {
               "id": 120,
@@ -277,7 +296,8 @@
               "appId": 1,
               "parentId": 12,
               "slug": "side-effects-of-lithium",
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/drugs-and-vaccines/24.Side effects of Lithium.jpeg"
             },
             {
               "id": 121,
@@ -287,7 +307,8 @@
               "appId": 1,
               "parentId": 12,
               "slug": "steroids-adverse-effects-and-cautions",
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/drugs-and-vaccines/16.Steroids adverse effects and cautions.jpeg"
             }
           ]
         },
@@ -313,7 +334,8 @@
               "appId": 1,
               "parentId": 13,
               "slug": "causative-organisms-of-otitis-externa",
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/ear-nose-throat/38.Causative organisms of otitis externa.jpeg"
             }
           ]
         },
@@ -339,7 +361,8 @@
               "appId": 1,
               "parentId": 14,
               "slug": "causes-of-of-hypocal-caemia",
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/endocrinology/51.Causes of hypocalcaemia.jpeg"
             },
             {
               "id": 124,
@@ -349,7 +372,8 @@
               "appId": 1,
               "parentId": 14,
               "slug": "managment-of-dka",
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/endocrinology/72.Management of DKA.jpeg"
             },
             {
               "id": 125,
@@ -359,7 +383,8 @@
               "appId": 1,
               "parentId": 14,
               "slug": "managment-of-thyroid-storm",
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/endocrinology/47.Management of thyroid storm.jpeg"
             },
             {
               "id": 126,
@@ -369,7 +394,8 @@
               "appId": 1,
               "parentId": 14,
               "slug": "precipitants-of-dka",
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/endocrinology/5.Precipitants of DKA.jpeg"
             },
             {
               "id": 127,
@@ -379,7 +405,8 @@
               "appId": 1,
               "parentId": 14,
               "slug": "presentation-of-hypercalcaemia",
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/endocrinology/54.Presentation of hypercalcaemia.jpeg"
             },
             {
               "id": 128,
@@ -389,7 +416,8 @@
               "appId": 1,
               "parentId": 14,
               "slug": "presentation-of-hypocalcaemia",
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/endocrinology/53.Presentation of hypocalcaemia.jpeg"
             },
             {
               "id": 129,
@@ -399,7 +427,8 @@
               "appId": 1,
               "parentId": 14,
               "slug": "thyroid-status",
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/endocrinology/12.Thyroid status.jpeg"
             },
             {
               "id": 130,
@@ -409,7 +438,8 @@
               "appId": 1,
               "parentId": 14,
               "slug": "thyroid-of-multiple-endocrine-neoplasia",
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/endocrinology/46.Types of multiple endocrine neoplasia.jpeg"
             }
           ]
         },
@@ -435,7 +465,8 @@
               "appId": 1,
               "parentId": 15,
               "slug": "causes-of-abdominal-distension",
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/gastroenterology/14.Causes of abdominal distension.jpeg"
             },
             {
               "id": 132,
@@ -444,8 +475,9 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 15,
-              "slug": "causes-of-abdominal-distension",
-              "authorId": 1
+              "slug": "crohns-disease",
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/gastroenterology/3.Crohn's disease.jpeg"
             },
             {
               "id": 133,
@@ -455,7 +487,8 @@
               "appId": 1,
               "parentId": 15,
               "slug": "managment-of-oesophageal-varices",
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/gastroenterology/41.Management of oesophageal varices.jpeg"
             },
             {
               "id": 134,
@@ -465,7 +498,8 @@
               "appId": 1,
               "parentId": 15,
               "slug": "risk-factors-for-gallstones",
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/gastroenterology/15.Risk factors for Gallstones.jpeg"
             },
             {
               "id": 135,
@@ -475,7 +509,8 @@
               "appId": 1,
               "parentId": 15,
               "slug": "symptoms-of-dyspepsia",
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/gastroenterology/42.Symptoms of dyspepsia.jpeg"
             }
           ]
         },
@@ -492,7 +527,19 @@
           "content": "<h1>The standard Lorem Ipsum</h1>",
           "slug": "gyn-obs",
           "submenu": false,
-          "children": []
+          "children": [
+            {
+              "id": 160,
+              "name": "Causes of postpartum haemorrhage",
+              "component": "CausesOfPostpartumHaemorrhage",
+              "subtitle": "",
+              "appId": 1,
+              "parentId": 16,
+              "slug": "causes-of-postpartum-haemorrhage",
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/gyn-obs/26.Causes of postpartum haemorrhage.jpeg"
+            }
+          ]
         },
         {
           "id": 17,
@@ -516,7 +563,8 @@
               "appId": 1,
               "parentId": 17,
               "slug": "alcohols-effect-on-warfarin-metabolism",
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/hepatology/62.Alcohol's effect on warfarin metabolism.jpeg"
             }
           ]
         },
@@ -542,7 +590,8 @@
               "appId": 1,
               "parentId": 18,
               "slug": "egfr-variables-for-mdrd-equation",
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/nephrology/55.eGFR variables for MDRD equation.jpeg"
             },
             {
               "id": 138,
@@ -552,7 +601,8 @@
               "appId": 1,
               "parentId": 18,
               "slug": "gfr-categories-for-ckd-classification",
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/nephrology/58.GFR categories for CKD classification.jpeg"
             },
             {
               "id": 139,
@@ -562,7 +612,8 @@
               "appId": 1,
               "parentId": 18,
               "slug": "indications-for-acute-dialysis",
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/nephrology/59.Indications for acute dialysis.jpeg"
             },
             {
               "id": 140,
@@ -572,7 +623,8 @@
               "appId": 1,
               "parentId": 18,
               "slug": "opioid-prescribing-in-renal-impairement",
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/nephrology/32.Opioid prescribing in renal impairement.jpeg"
             },
             {
               "id": 141,
@@ -582,7 +634,8 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 18,
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/nephrology/60.Pre-renal causes of AKI.jpeg"
             },
             {
               "id": 142,
@@ -592,7 +645,8 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 18,
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/nephrology/57.Renal Artery Stenosis.jpeg"
             }
           ]
         },
@@ -618,7 +672,8 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 19,
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/neurology/6.Core features of Parkinsonism.jpeg"
             },
             {
               "id": 144,
@@ -628,7 +683,8 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 19,
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/neurology/30.Causes of peripheral neuropathy.jpeg"
             },
             {
               "id": 145,
@@ -638,7 +694,8 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 19,
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/neurology/25.Mental state exam.jpeg"
             },
             {
               "id": 146,
@@ -648,7 +705,8 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 19,
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/neurology/39.Modified Glasgow criteria.jpeg"
             },
             {
               "id": 147,
@@ -658,7 +716,8 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 19,
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/neurology/29.Nerve damage.jpeg"
             },
             {
               "id": 148,
@@ -668,7 +727,8 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 19,
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/neurology/27.Presentation of complex partial seizures.jpeg"
             }
           ]
         },
@@ -688,13 +748,14 @@
           "children": [
             {
               "id": 149,
-              "name": "Colles fracture",
-              "component": "CollesFracture",
-              "slug": "colles-fracture",
+              "name": "Examining the optic nerve",
+              "component": "ExaminingTheOpticNerve",
+              "slug": "examining-the-optic-nerve",
               "subtitle": "",
               "appId": 1,
               "parentId": 20,
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/ophtalmology/13.Examining the optic nerve.jpeg"
             }
           ]
         },
@@ -714,13 +775,14 @@
           "children": [
             {
               "id": 150,
-              "name": "Examining the optic nerve",
-              "component": "ExaminingTheOpticNerve",
-              "slug": "examining-the-optic-nerve",
+              "name": "Colles fracture",
+              "component": "CollesFracture",
+              "slug": "colles-fracture",
               "subtitle": "",
               "appId": 1,
               "parentId": 21,
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/orthopedy/43.Colles fracture.jpeg"
             },
             {
               "id": 151,
@@ -730,7 +792,8 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 21,
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/orthopedy/37.Features of reactive arthritis.jpeg"
             },
             {
               "id": 152,
@@ -740,7 +803,8 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 21,
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/orthopedy/52.Indications for bisphosphonates .jpeg"
             },
             {
               "id": 153,
@@ -750,7 +814,8 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 21,
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/orthopedy/11.Osteoporosis risk factors.jpeg"
             }
           ]
         },
@@ -776,7 +841,8 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 22,
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/paediatrics/82.Causes of meningitis in children.jpeg"
             },
             {
               "id": 155,
@@ -786,7 +852,8 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 22,
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/paediatrics/83.Causes of meningitis in neonates.jpeg"
             },
             {
               "id": 156,
@@ -796,7 +863,8 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 22,
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/paediatrics/73.Management of Kawasaki disease.jpeg"
             },
             {
               "id": 156,
@@ -806,7 +874,8 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 22,
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/paediatrics/4.Necrotizing enterocolitis.jpeg"
             },
             {
               "id": 157,
@@ -816,7 +885,8 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 22,
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/paediatrics/78.Omphalocele and Gastroschisis.jpeg"
             },
             {
               "id": 158,
@@ -826,7 +896,8 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 22,
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/paediatrics/31.Presentation of normal pressure hydrocephalus.jpeg"
             },
             {
               "id": 159,
@@ -836,7 +907,8 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 22,
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/paediatrics/79.Summary of pyloric stenosis.jpeg"
             }
           ]
         },
@@ -862,7 +934,8 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 23,
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/palliative-care/33.Management of breathlessness in palliative care.jpeg"
             },
             {
               "id": 161,
@@ -872,7 +945,8 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 23,
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/palliative-care/34.Uses of corticosteroids in palliative care.jpeg"
             }
           ]
         },
@@ -896,7 +970,8 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 30,
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/pulmonary/20.Assessing severity of community acquired pneumonia.jpeg"
             },
             {
               "id": 241,
@@ -906,7 +981,8 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 30,
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/pulmonary/50.Causes of exudative pleural effusion.jpeg"
             },
             {
               "id": 242,
@@ -916,7 +992,8 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 30,
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/pulmonary/22.Causes of lower zone pulmonary fibrosis.jpeg"
             },
             {
               "id": 243,
@@ -926,7 +1003,8 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 30,
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/pulmonary/49.Causes of transudative pleural effusion.jpeg"
             },
             {
               "id": 244,
@@ -936,7 +1014,8 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 30,
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/pulmonary/23.Causes of upper zone pulmonary fibrosis.jpeg"
             },
             {
               "id": 245,
@@ -946,7 +1025,8 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 30,
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/pulmonary/65.Non-therapeutic management of COPD.jpeg"
             }
           ]
         },
@@ -970,7 +1050,8 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 30,
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/syndromes/71.Antenatal screening for Down's syndrome.jpeg"
             },
             {
               "id": 251,
@@ -980,7 +1061,8 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 30,
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/syndromes/36.Management of Raynaud's phenomenon.jpeg"
             },
             {
               "id": 252,
@@ -990,7 +1072,8 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 30,
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/syndromes/74.Marfan syndrome.jpeg"
             },
             {
               "id": 253,
@@ -1000,7 +1083,8 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 30,
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/syndromes/19.Symptoms of serotinin syndrome.jpeg"
             }
           ]
         },
@@ -1024,7 +1108,8 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 30,
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/other/40.Adjuvant therapy for colorectal cancer.jpeg"
             },
             {
               "id": 301,
@@ -1034,7 +1119,8 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 30,
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/other/2.Causes of clubbing.jpeg"
             },
             {
               "id": 302,
@@ -1044,7 +1130,8 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 30,
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/other/8.Extra parts of gynaecological history taking.jpeg"
             },
             {
               "id": 303,
@@ -1054,7 +1141,8 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 30,
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/other/7.Extra parts of psychiatric history taking.jpeg"
             },
             {
               "id": 304,
@@ -1064,7 +1152,8 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 30,
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/other/18.Life threatening thoracic trauma.jpeg"
             },
             {
               "id": 305,
@@ -1074,7 +1163,8 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 30,
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/other/35.Limited cutaneous systemic sclerosis.jpeg"
             },
             {
               "id": 306,
@@ -1084,7 +1174,8 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 30,
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/other/44.Management of stress incontinence.jpeg"
             },
             {
               "id": 307,
@@ -1094,7 +1185,8 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 30,
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/other/69.Manegement of nocturnal enuresis.jpeg"
             },
             {
               "id": 308,
@@ -1104,7 +1196,8 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 30,
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/other/84.Morphoeic BCC.jpeg"
             },
             {
               "id": 309,
@@ -1114,7 +1207,8 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 30,
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/other/48.Phaeochromocytoma.jpeg"
             },
             {
               "id": 310,
@@ -1124,7 +1218,8 @@
               "subtitle": "",
               "appId": 1,
               "parentId": 30,
-              "authorId": 1
+              "authorId": 1,
+              "imgPath": "../img/mnemonics/other/75.RA Vs OA X-ray findings.jpeg"
             }
           ]
         }
@@ -2539,7 +2634,7 @@
       "content": "",
       "slug": "cases-challenge",
       "submenu": false,
-      "children":[]
+      "children": []
     }
   ]
 }

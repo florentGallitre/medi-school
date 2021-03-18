@@ -38,6 +38,7 @@ export default Vue.extend({
   position: fixed;
   width: 100%;
   height: 100%;
+  overflow: hidden;
 }
 #nav {
   padding: 30px;
