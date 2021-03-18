@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <router-view></router-view>
+    <div class="scrollable-content">
+      <router-view></router-view>
+    </div>
   </div>
 </template>
 
@@ -42,5 +44,12 @@ export default Vue.extend({
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+.scrollable-content {
+  margin-top: 60px;
+  overflow: auto;
+  width: 100%;
+  height: 100%;
 }
 </style>

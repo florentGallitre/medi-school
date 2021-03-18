@@ -44,29 +44,16 @@ export default Vue.extend({
   },
   components: { PageHeader, Topic, Item, Author },
   mounted() {
-    this.loadData();
-
-    // result.tree.forEach((cat) => {
-    //   if (cat.slug == this.$route.params.section) {
-    //     let categories = cat.children;
-    //     categories.forEach((cat) => {
-    //       this.categories.push(cat);
-    //     });
-    //   }
-    // });
+    DataService.load()
+      .then(() => {
+        let result = DataService.getTopicJson(this.$route.params.section);
+        this.categories = [...result.children];
+      })
+      .catch((e) => {
+        console.log(e);
+      });
   },
-  methods: {
-    collapse() {
-
-    },
-    async loadData() {
-      await DataService.getTopicJson(this.$route.params.section).then(
-        (result) => {
-          console.log(result);
-        }
-      );
-    },
-  },
+  methods: {},
 });
 </script>
 
