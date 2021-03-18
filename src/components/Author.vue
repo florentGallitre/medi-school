@@ -1,6 +1,6 @@
 <template>
   <div class="author">
-    <span class="p-3">{{ topicName }}</span>
+    <span class="p-3">Bla bla </span>
   </div>
 </template>
 
