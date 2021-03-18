@@ -1,6 +1,8 @@
 <template>
   <div class="listPage">
     <PageHeader></PageHeader>
+
+    <Author :authorid="[]"></Author>
     <!-- {{ this.categories }} -->
 
     <div v-for="topic in this.categories" :key="topic.name">
@@ -26,6 +28,7 @@ import PageHeader from "../components/PageHeader.vue";
 import Topic from "../components/Topic.vue";
 import Item from "../components/Item.vue";
 import DataService from "@/service/DataService";
+import Author from "../components/Author.vue";
 
 export default Vue.extend({
   name: "ListPage",
@@ -34,7 +37,7 @@ export default Vue.extend({
       categories: [],
     };
   },
-  components: { PageHeader, Topic, Item },
+  components: { PageHeader, Topic, Item, Author },
   mounted() {
     this.loadData();
 
