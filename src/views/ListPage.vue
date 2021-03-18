@@ -1,27 +1,28 @@
 <template>
   <div class="listPage">
     <PageHeader></PageHeader>
-   <Author></Author>
     <div class="border-radius-header">
-     
-      <div v-for="topic in this.categories" :key="topic.name">
-        <h2 id="headingAccordion" @click="toggleDisplayItemList(topic)">
-          <Topic :topicName="topic.name" :icon="topic.icon" />
-        </h2>
-        <div
-          v-show="displayItemList"
-          class="itemDropdown"
-          v-for="item in topic.children"
-          :key="item.name"
-        >
-          <router-link
-            :to="{
-              name: 'ItemPage',
-              params: { topic: topic.slug, item: item.slug },
-            }"
+      <div class="scrollable-content">
+        <Author></Author>
+        <div v-for="topic in this.categories" :key="topic.name">
+          <h2 id="headingAccordion" @click="toggleDisplayItemList(topic)">
+            <Topic :topicName="topic.name" :icon="topic.icon" />
+          </h2>
+          <div
+            v-show="displayItemList"
+            class="itemDropdown"
+            v-for="item in topic.children"
+            :key="item.name"
           >
-            <Item :itemName="item.name" />
-          </router-link>
+            <router-link
+              :to="{
+                name: 'ItemPage',
+                params: { topic: topic.slug, item: item.slug },
+              }"
+            >
+              <Item :itemName="item.name" />
+            </router-link>
+          </div>
         </div>
       </div>
     </div>
@@ -52,12 +53,12 @@ export default Vue.extend({
     DataService.load()
       .then(() => {
         let result = DataService.getTopicJson(this.$route.params.section);
-        let authorResult = DataService.getAuthorName(this.$route.params.section);
+        let authorResult = DataService.getAuthorName(
+          this.$route.params.section
+        );
         this.categories = [...result.children];
         this.authorName = [...authorResult];
         console.log(authorResult);
-        
-        
       })
       .catch((e) => {
         console.log(e);

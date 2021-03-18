@@ -1,8 +1,10 @@
 <template>
   <div class="itemPage">
     <PageHeader></PageHeader>
-    <div>{{ this.item.name }}</div>
-    <img v-bind:src="this.item.imgPath" class="item-image" />
+    <div class="scrollable-content">
+      <div>{{ this.item.name }}</div>
+      <img v-bind:src="this.item.imgPath" class="item-image" />
+    </div>
   </div>
 </template>
 
