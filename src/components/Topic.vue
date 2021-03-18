@@ -1,6 +1,8 @@
 <template>
-  <div class="topic">
-    <button class="p-3">{{ topicName }}</button>
+  <div class="topic d-flex justify-content-center">
+    <button v-html="icon" class="topicBtn col-10">
+      {{ topicName }}
+    </button>
   </div>
 </template>
 
@@ -9,7 +11,7 @@ import Vue from "vue";
 
 export default Vue.extend({
   name: "Topic",
-  props: ["topicName"],
+  props: ["topicName", "icon"],
 
   data() {
     return {};
@@ -21,4 +23,6 @@ export default Vue.extend({
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped></style>
+<style scoped>
+  @import url("../assets/css/topic.scss");
+</style>

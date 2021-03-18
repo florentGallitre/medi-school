@@ -4,7 +4,7 @@
     <!-- {{ this.categories }} -->
 
     <div v-for="topic in this.categories" :key="topic.name">
-      <Topic :topicName="topic.name" />
+      <Topic :topicName="topic.name" :icon="topic.icon" />
       <div v-for="item in topic.children" :key="item.name">
         <router-link
           :to="{
@@ -28,9 +28,13 @@ import Item from "../components/Item.vue";
 
 export default Vue.extend({
   name: "ListPage",
+  props: {
+    
+  },
   data() {
     return {
       categories: [],
+      
     };
   },
   components: { PageHeader, Topic, Item },

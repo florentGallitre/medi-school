@@ -1,5 +1,6 @@
 <template>
   <div class="header m-0 p-0 d-flex justify-content-end align-items-center">
+    
     <img class="logo mr-2 position-absolute" src="../assets/logo.png" alt="medischool_logo">
     <img class="pills mt-5 position-fixed" src="../assets/home/pills.png" alt="pills_img">
   </div>
