@@ -24,6 +24,8 @@ const routes: Array<RouteConfig> = [
     },
 ]
 
+
+
 const router = new VueRouter({
     routes,
     //do NOT user mode: "history" or "abstract", we need hastags

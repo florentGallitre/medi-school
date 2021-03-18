@@ -1,5 +1,5 @@
 <template>
-  <div class="item">
+  <div v-show='!toggle' class="item">
     {{ itemName }}
   </div>
 </template>
@@ -9,13 +9,16 @@ import Vue from "vue";
 
 export default Vue.extend({
   name: "Item",
-  props: ["itemName"],
+  props: ["itemName", "toggle"],
 
   data() {
-    return {};
+    return {
+      toggle: true
+    };
   },
   components: {},
-  mounted() {},
+  mounted() {
+  },
   methods: {},
 });
 </script>

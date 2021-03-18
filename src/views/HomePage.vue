@@ -1,7 +1,7 @@
 <template>
   <div class="homePage m-0 p-0 col-12">
     <HomePageHeader></HomePageHeader>
-    <div class="home-component">
+    <div class="border-radius-header">
       <h2 class="title">Home</h2>
       <p class="introduction">
         The best place to study medicine, created just for you. You can access
