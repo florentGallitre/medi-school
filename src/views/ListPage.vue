@@ -1,7 +1,7 @@
 <template>
   <div class="listPage">
     <PageHeader></PageHeader>
-
+<!-- insérer ici le composant category -->
     <Author :authorid=[]></Author>
     <!-- {{ this.categories }} -->
 
