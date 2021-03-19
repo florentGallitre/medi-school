@@ -5,8 +5,11 @@
       <div class="scrollable-content">
         <Author></Author>
         <div v-for="topic in this.categories" :key="topic.name">
-          <h2 id="headingAccordion" @click="toggleDisplayItemList(topic)">
-            <Topic :topicName="topic.name" :icon="topic.icon" />
+          <h2 class="accordion-header"  >
+            <Topic 
+            @click="isActive" 
+            :topicName="topic.name" 
+            :icon="topic.icon" />
           </h2>
           <div
             v-show="displayItemList"
@@ -20,7 +23,7 @@
                 params: { topic: topic.slug, item: item.slug },
               }"
             >
-              <Item :itemName="item.name" />
+              <Item v-bind:class="[active ? 'item' : 'd-none']" :itemName="item.name" />
             </router-link>
           </div>
         </div>
@@ -43,9 +46,11 @@ export default Vue.extend({
   props: {},
   data() {
     return {
+      active: false,
+      none: 'none',
       categories: [],
       authorName: [],
-      displayItemList: true,
+      displayItemList: true
     };
   },
   components: { PageHeader, Topic, Item, Author },
@@ -65,9 +70,9 @@ export default Vue.extend({
       });
   },
   methods: {
-    toggleDisplayItemList(topic) {
-      this.displayItemList = !this.displayItemList;
-    },
+    isActive() {
+      this.active = !this.active
+    }
   },
 });
 </script>
