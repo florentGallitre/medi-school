@@ -3,7 +3,10 @@
     <PageHeader></PageHeader>
     <div class="border-radius-header">
       <div>
-        <ThemeTitle :themeTitle="this.section.name"></ThemeTitle>
+        <ThemeTitle
+          :themeTitle="this.section.name"
+          :themeImg="this.section.img"
+        ></ThemeTitle>
       </div>
       <div class="scrollable-content">
         <div class="author-title">Author</div>

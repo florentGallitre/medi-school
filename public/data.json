@@ -7,8 +7,9 @@
     {
       "id": 1,
       "name": "MNEMONICS",
-      "img": "<i class='fa fa-3x fa-brain'></i>",
+      "img": "<i class='fa fa-brain'></i>",
       "subtitle": "Sous-titre facultatif",
+      "color": "'#EF7664'",
       "author": [
         {
           "id": 1,
@@ -41,18 +42,16 @@
             {
               "id": 100,
               "name": "Aortic stenosis triad",
-              "component": "AorticStenosisTriad",
               "subtitle": "",
               "appId": 1,
               "parentId": 10,
               "slug": "aortic-stenosis-Triad",
               "authorId": 1,
-              "imgPath": "../img//mnemonics/cardiology/64.Aortic stenosis triad.jpeg"
+              "imgPath": "../img/mnemonics/cardiology/64.Aortic stenosis triad.jpeg"
             },
             {
               "id": 101,
               "name": "Causes of cardiogenic shock",
-              "component": "CausesOfCardiogenicSchock",
               "subtitle": "",
               "appId": 1,
               "parentId": 10,
@@ -63,7 +62,6 @@
             {
               "id": 102,
               "name": "Causes of high output heart failure",
-              "component": "CausesOfHighOutputHeartFailure",
               "subtitle": "",
               "appId": 1,
               "parentId": 10,
@@ -74,7 +72,6 @@
             {
               "id": 103,
               "name": "Complications of myocardial infarction",
-              "component": "ComplicationsOfMyocardialInfarction",
               "subtitle": "",
               "appId": 1,
               "parentId": 10,
@@ -85,7 +82,6 @@
             {
               "id": 104,
               "name": "CXR heart failure",
-              "component": "CXRHeartFailure",
               "subtitle": "",
               "appId": 1,
               "parentId": 10,
@@ -96,7 +92,6 @@
             {
               "id": 105,
               "name": "Cyanotic congenital heart defects",
-              "component": "CyanoticCongenitalHeartDefects",
               "subtitle": "",
               "appId": 1,
               "parentId": 10,
@@ -107,7 +102,6 @@
             {
               "id": 106,
               "name": "Management of heart failure",
-              "component": "ManagementOfHeartFailure",
               "subtitle": "",
               "appId": 1,
               "parentId": 10,
@@ -118,7 +112,6 @@
             {
               "id": 107,
               "name": "Management option for peripheral vascular disease",
-              "component": "ManagementOptionForPeripheralVascularDisease",
               "subtitle": "",
               "appId": 1,
               "parentId": 10,
@@ -129,7 +122,6 @@
             {
               "id": 108,
               "name": "mitrale Vs p pulmonale",
-              "component": "MitraleVsPPulmonale",
               "subtitle": "",
               "appId": 1,
               "parentId": 10,
@@ -140,7 +132,6 @@
             {
               "id": 109,
               "name": "Reversible causes of cardiac arrest",
-              "component": "ReversibleCausesOfCardiacArrest",
               "subtitle": "",
               "appId": 1,
               "parentId": 10,
@@ -168,7 +159,6 @@
             {
               "id": 110,
               "name": "Eczema management",
-              "component": "EczemaManagment",
               "subtitle": "",
               "appId": 1,
               "parentId": 11,
@@ -179,7 +169,6 @@
             {
               "id": 111,
               "name": "Henoch-Schonlein Purpura",
-              "component": "HenochSchonleinPurpura",
               "subtitle": "",
               "appId": 1,
               "parentId": 11,
@@ -190,7 +179,6 @@
             {
               "id": 112,
               "name": "Management of psoriasis",
-              "component": "ManagementOfPsoriasis",
               "subtitle": "",
               "appId": 1,
               "parentId": 11,
@@ -201,7 +189,6 @@
             {
               "id": 113,
               "name": "PemphigUS Vs PemphigOID",
-              "component": "PemphigUSVsPemphigOID",
               "subtitle": "",
               "appId": 1,
               "parentId": 11,
@@ -228,7 +215,6 @@
             {
               "id": 114,
               "name": "Contraindications of ACE-I",
-              "component": "ContraindicationsOfACEI",
               "subtitle": "",
               "appId": 1,
               "parentId": 12,
@@ -239,7 +225,6 @@
             {
               "id": 115,
               "name": "Drugs that cause agranulocytosis",
-              "component": "DrugsThatCauseAgranulocytosis",
               "subtitle": "",
               "appId": 1,
               "parentId": 12,
@@ -250,7 +235,6 @@
             {
               "id": 116,
               "name": "Drugs that induce and exacerbate AKI",
-              "component": "DrugsThatInduceAndExacerbateAKI",
               "subtitle": "",
               "appId": 1,
               "parentId": 12,
@@ -261,7 +245,6 @@
             {
               "id": 117,
               "name": "LIVE attenuated vaccines (+Varicella zoster)",
-              "component": "LiveAttenuatedVaccinesPlusVaricellaZoster",
               "subtitle": "",
               "appId": 1,
               "parentId": 12,
@@ -272,7 +255,6 @@
             {
               "id": 118,
               "name": "Side effects of ACE-I",
-              "component": "SideEffectsOfAceI",
               "subtitle": "",
               "appId": 1,
               "parentId": 12,
@@ -283,7 +265,6 @@
             {
               "id": 119,
               "name": "Side effects of Levodopa",
-              "component": "SideEffectsOfLevodopa",
               "subtitle": "",
               "appId": 1,
               "parentId": 12,
@@ -294,7 +275,6 @@
             {
               "id": 120,
               "name": "Side effects of Lithium",
-              "component": "SideEffectsOfLithium",
               "subtitle": "",
               "appId": 1,
               "parentId": 12,
@@ -305,7 +285,6 @@
             {
               "id": 121,
               "name": "Steroids adverse effects and cautions",
-              "component": "SteroidsAdverseEffectsAndCautions",
               "subtitle": "",
               "appId": 1,
               "parentId": 12,
@@ -332,7 +311,6 @@
             {
               "id": 122,
               "name": "Causative organisms of otitis externa",
-              "component": "CausativeOrganismsOfOtitisExterna",
               "subtitle": "",
               "appId": 1,
               "parentId": 13,
@@ -359,7 +337,6 @@
             {
               "id": 123,
               "name": "Causes of hypocalcaemia",
-              "component": "CausesOfHypocalcaemia",
               "subtitle": "",
               "appId": 1,
               "parentId": 14,
@@ -370,7 +347,6 @@
             {
               "id": 124,
               "name": "Management of DKA",
-              "component": "ManagementOfDKA",
               "subtitle": "",
               "appId": 1,
               "parentId": 14,
@@ -381,7 +357,6 @@
             {
               "id": 125,
               "name": "Management of thyroid storm",
-              "component": "ManagementOfThyroidStorm",
               "subtitle": "",
               "appId": 1,
               "parentId": 14,
@@ -392,7 +367,6 @@
             {
               "id": 126,
               "name": "Precipitants of DKA",
-              "component": "PrecipitantsOfDKA",
               "subtitle": "",
               "appId": 1,
               "parentId": 14,
@@ -403,7 +377,6 @@
             {
               "id": 127,
               "name": "Presentation of hypercalcaemia",
-              "component": "PresentationOfHypercalcaemia",
               "subtitle": "",
               "appId": 1,
               "parentId": 14,
@@ -414,7 +387,6 @@
             {
               "id": 128,
               "name": "Presentation of hypocalcaemia",
-              "component": "PresentationOfHypocalcaemia",
               "subtitle": "",
               "appId": 1,
               "parentId": 14,
@@ -425,7 +397,6 @@
             {
               "id": 129,
               "name": "Thyroid status",
-              "component": "ThyroidStatus",
               "subtitle": "",
               "appId": 1,
               "parentId": 14,
@@ -436,7 +407,6 @@
             {
               "id": 130,
               "name": "Types of multiple endocrine neoplasia",
-              "component": "TypesOfMultipleEndocrineNeoplasia",
               "subtitle": "",
               "appId": 1,
               "parentId": 14,
@@ -463,7 +433,6 @@
             {
               "id": 131,
               "name": "Causes of abdominal distension",
-              "component": "CausesOfAbdominalDistension",
               "subtitle": "",
               "appId": 1,
               "parentId": 15,
@@ -474,7 +443,6 @@
             {
               "id": 132,
               "name": "Crohn's disease",
-              "component": "CrohnsDisease",
               "subtitle": "",
               "appId": 1,
               "parentId": 15,
@@ -485,7 +453,6 @@
             {
               "id": 133,
               "name": "Management of oesophageal varices",
-              "component": "ManagementOfOesophagealVarices",
               "subtitle": "",
               "appId": 1,
               "parentId": 15,
@@ -496,7 +463,6 @@
             {
               "id": 134,
               "name": "Risk factors for Gallstones",
-              "component": "RiskFactorsForGallstones",
               "subtitle": "",
               "appId": 1,
               "parentId": 15,
@@ -507,7 +473,6 @@
             {
               "id": 135,
               "name": "Symptoms of dyspepsia",
-              "component": "SymptomsOfDyspepsia",
               "subtitle": "",
               "appId": 1,
               "parentId": 15,
@@ -534,7 +499,6 @@
             {
               "id": 160,
               "name": "Causes of postpartum haemorrhage",
-              "component": "CausesOfPostpartumHaemorrhage",
               "subtitle": "",
               "appId": 1,
               "parentId": 16,
@@ -561,7 +525,6 @@
             {
               "id": 136,
               "name": "Alcohol's effect on warfarin metabolism",
-              "component": "AlcoholsEffectOnWarfarinMetabolism",
               "subtitle": "",
               "appId": 1,
               "parentId": 17,
@@ -588,7 +551,6 @@
             {
               "id": 137,
               "name": "eGFR variables for MDRD equation",
-              "component": "EGFRVariablesForMDRDEquation",
               "subtitle": "",
               "appId": 1,
               "parentId": 18,
@@ -599,7 +561,6 @@
             {
               "id": 138,
               "name": "GFR categories for CKD classification",
-              "component": "GFRCategoriesForCKDClassification",
               "subtitle": "",
               "appId": 1,
               "parentId": 18,
@@ -610,7 +571,6 @@
             {
               "id": 139,
               "name": "Indications for acute dialysis",
-              "component": "IndicationsForAcuteDialysis",
               "subtitle": "",
               "appId": 1,
               "parentId": 18,
@@ -621,7 +581,6 @@
             {
               "id": 140,
               "name": "Opioid prescribing in renal impairement",
-              "component": "OpioidPrescribingInRenalImpairement",
               "subtitle": "",
               "appId": 1,
               "parentId": 18,
@@ -632,7 +591,6 @@
             {
               "id": 141,
               "name": "Pre-renal causes of AKI",
-              "component": "PrerenalCausesOfAKI",
               "slug": "pre-renal-causes-of-aki",
               "subtitle": "",
               "appId": 1,
@@ -643,7 +601,6 @@
             {
               "id": 142,
               "name": "Renal Artery Stenosis",
-              "component": "RenalArteryStenosis",
               "slug": "Renal-artery-stenosis",
               "subtitle": "",
               "appId": 1,
@@ -670,7 +627,6 @@
             {
               "id": 143,
               "name": "Core features of Parkinsonism",
-              "component": "CoreFeaturesOfParkinsonism",
               "slug": "core-features-of-parkinsonism",
               "subtitle": "",
               "appId": 1,
@@ -681,7 +637,6 @@
             {
               "id": 144,
               "name": "Causes of peripheral neuropathy",
-              "component": "CausesOfPeripheralNeuropathy",
               "slug": "causes-of-peripheral-neuropathy",
               "subtitle": "",
               "appId": 1,
@@ -692,7 +647,6 @@
             {
               "id": 145,
               "name": "Mental state exam",
-              "component": "MentalStateExam",
               "slug": "mental-state-exam",
               "subtitle": "",
               "appId": 1,
@@ -703,7 +657,6 @@
             {
               "id": 146,
               "name": "Modified Glasgow criteria",
-              "component": "ModifiedGlasgowCriteria",
               "slug": "modified-glasgow-criteria",
               "subtitle": "",
               "appId": 1,
@@ -714,7 +667,6 @@
             {
               "id": 147,
               "name": "Nerve damage",
-              "component": "NerveDamage",
               "slug": "nerve-damage",
               "subtitle": "",
               "appId": 1,
@@ -725,7 +677,6 @@
             {
               "id": 148,
               "name": "Presentation of complex partial seizures",
-              "component": "PresentationOfComplexPartialSeizures",
               "slug": "presentation-of-complex-partial-seizures",
               "subtitle": "",
               "appId": 1,
@@ -752,7 +703,6 @@
             {
               "id": 149,
               "name": "Examining the optic nerve",
-              "component": "ExaminingTheOpticNerve",
               "slug": "examining-the-optic-nerve",
               "subtitle": "",
               "appId": 1,
@@ -779,7 +729,6 @@
             {
               "id": 150,
               "name": "Colles fracture",
-              "component": "CollesFracture",
               "slug": "colles-fracture",
               "subtitle": "",
               "appId": 1,
@@ -790,7 +739,6 @@
             {
               "id": 151,
               "name": "Features of reactive arthritis",
-              "component": "FeaturesOfReactiveArthritis",
               "slug": "features-of-reactive-arthritis",
               "subtitle": "",
               "appId": 1,
@@ -801,7 +749,6 @@
             {
               "id": 152,
               "name": "Indications for bisphosphonates",
-              "component": "IndicationsForBisphosphonates",
               "slug": "indications-for-bisphosphonates",
               "subtitle": "",
               "appId": 1,
@@ -812,7 +759,6 @@
             {
               "id": 153,
               "name": "Osteoporosis risk factors",
-              "component": "OsteoporosisRiskFactors",
               "slug": "osteoporosis-risk-factors",
               "subtitle": "",
               "appId": 1,
@@ -839,7 +785,6 @@
             {
               "id": 154,
               "name": "Causes of meningitis in children",
-              "component": "CausesOfMeningitisInChildren",
               "slug": "causes-of-meningitis-in-children",
               "subtitle": "",
               "appId": 1,
@@ -850,7 +795,6 @@
             {
               "id": 155,
               "name": "Causes of meningitis in neonates",
-              "component": "CausesOfMeningitisInNeonates",
               "slug": "Causes-of-meningitis-in-neonates",
               "subtitle": "",
               "appId": 1,
@@ -861,7 +805,6 @@
             {
               "id": 156,
               "name": "Management of Kawasaki disease",
-              "component": "ManagementOfKawasakiDisease",
               "slug": "management-of-kawasaki-disease",
               "subtitle": "",
               "appId": 1,
@@ -872,7 +815,6 @@
             {
               "id": 156,
               "name": "Necrotizing enterocolitis",
-              "component": "NecrotizingEnterocolitis",
               "slug": "necrotizing-enterocolitis",
               "subtitle": "",
               "appId": 1,
@@ -883,7 +825,6 @@
             {
               "id": 157,
               "name": "Omphalocele and Gastroschisis",
-              "component": "OmphaloceleAndGastroschisis",
               "slug": "OmphaloceleAndgastroschisis",
               "subtitle": "",
               "appId": 1,
@@ -894,7 +835,6 @@
             {
               "id": 158,
               "name": "Presentation of normal pressure hydrocephalus",
-              "component": "PresentationOfNormalPressureHydrocephalus",
               "slug": "presentation-of-normal-pressure-hydrocephalus",
               "subtitle": "",
               "appId": 1,
@@ -905,7 +845,6 @@
             {
               "id": 159,
               "name": "Summary of pyloric stenosis",
-              "component": "SummaryOfPyloricStenosis",
               "slug": "summary-of-pyloric-stenosis",
               "subtitle": "",
               "appId": 1,
@@ -932,7 +871,6 @@
             {
               "id": 160,
               "name": "Management of breathlessness in palliative care",
-              "component": "ManagementOfBreathlessnessInPalliativeCare",
               "slug": "Mmanagement-of-breathlessness-in-palliative-care",
               "subtitle": "",
               "appId": 1,
@@ -943,7 +881,6 @@
             {
               "id": 161,
               "name": "Uses of corticosteroids in palliative care",
-              "component": "UsesOfCorticosteroidsInPalliativeCare",
               "slug": "uses-of-corticosteroids-in-palliative-care",
               "subtitle": "",
               "appId": 1,
@@ -968,7 +905,6 @@
             {
               "id": 240,
               "name": "Assessing severity of community acquired pneumonia",
-              "component": "AssessingSeverityOfCommunityAcquiredPneumonia",
               "slug": "assessing-severity-of-community-acquired-pneumonia",
               "subtitle": "",
               "appId": 1,
@@ -979,7 +915,6 @@
             {
               "id": 241,
               "name": "Causes of exudative pleural effusion",
-              "component": "CausesOfExudativePleuralEffusion",
               "slug": "causes-of-exudative-pleural-effusion",
               "subtitle": "",
               "appId": 1,
@@ -990,7 +925,6 @@
             {
               "id": 242,
               "name": "Causes of lower zone pulmonary fibrosis",
-              "component": "CausesOfLowerZonePulmonaryFibrosis",
               "slug": "causes-of-lower-zone-pulmonary-fibrosis",
               "subtitle": "",
               "appId": 1,
@@ -1001,7 +935,6 @@
             {
               "id": 243,
               "name": "Causes of transudative pleural effusion",
-              "component": "CausesOfTransudativePleuralEffusion",
               "slug": "causes-of-transudative-pleural-effusion",
               "subtitle": "",
               "appId": 1,
@@ -1012,7 +945,6 @@
             {
               "id": 244,
               "name": "Causes of upper zone pulmonary fibrosis",
-              "component": "CausesOfUpperZonePulmonaryFibrosis",
               "slug": "causes-of-upper-zone-pulmonary-fibrosis",
               "subtitle": "",
               "appId": 1,
@@ -1023,7 +955,6 @@
             {
               "id": 245,
               "name": "Non-therapeutic management of COPD",
-              "component": "NonTherapeuticManagementOfCopd",
               "slug": "non-therapeutic-management-of-copd",
               "subtitle": "",
               "appId": 1,
@@ -1048,7 +979,6 @@
             {
               "id": 250,
               "name": "Antenatal screening for Down's syndrome",
-              "component": "AntenatalScreeningForDownsSyndrome",
               "slug": "antenatal-screening-for-downs-syndrome",
               "subtitle": "",
               "appId": 1,
@@ -1059,7 +989,6 @@
             {
               "id": 251,
               "name": "Management of Raynaud's phenomenon",
-              "component": "ManagementOfRaynaudsPhenomenon",
               "slug": "management-of-raynauds-phenomenon",
               "subtitle": "",
               "appId": 1,
@@ -1070,7 +999,6 @@
             {
               "id": 252,
               "name": "Marfan syndrome",
-              "component": "MarfanSyndrome",
               "slug": "marfan-syndrome",
               "subtitle": "",
               "appId": 1,
@@ -1081,7 +1009,6 @@
             {
               "id": 253,
               "name": "Symptoms of serotinin syndrome",
-              "component": "SymptomsOfSerotininSyndrome",
               "slug": "symptoms-of-serotinin-syndrome",
               "subtitle": "",
               "appId": 1,
@@ -1106,7 +1033,6 @@
             {
               "id": 300,
               "name": "Adjuvant therapy for colorectal cancer",
-              "component": "AdjuvantTherapyForColorectalCancer",
               "slug": "adjuvant-therapy-for-colorectal-cancer",
               "subtitle": "",
               "appId": 1,
@@ -1117,7 +1043,6 @@
             {
               "id": 301,
               "name": "Causes of clubbing",
-              "component": "CausesOfClubbing",
               "slug": "causes-of-clubbing",
               "subtitle": "",
               "appId": 1,
@@ -1128,7 +1053,6 @@
             {
               "id": 302,
               "name": "Extra parts of gynaecological history taking",
-              "component": "ExtraPartsOfGynaecologicalHistoryTaking",
               "slug": "extra-parts-of-gynaecological-history-taking",
               "subtitle": "",
               "appId": 1,
@@ -1139,7 +1063,6 @@
             {
               "id": 303,
               "name": "Extra parts of psychiatric history taking",
-              "component": "ExtraPartsOfPsychiatricHistoryTaking",
               "slug": "extra-parts-of-psychiatric-history-taking",
               "subtitle": "",
               "appId": 1,
@@ -1150,7 +1073,6 @@
             {
               "id": 304,
               "name": "Life threatening thoracic trauma",
-              "component": "LifeThreateningThoracicTrauma",
               "slug": "life-threatening-thoracic-trauma",
               "subtitle": "",
               "appId": 1,
@@ -1161,7 +1083,6 @@
             {
               "id": 305,
               "name": "Limited cutaneous systemic sclerosis",
-              "component": "LimitedCutaneousSystemicSclerosis",
               "slug": "limited-cutaneous-systemic-sclerosis",
               "subtitle": "",
               "appId": 1,
@@ -1172,7 +1093,6 @@
             {
               "id": 306,
               "name": "Management of stress incontinence",
-              "component": "ManagementOfStressIncontinence",
               "slug": "management-of-stress-incontinence",
               "subtitle": "",
               "appId": 1,
@@ -1183,7 +1103,6 @@
             {
               "id": 307,
               "name": "Manegement of nocturnal enuresis",
-              "component": "ManegementOfNocturnalEnuresis",
               "slug": "manegement-of-nocturnal-enuresis",
               "subtitle": "",
               "appId": 1,
@@ -1194,7 +1113,6 @@
             {
               "id": 308,
               "name": "Morphoeic BCC",
-              "component": "MorphoeicBCC",
               "slug": "morphoeic-bcc",
               "subtitle": "",
               "appId": 1,
@@ -1205,7 +1123,6 @@
             {
               "id": 309,
               "name": "Phaeochromocytoma",
-              "component": "Phaeochromocytoma",
               "slug": "phaeochromocytoma",
               "subtitle": "",
               "appId": 1,
@@ -1216,7 +1133,6 @@
             {
               "id": 310,
               "name": "RA Vs OA X-ray findings",
-              "component": "RaVsOaXRayFindings",
               "slug": "ra-vs-oa-xray-findings",
               "subtitle": "",
               "appId": 1,
@@ -1231,7 +1147,9 @@
     {
       "id": 2,
       "name": "STUDY NOTES",
-      "img": "<i class='fa fa-3x fa-clipboard'></i>",
+      "img": "<i class='fa fa-clipboard'></i>",
+      "subtitle": "",
+      "color": "",
       "author": [
         {
           "id": 2,
@@ -1244,7 +1162,6 @@
           "picture": "../img/influenceurs/dr hanrahan.png"
         }
       ],
-      "subtitle": "",
       "appId": 1,
       "parentId": null,
       "type": "list",
@@ -1276,7 +1193,7 @@
               "appId": 1,
               "parentId": 20,
               "slug": "acute-pericarditis",
-              "imgPath": "../img/studynotes/cardiology-vascular/Acute Pericarditis.png"
+              "imgPath": "./img/studynotes/cardiology-vascular/Acute Pericarditis.png"
             },
             {
               "id": 201,
@@ -2776,8 +2693,9 @@
     {
       "id": 3,
       "name": "CASES CHALLENGES",
-      "img": "<i class='fa fa-3x fa-briefcase-medical'></i>",
+      "img": "<i class='fa   fa-briefcase-medical'></i>",
       "subtitle": " ",
+      "color": "",
       "author": [
         {
           "id": 3,
