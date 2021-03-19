@@ -1,6 +1,8 @@
 <template>
   <div class="header-background">
-    <a href="cmd://webview-close">CLOSE</a>
+    <a href="cmd://webview-close">
+      <img src="(../img/croix-rouge-logo.png)">
+    </a>
   </div>
 </template>
 
