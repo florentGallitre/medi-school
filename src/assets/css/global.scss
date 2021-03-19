@@ -1,26 +1,56 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#nav {
+  padding: 30px;
+}
+
+#nav a {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+#nav a.router-link-exact-active {
+  color: #42b983;
+}
+
+.scrollable-content {
+  overflow: auto;
+  width: 100%;
+  height: 100%;
+}
+
 .border-radius-header {
-    margin-top: -10vh;
-    border-radius: 40px;
-    background-color: white;
-    height: 100%;
-    width: 100%;
-    padding: 5vw;
-    position: absolute;
+  margin-top: -10vh;
+  border-radius: 40px;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  padding: 5vw;
+  position: absolute;
 }
 .title {
-    text-align: left;
-    font-size: 3.5vh;
-    font-weight: bolder;
-    font-family: Arial, Helvetica, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    width: 20vw;
+  text-align: left;
+  font-size: 3.5vh;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, Impact, Haettenschweiler, "Arial Narrow Bold",
+    sans-serif;
+  width: 20vw;
 }
 .introduction {
-    text-align: left;
-    font-size: 2.5vh;
-    font-weight: normal;
-    font-family: Arial, Helvetica, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    width: 80vw;
-    height: 20vh;
+  text-align: left;
+  font-size: 2.5vh;
+  font-weight: normal;
+  font-family: Arial, Helvetica, Impact, Haettenschweiler, "Arial Narrow Bold",
+    sans-serif;
+  width: 80vw;
+  height: 20vh;
 }
-
-

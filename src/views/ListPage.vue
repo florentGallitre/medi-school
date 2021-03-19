@@ -1,25 +1,32 @@
 <template>
   <div class="listPage">
     <PageHeader></PageHeader>
-    <Author :author="[]"></Author>
     <div class="border-radius-header">
-      <div v-for="topic in this.categories" :key="topic.name">
-            <h2 id="headingAccordion">
-              <Topic :topicName="topic.name" :icon="topic.icon" />
-            </h2>
-              <div v-for="item in topic.children" :key="item.slug" >
-                <router-link
-                    :to="{
-                      name: 'ItemPage',
-                      params: { topic: topic.slug, item: item.slug },
-                    }"
-                  >
-                  <Item :itemName="item.name" />
-                </router-link>
-            </div>
+      <div class="scrollable-content">
+        <Author></Author>
+        <div v-for="topic in this.categories" :key="topic.name">
+          <h2 id="headingAccordion" @click="toggleDisplayItemList(topic)">
+            <Topic :topicName="topic.name" :icon="topic.icon" />
+          </h2>
+          <div
+            v-show="displayItemList"
+            class="itemDropdown"
+            v-for="item in topic.children"
+            :key="item.name"
+          >
+            <router-link
+              :to="{
+                name: 'ItemPage',
+                params: { topic: topic.slug, item: item.slug },
+              }"
+            >
+              <Item :itemName="item.name" />
+            </router-link>
           </div>
         </div>
       </div>
+    </div>
+  </div>
 </template>
 
 <script lang="ts">
@@ -33,9 +40,12 @@ import Author from "../components/Author.vue";
 
 export default Vue.extend({
   name: "ListPage",
+  props: {},
   data() {
     return {
       categories: [],
+      authorName: [],
+      displayItemList: true,
     };
   },
   components: { PageHeader, Topic, Item, Author },
@@ -43,13 +53,22 @@ export default Vue.extend({
     DataService.load()
       .then(() => {
         let result = DataService.getTopicJson(this.$route.params.section);
+        let authorResult = DataService.getAuthorName(
+          this.$route.params.section
+        );
         this.categories = [...result.children];
+        this.authorName = [...authorResult];
+        console.log(authorResult);
       })
       .catch((e) => {
         console.log(e);
       });
   },
-  methods: {},
+  methods: {
+    toggleDisplayItemList(topic) {
+      this.displayItemList = !this.displayItemList;
+    },
+  },
 });
 </script>
 
