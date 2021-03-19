@@ -691,6 +691,7 @@
         {
           "id": 20,
           "name": "Ophtalmology",
+          "icon": "<i class=\"far fa-eye\"></i>",
           "authorId": [
             1
           ],
@@ -773,6 +774,7 @@
         {
           "id": 22,
           "name": "Paediatrics",
+          "icon": "<i class=\"fas fa-baby\"></i>",
           "authorId": [
             1
           ],
@@ -859,6 +861,7 @@
         {
           "id": 23,
           "name": "Palliative care",
+          "icon": "<i class=\"fas fa-hand-holding-heart\"></i>",
           "authorId": [
             1
           ],
@@ -866,7 +869,7 @@
           "appId": 1,
           "parentId": 1,
           "type": "html",
-          "content": "<h1>The standard Lorem Ipsum</h1>",
+          "content": "",
           "slug": "palliative-care",
           "submenu": false,
           "children": [
@@ -895,6 +898,7 @@
         {
           "id": 24,
           "name": "Pulmonary",
+          "icon": "<i class=\"fas fa-lungs\"></i>",
           "author": "",
           "subtitle": "",
           "appId": 1,
