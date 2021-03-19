@@ -1,14 +1,16 @@
 <template>
   <div class="itemPage">
     <PageHeader></PageHeader>
-    <div class="scrollable-content">
-      <div class="item-title">{{ this.item.name }}</div>
-      <div v-if="!Array.isArray(this.item.imgPath)">
-        <img v-bind:src="this.item.imgPath" class="item-image" />
-      </div>
-      <div v-else>
-        <div v-for="path in this.item.imgPath" :key="path.id">
-          <img v-bind:src="path" class="item-image" />
+    <div class="border-radius-header">
+      <div class="scrollable-content">
+        <div class="item-title">{{ this.item.name }}</div>
+        <div v-if="!Array.isArray(this.item.imgPath)">
+          <img v-bind:src="this.item.imgPath" class="item-image" />
+        </div>
+        <div v-else>
+          <div v-for="path in this.item.imgPath" :key="path.id">
+            <img v-bind:src="path" class="item-image" />
+          </div>
         </div>
       </div>
     </div>

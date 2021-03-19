@@ -7,12 +7,10 @@ class DataServiceClass {
 
     load(): Promise<any> {
         if (this.$isLoaded) {
-            console.log("Data already loaded, good!")
             return Promise.resolve()
         }
 
         return new Promise((resolve, reject) => {
-            console.log("Data not loaded already, reloading")
             axios.get("./data.json")
                 .then(response => {
                     this.$data = response.data
