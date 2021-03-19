@@ -2,7 +2,7 @@
   <div class="author">
     <img class="author-picture" v-bind:src="author.picture" />
     <span class="author-name"> @{{ author.name }} </span>
-    <i class="fab fa-instagram"></i>
+    <a :href="author.link" target="_blank"><i class="fab fa-instagram"></i></a>
   </div>
 </template>
 
