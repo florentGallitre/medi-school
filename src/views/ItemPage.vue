@@ -44,10 +44,9 @@ export default Vue.extend({
 });
 </script>
 
+
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.item-image {
-  width: 100%;
-  height: auto;
-}
+@import url("./assets/css/items.scss");
+
 </style>
