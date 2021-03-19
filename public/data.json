@@ -487,6 +487,7 @@
           "id": 16,
           "name": "Gyn&Obs",
           "subtitle": "",
+          "icon": "<i class=\"fas fa-venus-mars\"></i>",
           "appId": 1,
           "authorId": [
             1
