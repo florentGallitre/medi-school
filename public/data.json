@@ -14,7 +14,8 @@
         {
           "id": 1,
           "name": "med_nmemomics",
-          "picture": "./img/influenceurs/Med_mnemonic.png"
+          "picture": "./img/influenceurs/Med_mnemonic.png",
+          "link": "https://www.instagram.com/med_mnemonic/"
         }
       ],
       "appId": 1,
@@ -1160,12 +1161,14 @@
         {
           "id": 2,
           "name": "Plabverse",
-          "picture": "./img/influenceurs/plabverse.png"
+          "picture": "./img/influenceurs/plabverse.png",
+          "link": "https://www.instagram.com/plabverse/"
         },
         {
           "id": 3,
           "name": "Drmichaelhanrahan",
-          "picture": "./img/influenceurs/dr hanrahan.png"
+          "picture": "./img/influenceurs/dr hanrahan.png",
+          "link": "https://www.instagram.com/drmichaelhanrahan/"
         }
       ],
       "appId": 1,

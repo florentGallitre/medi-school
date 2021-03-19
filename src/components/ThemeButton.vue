@@ -18,7 +18,7 @@ export default Vue.extend({
     ) as HTMLCollectionOf<HTMLElement>;
     themeDiv[0].style.backgroundColor = "#EF7664";
     themeDiv[1].style.backgroundColor = "#E33F37";
-    themeDiv[2].style.backgroundColor = "#DCE2EC";
+    themeDiv[2].style.backgroundColor = "#CED5E7";
   },
 });
 </script>
