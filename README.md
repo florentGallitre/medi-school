@@ -22,3 +22,9 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ### Documentation
 
 https://docs.google.com/document/d/1QRnS4Dzx8e4DGYxQq7rRnbuTYRkf-D4rGQNp6tdVeJQ/edit?usp=sharing
+
+
+### Ce qu'il manque 
+
+- les icônes dans les topics
+- repasser sur tout le scss de toute l'app

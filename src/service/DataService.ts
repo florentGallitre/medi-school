@@ -18,7 +18,7 @@ class DataServiceClass {
                     this.$tree = response.data.tree
                     resolve()
                 }).catch(e => {
-                    console.log(e)
+                    
                     this.$isLoaded = false
                     reject(e)
                 })
@@ -34,6 +34,8 @@ class DataServiceClass {
         }
         return result;
     }
+
+  
 
     getItemJson(themeSlug: any, topicSlug: any, itemSlug: any) {
         let result = null

@@ -1,0 +1,21 @@
+.themes {
+    display: flex;
+    flex-direction: row;
+  }
+
+
+.theme-ttl {
+    background-color: #ef7764;
+    color:white;
+    border-radius: 3vh;
+    margin: 2vh;
+    width: 309px;
+    height: 50px;
+   
+  }
+  .theme-title {
+    text-align: center;
+    vertical-align: center;
+    font-size: 12px;
+    font-style: normal;  
+  }
