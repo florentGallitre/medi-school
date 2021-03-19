@@ -144,7 +144,7 @@
         {
           "id": 11,
           "name": "Dermatology",
-          "icon": "<i class=\"fas fa-heartbeat\"></i>",
+          "icon": "<i class=\"fas fa-allergies\"></i>",
           "subtitle": "",
           "appId": 1,
           "parentId": 1,
@@ -201,6 +201,7 @@
         {
           "id": 12,
           "name": "Drugs and vaccines",
+          "icon": "<i class=\"fas fa-syringe\"></i>",
           "subtitle": "",
           "appId": 1,
           "authorId": [
@@ -486,6 +487,7 @@
           "id": 16,
           "name": "Gyn&Obs",
           "subtitle": "",
+          "icon": "<i class=\"fas fa-venus-mars\"></i>",
           "appId": 1,
           "authorId": [
             1
