@@ -8,7 +8,7 @@
         study notes, mnemonics.
       </p>
       <div class="row d-flex justify-content-center">
-        <div v-for="section in appSection" :key="section.name">
+        <div id="themeBtn" v-for="section in appSection" :key="section.name">
           <router-link
             :to="{ name: 'ListPage', params: { section: section.slug } }"
           >

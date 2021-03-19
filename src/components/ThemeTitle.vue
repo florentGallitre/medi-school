@@ -1,20 +1,16 @@
 <template>
   <div class="theme-ttl">
-    <div class="theme-title"> {{ themeTitle }}</div>
-    <div v-if="themeTitle == 'Mnemonics'"><i class="fas fa-brain"></i></div>
-    <div v-if="themeTitle == 'Study-notes'">
-      <i class="fas fa-notes-medical"></i>
-    </div>
+    <span class="th-title" v-html="themeTitle"></span>
+    <span class="th-image" v-html="themeImg"></span>
   </div>
 </template>
-
 
 <script lang="ts">
 import { Vue } from "vue-property-decorator";
 
 export default Vue.extend({
   name: "ThemeTitle",
-  props: ["themeTitle"],
+  props: ["themeTitle", "themeImg"],
 });
 </script>
 <style lang="scss">

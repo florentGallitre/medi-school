@@ -2,9 +2,12 @@
   <div class="listPage">
     <PageHeader></PageHeader>
     <div class="border-radius-header">
-        <div>
-          <ThemeTitle :themeTitle="this.section.name"></ThemeTitle>
-        </div>
+      <div>
+        <ThemeTitle
+          :themeTitle="this.section.name"
+          :themeImg="this.section.img"
+        ></ThemeTitle>
+      </div>
         <div class="scrollable-content">
           <div class="author-title">Author</div>
           <div v-for="author in this.authors" :key="author.id">
@@ -43,6 +46,7 @@
         </div>
       </div>
     </div>
+  </div>
 </template>
 
 <script lang="ts">
