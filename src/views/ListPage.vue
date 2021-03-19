@@ -2,11 +2,12 @@
   <div class="listPage">
     <PageHeader></PageHeader>
     <div class="border-radius-header">
+      <div>
+        <ThemeTitle :themeTitle="this.section.name"></ThemeTitle>
+      </div>
       <div class="scrollable-content">
-        
         <div v-for="author in this.authors" :key="author.id">
-        
-        <Author :author="author"></Author>
+          <Author :author="author"></Author>
         </div>
         <div v-for="topic in this.categories" :key="topic.name">
           <h2 id="headingAccordion" @click="toggleDisplayItemList(topic)">
@@ -41,6 +42,7 @@ import Topic from "../components/Topic.vue";
 import Item from "../components/Item.vue";
 import DataService from "@/service/DataService";
 import Author from "../components/Author.vue";
+import ThemeTitle from "../components/ThemeTitle.vue";
 
 export default Vue.extend({
   name: "ListPage",
@@ -50,18 +52,18 @@ export default Vue.extend({
       categories: [],
       authors: [],
       displayItemList: true,
+      section: [],
     };
   },
-  components: { PageHeader, Topic, Item, Author },
+  components: { PageHeader, Topic, Item, Author, ThemeTitle },
   mounted() {
     DataService.load()
       .then(() => {
         let result = DataService.getTopicJson(this.$route.params.section);
-        let authorResult = DataService.getAuthor(
-          this.$route.params.section
-        );
+        let authorResult = DataService.getAuthor(this.$route.params.section);
         this.categories = [...result.children];
         this.authors = [...authorResult];
+        this.section = result;
         console.log(this.authors);
       })
       .catch((e) => {

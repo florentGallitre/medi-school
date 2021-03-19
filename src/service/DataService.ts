@@ -37,24 +37,26 @@ class DataServiceClass {
         return result;
     }
 
+  
+
     getItemJson(themeSlug: any, topicSlug: any, itemSlug: any) {
         let item = null
-        for ( let h in this.$tree) {
+        for (let h in this.$tree) {
             if (this.$tree[h].slug == themeSlug) {
                 let theme = this.$tree[h].children
                 for (let i in theme) {
                     if (theme[i].slug == topicSlug) {
                         let topics = theme[i].children
-                        for ( let value in topics ) {
+                        for (let value in topics) {
                             if (topics[value].slug == itemSlug) {
                                 item = topics[value]
                             }
                         }
-        
+
                     }
                 }
             }
-        return item;
+            return item;
         }
     }
 
@@ -65,7 +67,7 @@ class DataServiceClass {
                 result = this.$tree[i].author
                 // for (let j in result) {
                 //     return result[j];
-                    
+
                 // }
 
             }
