@@ -27,4 +27,5 @@ https://docs.google.com/document/d/1QRnS4Dzx8e4DGYxQq7rRnbuTYRkf-D4rGQNp6tdVeJQ/
 ### Ce qu'il manque 
 
 - les icônes dans les topics
-- repasser sur tout le scss de toute l'app
+- problème avec le scroll qui ne va pas en bas de page
+- la card "cases challenges" n'est pas conforme à la maquette
