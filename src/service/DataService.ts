@@ -7,12 +7,10 @@ class DataServiceClass {
 
     load(): Promise<any> {
         if (this.$isLoaded) {
-            console.log("Data already loaded, good!")
             return Promise.resolve()
         }
 
         return new Promise((resolve, reject) => {
-            console.log("Data not loaded already, reloading")
             axios.get("./data.json")
                 .then(response => {
                     this.$data = response.data
@@ -40,24 +38,24 @@ class DataServiceClass {
   
 
     getItemJson(themeSlug: any, topicSlug: any, itemSlug: any) {
-        let item = null
-        for (let h in this.$tree) {
-            if (this.$tree[h].slug == themeSlug) {
-                let theme = this.$tree[h].children
-                for (let i in theme) {
-                    if (theme[i].slug == topicSlug) {
-                        let topics = theme[i].children
-                        for (let value in topics) {
-                            if (topics[value].slug == itemSlug) {
-                                item = topics[value]
+        let result = null
+        this.$tree.forEach(theme => {
+            if (theme.slug == themeSlug) {
+                let topics = theme.children;
+                topics.forEach(topic => {
+                    if (topic.slug == topicSlug) {
+                        let items = topic.children;
+                        items.forEach(item => {
+                            if (item.slug == itemSlug) {
+                                result = item
                             }
-                        }
-
+                        });
                     }
-                }
+                });
             }
-            return item;
-        }
+        });
+        return result;
+
     }
 
     getAuthor(slug: string) {
@@ -65,11 +63,6 @@ class DataServiceClass {
         for (let i in this.$tree) {
             if (this.$tree[i].slug == slug) {
                 result = this.$tree[i].author
-                // for (let j in result) {
-                //     return result[j];
-
-                // }
-
             }
         }
 

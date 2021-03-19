@@ -3,10 +3,6 @@
     <button
       v-html="topicName + icon"
       class="accordion-button col-10 pt-2 pb-2 pl-3 pr-3 topicBtn d-flex justify-content-between"
-      data-bs-toggle="collapse"
-      data-bs-target="#collapseOne"
-      aria-expanded="true"
-      aria-controls="collapseOne"
     ></button>
   </div>
 </template>
