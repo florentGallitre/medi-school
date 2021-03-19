@@ -18,6 +18,7 @@
   display: flex;
   justify-content: space-between;
   height: 2rem;
+  font-size: 20px;
 }
 .author-picture {
   border-radius: 50px;
@@ -26,7 +27,11 @@
 }
 
 .author-name {
+  margin: auto;
   font-size: 12px;
   font-style: normal;
   font-weight: bold;
+}
+.fa-instagram {
+  margin: 5px;
 }
