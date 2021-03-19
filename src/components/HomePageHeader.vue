@@ -1,6 +1,6 @@
 <template>
   <div class="header-background">
-    <a href="cmd://webview-close">CLOSE</a>
+    <a href="cmd://webview-close" class="close">X</a>
   </div>
 </template>
 

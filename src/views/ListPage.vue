@@ -3,7 +3,10 @@
     <PageHeader></PageHeader>
     <div class="border-radius-header">
       <div class="scrollable-content">
-        <Author></Author>
+        <div class="author-title">Author</div>
+        <div v-for="author in this.authors" :key="author.id">
+          <Author :author="author"></Author>
+        </div>
         <div v-for="topic in this.categories" :key="topic.name">
           <!--on click topic is active and removes display none on item class-->
           <h2 class="accordion-header" @click="isActive(topic.id)">
@@ -50,8 +53,8 @@ export default Vue.extend({
       topicId: String,
       none: 'none',
       categories: [],
-      authorName: [],
-      displayItemList: true
+      authors: [],
+      displayItemList: true,
     };
   },
   components: { PageHeader, Topic, Item, Author },
@@ -59,12 +62,9 @@ export default Vue.extend({
     DataService.load()
       .then(() => {
         let result = DataService.getTopicJson(this.$route.params.section);
-        let authorResult = DataService.getAuthorName(
-          this.$route.params.section
-        );
+        let authorResult = DataService.getAuthor(this.$route.params.section);
         this.categories = [...result.children];
-        this.authorName = [...authorResult];
-        console.log(authorResult);
+        this.authors = [...authorResult];
       })
       .catch((e) => {
         console.log(e);
@@ -81,5 +81,6 @@ export default Vue.extend({
 });
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped></style>
+<style lang="scss">
+@import url("../assets/css/author.scss");
+</style>

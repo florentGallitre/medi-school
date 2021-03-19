@@ -6,13 +6,14 @@
   "tree": [
     {
       "id": 1,
-      "name": "Mnemonics",
-      "img": "<i class='fas fa-brain'></i>",
+      "name": "MNEMONICS",
+      "img": "<i class='fa fa-3x fa-brain'></i>",
       "subtitle": "Sous-titre facultatif",
       "author": [
         {
           "id": 1,
-          "name": "med_nmemomics"
+          "name": "med_nmemomics",
+          "picture": "../img/influenceurs/Med_mnemonic.png"
         }
       ],
       "appId": 1,
@@ -1229,16 +1230,18 @@
     },
     {
       "id": 2,
-      "name": "Study-notes",
-      "img": "<i class='fas fa-notes-medical'></i>",
+      "name": "STUDY NOTES",
+      "img": "<i class='fa fa-3x fa-clipboard'></i>",
       "author": [
         {
           "id": 2,
-          "name": "Plabverse"
+          "name": "Plabverse",
+          "picture": "../img/influenceurs/plabverse.png"
         },
         {
           "id": 3,
-          "name": "Drmichaelhanrahan"
+          "name": "Drmichaelhanrahan",
+          "picture": "../img/influenceurs/dr hanrahan.png"
         }
       ],
       "subtitle": "",
@@ -2772,8 +2775,9 @@
     },
     {
       "id": 3,
-      "name": "Cases challenges",
-      "subtitle": "Sous-titre facultatif",
+      "name": "CASES CHALLENGES",
+      "img": "<i class='fa fa-3x fa-briefcase-medical'></i>",
+      "subtitle": " ",
       "author": [
         {
           "id": 3,

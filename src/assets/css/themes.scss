@@ -1,21 +1,23 @@
 .themes {
-    display: flex;
-    flex-direction: row;
-  }
-
+  display: flex;
+  flex-direction: row;
+}
 
 .theme-btn {
-    background-color: #ef7764;
-    color:white;
-    border-radius: 3vh;
-    margin: 2vh;
-    width: 88px;
-    height: 133px;
-   
-  }
-  .theme-title {
-    text-align: center;
-    vertical-align: center;
-    font-size: 12px;
-    font-style: normal;  
-  }
+  background-color: #ef7764;
+  color: white;
+  border-radius: 3vh;
+  margin: 2vh;
+  width: 88px;
+  height: 133px;
+}
+.theme-title {
+  text-align: center;
+  vertical-align: center;
+  font-size: 12px;
+  font-style: normal;
+  padding-top: 1vh;
+}
+.theme-image {
+  padding-top: 3vh;
+}
