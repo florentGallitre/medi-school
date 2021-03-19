@@ -5,9 +5,9 @@
     <div class="border-radius-header">
       <div v-for="topic in this.categories" :key="topic.name">
             <h2 id="headingAccordion">
-              <Topic @click="click" :topicName="topic.name" :icon="topic.icon" />
+              <Topic :topicName="topic.name" :icon="topic.icon" />
             </h2>
-              <div class="itemDropdown" v-for="item in topic.children" :key="item.name">
+              <div v-for="item in topic.children" :key="item.slug" >
                 <router-link
                     :to="{
                       name: 'ItemPage',
@@ -33,13 +33,9 @@ import Author from "../components/Author.vue";
 
 export default Vue.extend({
   name: "ListPage",
-  props: {
-    
-  },
   data() {
     return {
       categories: [],
-      
     };
   },
   components: { PageHeader, Topic, Item, Author },

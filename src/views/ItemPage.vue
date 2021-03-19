@@ -10,6 +10,7 @@
 import Vue from "vue";
 import axios from "axios";
 import PageHeader from "../components/PageHeader.vue";
+import DataService from "@/service/DataService";
 
 export default Vue.extend({
   name: "ItemPage",
@@ -17,28 +18,18 @@ export default Vue.extend({
     return {
       item: [],
       imgPath: "",
-    };
+      };
   },
   components: { PageHeader },
   mounted() {
-    this.loadData().then((result: any) => {
-      result.tree.forEach((cat) => {
-        if (cat.slug == this.$route.params.section) {
-          let categories = cat.children;
-          categories.forEach((cat) => {
-            if (cat.slug == this.$route.params.topic) {
-              let items = cat.children;
-              items.forEach((element) => {
-                if (element.slug == this.$route.params.item) {
-                  this.item = element;
-                  this.imgPath = element.imgPath;
-                }
-              });
-            }
-          });
-        }
+    DataService.load()
+      .then(() => {
+        let result = DataService.getItemJson(this.$route.params.section , this.$route.params.topic, this.$route.params.item);
+        this.item = result;
+      })
+      .catch((e) => {
+        console.log(e);
       });
-    });
   },
   methods: {
     async loadData() {
