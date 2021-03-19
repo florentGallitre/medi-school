@@ -18,7 +18,6 @@ class DataServiceClass {
                     this.$data = response.data
                     this.$isLoaded = true
                     this.$tree = response.data.tree
-                    console.log("data loaded")
                     resolve()
                 }).catch(e => {
                     console.log(e)
@@ -38,8 +37,25 @@ class DataServiceClass {
         return result;
     }
 
-    getItemJson() {
-
+    getItemJson(themeSlug: any, topicSlug: any, itemSlug: any) {
+        let item = null
+        for ( let h in this.$tree) {
+            if (this.$tree[h].slug == themeSlug) {
+                let theme = this.$tree[h].children
+                for (let i in theme) {
+                    if (theme[i].slug == topicSlug) {
+                        let topics = theme[i].children
+                        for ( let value in topics ) {
+                            if (topics[value].slug == itemSlug) {
+                                item = topics[value]
+                            }
+                        }
+        
+                    }
+                }
+            }
+        return item;
+        }
     }
 
     getAuthor(slug: string) {
