@@ -3,10 +3,8 @@
     <PageHeader></PageHeader>
     <div class="border-radius-header">
       <div class="scrollable-content">
-        
         <div v-for="author in this.authors" :key="author.id">
-        
-        <Author :author="author"></Author>
+          <Author :author="author"></Author>
         </div>
         <div v-for="topic in this.categories" :key="topic.name">
           <h2 id="headingAccordion" @click="toggleDisplayItemList(topic)">
@@ -57,12 +55,9 @@ export default Vue.extend({
     DataService.load()
       .then(() => {
         let result = DataService.getTopicJson(this.$route.params.section);
-        let authorResult = DataService.getAuthor(
-          this.$route.params.section
-        );
+        let authorResult = DataService.getAuthor(this.$route.params.section);
         this.categories = [...result.children];
         this.authors = [...authorResult];
-        console.log(this.authors);
       })
       .catch((e) => {
         console.log(e);
