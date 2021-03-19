@@ -1,5 +1,5 @@
 <template>
-  <div class="item">
+  <div class="item pb-4 d-flex flex-column align-content-start">
     {{ itemName }}
   </div>
 </template>

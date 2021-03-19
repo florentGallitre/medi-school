@@ -1,20 +1,24 @@
 <template>
   <div class="listPage">
     <PageHeader></PageHeader>
-    <div class="border-radius-header">
+    <div class="border-radius-header d-flex flex-column justify-content-center">
       <div class="scrollable-content">
         <div class="author-title">Author</div>
         <div v-for="author in this.authors" :key="author.id">
           <Author :author="author"></Author>
         </div>
-        <div v-for="topic in this.categories" :key="topic.name">
+        <div>
+        <h1 class="col-12 d-flex justify-content-start">TOPICS</h1>
+        </div>
+        <div class="d-flex flex-column justify-content-center mb-2" v-for="topic in this.categories" :key="topic.name">
           <!--on click topic is active and removes display none on item class-->
           <h2 class="accordion-header" @click="isActive(topic.id)">
             <Topic 
             :topicName="topic.name" 
             :icon="topic.icon"></Topic>
           </h2>
-          <div class="items"
+          <div class="col-11 items d-flex flex-column justify-content-center m-auto pl-4 pr-4">
+          <div
             v-for="item in topic.children"
             :key="item.name"
           >
@@ -26,8 +30,11 @@
                 params: { topic: topic.slug, item: item.slug },
               }"
             >
+            <h3>
               <Item :itemName="item.name" />
-            </router-link>
+            </h3>
+              </router-link>
+            </div>
           </div>
         </div>
       </div>
@@ -83,4 +90,5 @@ export default Vue.extend({
 
 <style lang="scss">
 @import url("../assets/css/author.scss");
+@import url("../assets/css/list.scss");
 </style>

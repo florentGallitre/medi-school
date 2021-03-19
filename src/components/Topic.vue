@@ -2,7 +2,7 @@
   <div class="topic d-flex justify-content-center align-items-center">
     <button
       v-html="topicName + icon"
-      class="accordion-button col-10 pt-2 pb-2 pl-3 pr-3 topicBtn d-flex justify-content-between"
+      class="accordion-button pt-2 pb-2 pl-3 pr-3 topicBtn d-flex justify-content-between"
     ></button>
   </div>
 </template>
