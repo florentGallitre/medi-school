@@ -18,7 +18,7 @@ class DataServiceClass {
                     this.$tree = response.data.tree
                     resolve()
                 }).catch(e => {
-                    console.log(e)
+                    
                     this.$isLoaded = false
                     reject(e)
                 })
