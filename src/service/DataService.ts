@@ -42,15 +42,15 @@ class DataServiceClass {
 
     }
 
-    getAuthorName(slug: string) {
+    getAuthor(slug: string) {
         let result = null
         for (let i in this.$tree) {
             if (this.$tree[i].slug == slug) {
                 result = this.$tree[i].author
-                for (let j in result) {
-                    return result[j].name;
+                // for (let j in result) {
+                //     return result[j];
                     
-                }
+                // }
 
             }
         }
