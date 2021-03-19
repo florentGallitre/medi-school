@@ -2,8 +2,15 @@
   <div class="itemPage">
     <PageHeader></PageHeader>
     <div class="scrollable-content">
-      <div>{{ this.item.name }}</div>
-      <img v-bind:src="this.item.imgPath" class="item-image" />
+      <div class="item-title">{{ this.item.name }}</div>
+      <div v-if="!Array.isArray(this.item.imgPath)">
+        <img v-bind:src="this.item.imgPath" class="item-image" />
+      </div>
+      <div v-else>
+        <div v-for="path in this.item.imgPath" :key="path.id">
+          <img v-bind:src="path" class="item-image" />
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -19,14 +26,17 @@ export default Vue.extend({
   data() {
     return {
       item: [],
-      imgPath: "",
-      };
+    };
   },
   components: { PageHeader },
   mounted() {
     DataService.load()
       .then(() => {
-        let result = DataService.getItemJson(this.$route.params.section , this.$route.params.topic, this.$route.params.item);
+        let result = DataService.getItemJson(
+          this.$route.params.section,
+          this.$route.params.topic,
+          this.$route.params.item
+        );
         this.item = result;
       })
       .catch((e) => {
@@ -44,10 +54,6 @@ export default Vue.extend({
 });
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-.item-image {
-  width: 100%;
-  height: auto;
-}
+<style lang="scss">
+@import url("../assets/css/item.scss");
 </style>
