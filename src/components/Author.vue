@@ -1,7 +1,8 @@
 <template>
   <div class="author">
     <img class="author-picture" v-bind:src="author.picture" />
-    <span> @{{ author.name }}</span>
+    <span class="author-name"> @{{ author.name }} </span>
+    <i class="fab fa-instagram"></i>
   </div>
 </template>
 

@@ -13,17 +13,14 @@
         <div v-for="topic in this.categories" :key="topic.name">
           <!--on click topic is active and removes display none on item class-->
           <h2 class="accordion-header" @click="isActive(topic.id)">
-            <Topic 
-            :topicName="topic.name" 
-            :icon="topic.icon"></Topic>
+            <Topic :topicName="topic.name" :icon="topic.icon"></Topic>
           </h2>
-          <div class="items"
-            v-for="item in topic.children"
-            :key="item.name"
-          >
-          <!--Change item class value when topic is clicked-->
+          <div class="items" v-for="item in topic.children" :key="item.name">
+            <!--Change item class value when topic is clicked-->
             <router-link
-              v-bind:class="[active && topicId === item.parentId ? 'item' : 'd-none']"
+              v-bind:class="[
+                active && topicId === item.parentId ? 'item' : 'd-none',
+              ]"
               :to="{
                 name: 'ItemPage',
                 params: { topic: topic.slug, item: item.slug },
@@ -55,7 +52,7 @@ export default Vue.extend({
     return {
       active: false,
       topicId: String,
-      none: 'none',
+      none: "none",
       categories: [],
       authors: [],
       displayItemList: true,
@@ -71,7 +68,6 @@ export default Vue.extend({
         this.categories = [...result.children];
         this.authors = [...authorResult];
         this.section = result;
-        console.log(this.authors);
       })
       .catch((e) => {
         console.log(e);
@@ -80,10 +76,10 @@ export default Vue.extend({
   methods: {
     // Display related items if topic is clicked
     isActive(topicId: any) {
-      this.active = !this.active
-      this.topicId = topicId
+      this.active = !this.active;
+      this.topicId = topicId;
       return topicId;
-    }
+    },
   },
 });
 </script>
