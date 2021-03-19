@@ -11,3 +11,35 @@
     font-weight: 800;
     font-size: 14px;
 }
+
+.topicBtn:hover {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    box-shadow: none;
+}
+
+.items {
+    background-color: #fafafa;
+    border: 1px solid #fafafa;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.items:hover {
+    box-shadow: 0 3px 6px rgba(0,0,0,.16);
+
+}
+
+
+.items h3 {
+    color: #3f3f3f;
+    font-size: 0.9em;
+    text-decoration: none;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.listPage h1 {
+    font-size: 0.9em;
+    font-weight: bold;
+}
