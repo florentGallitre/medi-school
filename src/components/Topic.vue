@@ -1,7 +1,13 @@
 <template>
   <div class="topic d-flex justify-content-center align-items-center">
     <button
+    v-if="icon !== undefined"
       v-html="topicName + icon"
+      class="accordion-button pt-2 pb-2 pl-3 pr-3 topicBtn d-flex justify-content-between"
+    ></button>
+    <button
+    v-else
+      v-html="topicName"
       class="accordion-button pt-2 pb-2 pl-3 pr-3 topicBtn d-flex justify-content-between"
     ></button>
   </div>
