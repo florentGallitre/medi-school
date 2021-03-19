@@ -1,9 +1,8 @@
 <template>
   <div class="listPage">
     <PageHeader></PageHeader>
-   <Author></Author>
     <div class="border-radius-header">
-     
+      <Author></Author>
       <div v-for="topic in this.categories" :key="topic.name">
         <h2 id="headingAccordion" @click="toggleDisplayItemList(topic)">
           <Topic :topicName="topic.name" :icon="topic.icon" />

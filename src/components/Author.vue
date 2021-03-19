@@ -1,6 +1,6 @@
 <template>
   <div class="author">
-    <span class="p-3">Author</span>
+    <span class="p-3">{{ authorName }}</span>
   
     <!-- boucle pr afficher tous les auteurs en fonction du nbre delement du tableau -->
   </div>
