@@ -3,6 +3,7 @@
     <PageHeader></PageHeader>
     <div class="border-radius-header">
       <div class="scrollable-content">
+        <div class="author-title">Author</div>
         <div v-for="author in this.authors" :key="author.id">
           <Author :author="author"></Author>
         </div>
@@ -71,5 +72,6 @@ export default Vue.extend({
 });
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped></style>
+<style lang="scss">
+@import url("../assets/css/author.scss");
+</style>

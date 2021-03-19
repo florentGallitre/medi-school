@@ -1,10 +1,7 @@
 <template>
   <div class="theme-btn">
-    <div class="theme-title">{{ themeName }}</div>
-    <div v-if="themeName == 'Mnemonics'"><i class="fas fa-brain"></i></div>
-    <div v-if="themeName == 'Study-notes'">
-      <i class="fas fa-notes-medical"></i>
-    </div>
+    <div class="theme-image" v-html="themeImg"></div>
+    <div class="theme-title" v-html="themeName"></div>
   </div>
 </template>
 
@@ -13,7 +10,7 @@ import { Vue } from "vue-property-decorator";
 
 export default Vue.extend({
   name: "ThemeButton",
-  props: ["themeName"],
+  props: ["themeName", "themeImg", "themeColor"],
 });
 </script>
 
