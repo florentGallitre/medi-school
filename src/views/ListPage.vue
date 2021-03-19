@@ -8,16 +8,19 @@
           <Author :author="author"></Author>
         </div>
         <div v-for="topic in this.categories" :key="topic.name">
-          <h2 id="headingAccordion" @click="toggleDisplayItemList(topic)">
-            <Topic :topicName="topic.name" :icon="topic.icon" />
+          <!--on click topic is active and removes display none on item class-->
+          <h2 class="accordion-header" @click="isActive(topic.id)">
+            <Topic 
+            :topicName="topic.name" 
+            :icon="topic.icon"></Topic>
           </h2>
-          <div
-            v-show="displayItemList"
-            class="itemDropdown"
+          <div class="items"
             v-for="item in topic.children"
             :key="item.name"
           >
+          <!--Change item class value when topic is clicked-->
             <router-link
+              v-bind:class="[active && topicId === item.parentId ? 'item' : 'd-none']"
               :to="{
                 name: 'ItemPage',
                 params: { topic: topic.slug, item: item.slug },
@@ -46,6 +49,9 @@ export default Vue.extend({
   props: {},
   data() {
     return {
+      active: false,
+      topicId: String,
+      none: 'none',
       categories: [],
       authors: [],
       displayItemList: true,
@@ -65,9 +71,12 @@ export default Vue.extend({
       });
   },
   methods: {
-    toggleDisplayItemList(topic) {
-      this.displayItemList = !this.displayItemList;
-    },
+    // Display related items if topic is clicked
+    isActive(topicId: any) {
+      this.active = !this.active
+      this.topicId = topicId
+      return topicId;
+    }
   },
 });
 </script>
